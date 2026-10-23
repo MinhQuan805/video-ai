@@ -1,0 +1,71 @@
+{
+  "visual_system": "paper",
+  "scenes": [
+    {
+      "scene": 1,
+      "from": 0,
+      "to": 253,
+      "type": "con số lớn",
+      "description": "Con số lớn 22 tuổi và khởi đầu bất ngờ lên tàu Beagle",
+      "text": "Bạn có biết?\n*22 tuổi* Charles Darwin\nlên tàu Beagle\nchỉ để *làm bạn*\nvới thuyền trưởng *Robert FitzRoy*",
+      "keyframes": [
+        { "frame": 0, "event": "Hiện tiêu đề: Bạn có biết?" },
+        { "frame": 22, "event": "Khối số 22 tuổi đập xuống có trọng lượng" },
+        { "frame": 154, "event": "Hiện mô tả: chỉ để làm bạn với thuyền trưởng" }
+      ]
+    },
+    {
+      "scene": 2,
+      "from": 253,
+      "to": 376,
+      "type": "so sánh hai bên",
+      "description": "So sánh hai bên: Kế hoạch dự kiến 2 năm vs Thực tế gần 5 năm",
+      "text": "Dự kiến: *2 năm*\nThực tế:\nKéo dài tới\n*gần 5 năm trời*",
+      "keyframes": [
+        { "frame": 253, "event": "Xuất hiện khối so sánh hai bên" },
+        { "frame": 301, "event": "Điểm nhấn cột thực tế ~5 năm viền cam đất" },
+        { "frame": 335, "event": "Hiện dòng nhận định hải trình" }
+      ]
+    },
+    {
+      "scene": 3,
+      "from": 376,
+      "to": 520,
+      "type": "con số lớn",
+      "description": "Con số lớn 3.3 năm trên đất liền để thoát say sóng và nghiên cứu",
+      "text": "Đi biển nhưng\n*say sóng triền miên*\nDành hẳn\n*3 năm 3 tháng*\ntrên *đất liền*",
+      "keyframes": [
+        { "frame": 376, "event": "Hiện tiêu đề: say sóng triền miên" },
+        { "frame": 465, "event": "Khối số 3.3 Năm trên đất liền xuất hiện" },
+        { "frame": 490, "event": "Hiện chi tiết nghiên cứu mẫu vật" }
+      ]
+    },
+    {
+      "scene": 4,
+      "from": 520,
+      "to": 706,
+      "type": "danh sách các bước",
+      "description": "Danh sách 3 bước quan sát bước ngoặt tại đảo Galapagos",
+      "text": "Chỉ *5 tuần*\ntại đảo *Galapagos*\n*Hóa thạch* và *chim sẻ*\nđã làm *thay đổi*\nsuy nghĩ của ông",
+      "keyframes": [
+        { "frame": 520, "event": "Hiện tiêu đề 5 tuần tại Galapagos" },
+        { "frame": 533, "event": "Bước 1: 5 tuần khảo sát tại quần đảo" },
+        { "frame": 592, "event": "Bước 2: Thu thập mẫu chim sẻ & hóa thạch" },
+        { "frame": 631, "event": "Bước 3: Thay đổi hoàn toàn suy nghĩ" }
+      ]
+    },
+    {
+      "scene": 5,
+      "from": 706,
+      "to": 855,
+      "type": "so sánh hai bên",
+      "description": "So sánh hai bên: Lựa chọn lên tàu 1831 vs Nếu từ con tàu này",
+      "text": "Nếu Darwin *từ chối*\ncon tàu này\nLiệu *thuyết tiến hóa*\ncó ra đời\n*muộn hơn hàng thập kỷ?*",
+      "keyframes": [
+        { "frame": 706, "event": "Hiện tiêu đề giả định lịch sử" },
+        { "frame": 779, "event": "So sánh cột 1859 (Nguồn gốc các loài) và +?? Thập kỷ" },
+        { "frame": 816, "event": "Nổi bật câu hỏi cao trào muộn hơn hàng thập kỷ?" }
+      ]
+    }
+  ]
+}

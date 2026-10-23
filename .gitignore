@@ -1,0 +1,43 @@
+# Node & Dependencies
+node_modules/
+.pnpm-store/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build & Bundles
+dist/
+build/
+out/
+
+# Caches & Temp files
+.cache/
+.tmp/
+tmp/
+*.tmp
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# OS & Editor generated files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Remotion & Video Project Output / Cache
+output/
+videos/**/output/
+videos/**/temp_frames/
+public/videos/**/temp_frames/
+
+# Large rendered video files (tùy chọn nhưng nên bỏ qua để tránh vượt giới hạn GitHub 100MB)
+*.mp4
+*.mov
+*.wav

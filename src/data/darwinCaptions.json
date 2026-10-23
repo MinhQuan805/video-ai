@@ -1,0 +1,1063 @@
+{
+  "totalFrames": 855,
+  "phrases": [
+    {
+      "id": 0,
+      "text": "Bạn có biết,",
+      "startFrame": 0,
+      "endFrame": 22,
+      "words": [
+        {
+          "w": "Bạn",
+          "s": 0.0,
+          "e": 0.24,
+          "startFrame": 0,
+          "endFrame": 7
+        },
+        {
+          "w": "có",
+          "s": 0.24,
+          "e": 0.48,
+          "startFrame": 7,
+          "endFrame": 14
+        },
+        {
+          "w": "biết,",
+          "s": 0.48,
+          "e": 0.72,
+          "startFrame": 14,
+          "endFrame": 22
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "text": "chàng trai 22 tuổi",
+      "startFrame": 22,
+      "endFrame": 59,
+      "words": [
+        {
+          "w": "chàng",
+          "s": 0.72,
+          "e": 0.96,
+          "startFrame": 22,
+          "endFrame": 29
+        },
+        {
+          "w": "trai",
+          "s": 0.96,
+          "e": 1.2,
+          "startFrame": 29,
+          "endFrame": 36
+        },
+        {
+          "w": "22",
+          "s": 1.2,
+          "e": 1.58,
+          "startFrame": 36,
+          "endFrame": 47
+        },
+        {
+          "w": "tuổi",
+          "s": 1.58,
+          "e": 1.96,
+          "startFrame": 47,
+          "endFrame": 59
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Charles Darwin",
+      "startFrame": 59,
+      "endFrame": 87,
+      "words": [
+        {
+          "w": "Charles",
+          "s": 1.96,
+          "e": 2.34,
+          "startFrame": 59,
+          "endFrame": 70
+        },
+        {
+          "w": "Darwin",
+          "s": 2.34,
+          "e": 2.9,
+          "startFrame": 70,
+          "endFrame": 87
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "bước lên tàu Beagle",
+      "startFrame": 87,
+      "endFrame": 119,
+      "words": [
+        {
+          "w": "bước",
+          "s": 2.9,
+          "e": 3.24,
+          "startFrame": 87,
+          "endFrame": 97
+        },
+        {
+          "w": "lên",
+          "s": 3.24,
+          "e": 3.42,
+          "startFrame": 97,
+          "endFrame": 103
+        },
+        {
+          "w": "tàu",
+          "s": 3.42,
+          "e": 3.68,
+          "startFrame": 103,
+          "endFrame": 110
+        },
+        {
+          "w": "Beagle",
+          "s": 3.68,
+          "e": 3.96,
+          "startFrame": 110,
+          "endFrame": 119
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "năm 1831",
+      "startFrame": 119,
+      "endFrame": 154,
+      "words": [
+        {
+          "w": "năm",
+          "s": 3.96,
+          "e": 4.14,
+          "startFrame": 119,
+          "endFrame": 124
+        },
+        {
+          "w": "1831",
+          "s": 4.14,
+          "e": 5.12,
+          "startFrame": 124,
+          "endFrame": 154
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "text": "chỉ để làm bạn",
+      "startFrame": 154,
+      "endFrame": 185,
+      "words": [
+        {
+          "w": "chỉ",
+          "s": 5.12,
+          "e": 5.7,
+          "startFrame": 154,
+          "endFrame": 171
+        },
+        {
+          "w": "để",
+          "s": 5.7,
+          "e": 5.82,
+          "startFrame": 171,
+          "endFrame": 175
+        },
+        {
+          "w": "làm",
+          "s": 5.82,
+          "e": 6.0,
+          "startFrame": 175,
+          "endFrame": 180
+        },
+        {
+          "w": "bạn",
+          "s": 6.0,
+          "e": 6.16,
+          "startFrame": 180,
+          "endFrame": 185
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "text": "trò chuyện",
+      "startFrame": 185,
+      "endFrame": 196,
+      "words": [
+        {
+          "w": "trò",
+          "s": 6.16,
+          "e": 6.32,
+          "startFrame": 185,
+          "endFrame": 190
+        },
+        {
+          "w": "chuyện",
+          "s": 6.32,
+          "e": 6.54,
+          "startFrame": 190,
+          "endFrame": 196
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "text": "cho thuyền trưởng",
+      "startFrame": 196,
+      "endFrame": 211,
+      "words": [
+        {
+          "w": "cho",
+          "s": 6.54,
+          "e": 6.64,
+          "startFrame": 196,
+          "endFrame": 199
+        },
+        {
+          "w": "thuyền",
+          "s": 6.64,
+          "e": 6.82,
+          "startFrame": 199,
+          "endFrame": 205
+        },
+        {
+          "w": "trưởng",
+          "s": 6.82,
+          "e": 7.04,
+          "startFrame": 205,
+          "endFrame": 211
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Robert FitzRoy?",
+      "startFrame": 211,
+      "endFrame": 253,
+      "words": [
+        {
+          "w": "Robert",
+          "s": 7.04,
+          "e": 7.34,
+          "startFrame": 211,
+          "endFrame": 220
+        },
+        {
+          "w": "FitzRoy?",
+          "s": 7.34,
+          "e": 7.9,
+          "startFrame": 220,
+          "endFrame": 237
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Chuyến đi tính trước",
+      "startFrame": 253,
+      "endFrame": 271,
+      "words": [
+        {
+          "w": "Chuyến",
+          "s": 8.44,
+          "e": 8.58,
+          "startFrame": 253,
+          "endFrame": 257
+        },
+        {
+          "w": "đi",
+          "s": 8.58,
+          "e": 8.66,
+          "startFrame": 257,
+          "endFrame": 260
+        },
+        {
+          "w": "tính",
+          "s": 8.66,
+          "e": 8.82,
+          "startFrame": 260,
+          "endFrame": 265
+        },
+        {
+          "w": "trước",
+          "s": 8.82,
+          "e": 9.02,
+          "startFrame": 265,
+          "endFrame": 271
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "text": "chỉ 2 năm,",
+      "startFrame": 271,
+      "endFrame": 301,
+      "words": [
+        {
+          "w": "chỉ",
+          "s": 9.02,
+          "e": 9.2,
+          "startFrame": 271,
+          "endFrame": 276
+        },
+        {
+          "w": "2",
+          "s": 9.2,
+          "e": 9.42,
+          "startFrame": 276,
+          "endFrame": 283
+        },
+        {
+          "w": "năm,",
+          "s": 9.42,
+          "e": 9.56,
+          "startFrame": 283,
+          "endFrame": 287
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "text": "nhưng thực tế",
+      "startFrame": 301,
+      "endFrame": 314,
+      "words": [
+        {
+          "w": "nhưng",
+          "s": 10.02,
+          "e": 10.14,
+          "startFrame": 301,
+          "endFrame": 304
+        },
+        {
+          "w": "thực",
+          "s": 10.14,
+          "e": 10.28,
+          "startFrame": 304,
+          "endFrame": 308
+        },
+        {
+          "w": "tế",
+          "s": 10.28,
+          "e": 10.46,
+          "startFrame": 308,
+          "endFrame": 314
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "text": "kéo dài tới",
+      "startFrame": 314,
+      "endFrame": 335,
+      "words": [
+        {
+          "w": "kéo",
+          "s": 10.46,
+          "e": 10.64,
+          "startFrame": 314,
+          "endFrame": 319
+        },
+        {
+          "w": "dài",
+          "s": 10.64,
+          "e": 10.88,
+          "startFrame": 319,
+          "endFrame": 326
+        },
+        {
+          "w": "tới",
+          "s": 10.88,
+          "e": 11.16,
+          "startFrame": 326,
+          "endFrame": 335
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "text": "gần 5 năm trời.",
+      "startFrame": 335,
+      "endFrame": 376,
+      "words": [
+        {
+          "w": "gần",
+          "s": 11.16,
+          "e": 11.44,
+          "startFrame": 335,
+          "endFrame": 343
+        },
+        {
+          "w": "5",
+          "s": 11.44,
+          "e": 11.62,
+          "startFrame": 343,
+          "endFrame": 349
+        },
+        {
+          "w": "năm",
+          "s": 11.62,
+          "e": 11.7,
+          "startFrame": 349,
+          "endFrame": 351
+        },
+        {
+          "w": "trời.",
+          "s": 11.7,
+          "e": 12.0,
+          "startFrame": 351,
+          "endFrame": 360
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "text": "Dù mang tiếng",
+      "startFrame": 376,
+      "endFrame": 391,
+      "words": [
+        {
+          "w": "Dù",
+          "s": 12.54,
+          "e": 12.64,
+          "startFrame": 376,
+          "endFrame": 379
+        },
+        {
+          "w": "mang",
+          "s": 12.64,
+          "e": 12.78,
+          "startFrame": 379,
+          "endFrame": 383
+        },
+        {
+          "w": "tiếng",
+          "s": 12.78,
+          "e": 13.02,
+          "startFrame": 383,
+          "endFrame": 391
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "text": "đi biển,",
+      "startFrame": 391,
+      "endFrame": 416,
+      "words": [
+        {
+          "w": "đi",
+          "s": 13.02,
+          "e": 13.12,
+          "startFrame": 391,
+          "endFrame": 394
+        },
+        {
+          "w": "biển,",
+          "s": 13.12,
+          "e": 13.36,
+          "startFrame": 394,
+          "endFrame": 401
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "text": "ông say sóng",
+      "startFrame": 416,
+      "endFrame": 433,
+      "words": [
+        {
+          "w": "ông",
+          "s": 13.88,
+          "e": 14.0,
+          "startFrame": 416,
+          "endFrame": 420
+        },
+        {
+          "w": "say",
+          "s": 14.0,
+          "e": 14.18,
+          "startFrame": 420,
+          "endFrame": 425
+        },
+        {
+          "w": "sóng",
+          "s": 14.18,
+          "e": 14.44,
+          "startFrame": 425,
+          "endFrame": 433
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "text": "triền miên",
+      "startFrame": 433,
+      "endFrame": 446,
+      "words": [
+        {
+          "w": "triền",
+          "s": 14.44,
+          "e": 14.62,
+          "startFrame": 433,
+          "endFrame": 439
+        },
+        {
+          "w": "miên",
+          "s": 14.62,
+          "e": 14.88,
+          "startFrame": 439,
+          "endFrame": 446
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "text": "và dành hẳn",
+      "startFrame": 446,
+      "endFrame": 465,
+      "words": [
+        {
+          "w": "và",
+          "s": 14.88,
+          "e": 15.04,
+          "startFrame": 446,
+          "endFrame": 451
+        },
+        {
+          "w": "dành",
+          "s": 15.04,
+          "e": 15.24,
+          "startFrame": 451,
+          "endFrame": 457
+        },
+        {
+          "w": "hẳn",
+          "s": 15.24,
+          "e": 15.5,
+          "startFrame": 457,
+          "endFrame": 465
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "text": "3 năm 3 tháng",
+      "startFrame": 465,
+      "endFrame": 490,
+      "words": [
+        {
+          "w": "3",
+          "s": 15.5,
+          "e": 15.72,
+          "startFrame": 465,
+          "endFrame": 472
+        },
+        {
+          "w": "năm",
+          "s": 15.72,
+          "e": 15.9,
+          "startFrame": 472,
+          "endFrame": 477
+        },
+        {
+          "w": "3",
+          "s": 15.9,
+          "e": 16.14,
+          "startFrame": 477,
+          "endFrame": 484
+        },
+        {
+          "w": "tháng",
+          "s": 16.14,
+          "e": 16.34,
+          "startFrame": 484,
+          "endFrame": 490
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "text": "trên đất liền.",
+      "startFrame": 490,
+      "endFrame": 520,
+      "words": [
+        {
+          "w": "trên",
+          "s": 16.34,
+          "e": 16.48,
+          "startFrame": 490,
+          "endFrame": 494
+        },
+        {
+          "w": "đất",
+          "s": 16.48,
+          "e": 16.58,
+          "startFrame": 494,
+          "endFrame": 497
+        },
+        {
+          "w": "liền.",
+          "s": 16.58,
+          "e": 16.78,
+          "startFrame": 497,
+          "endFrame": 503
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "text": "Chỉ 5 tuần",
+      "startFrame": 520,
+      "endFrame": 533,
+      "words": [
+        {
+          "w": "Chỉ",
+          "s": 17.34,
+          "e": 17.44,
+          "startFrame": 520,
+          "endFrame": 523
+        },
+        {
+          "w": "5",
+          "s": 17.44,
+          "e": 17.62,
+          "startFrame": 523,
+          "endFrame": 529
+        },
+        {
+          "w": "tuần",
+          "s": 17.62,
+          "e": 17.76,
+          "startFrame": 529,
+          "endFrame": 533
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "text": "ở quần đảo Galapagos,",
+      "startFrame": 533,
+      "endFrame": 592,
+      "words": [
+        {
+          "w": "ở",
+          "s": 17.76,
+          "e": 17.88,
+          "startFrame": 533,
+          "endFrame": 536
+        },
+        {
+          "w": "quần",
+          "s": 17.88,
+          "e": 18.0,
+          "startFrame": 536,
+          "endFrame": 540
+        },
+        {
+          "w": "đảo",
+          "s": 18.0,
+          "e": 18.22,
+          "startFrame": 540,
+          "endFrame": 547
+        },
+        {
+          "w": "Galapagos,",
+          "s": 18.22,
+          "e": 19.12,
+          "startFrame": 547,
+          "endFrame": 574
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "text": "những mẫu chim sẻ",
+      "startFrame": 592,
+      "endFrame": 616,
+      "words": [
+        {
+          "w": "những",
+          "s": 19.74,
+          "e": 19.82,
+          "startFrame": 592,
+          "endFrame": 595
+        },
+        {
+          "w": "mẫu",
+          "s": 19.82,
+          "e": 20.1,
+          "startFrame": 595,
+          "endFrame": 603
+        },
+        {
+          "w": "chim",
+          "s": 20.1,
+          "e": 20.26,
+          "startFrame": 603,
+          "endFrame": 608
+        },
+        {
+          "w": "sẻ",
+          "s": 20.26,
+          "e": 20.52,
+          "startFrame": 608,
+          "endFrame": 616
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "text": "và hóa thạch",
+      "startFrame": 616,
+      "endFrame": 631,
+      "words": [
+        {
+          "w": "và",
+          "s": 20.52,
+          "e": 20.66,
+          "startFrame": 616,
+          "endFrame": 620
+        },
+        {
+          "w": "hóa",
+          "s": 20.66,
+          "e": 20.86,
+          "startFrame": 620,
+          "endFrame": 626
+        },
+        {
+          "w": "thạch",
+          "s": 20.86,
+          "e": 21.04,
+          "startFrame": 626,
+          "endFrame": 631
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "text": "đã làm thay đổi",
+      "startFrame": 631,
+      "endFrame": 656,
+      "words": [
+        {
+          "w": "đã",
+          "s": 21.04,
+          "e": 21.28,
+          "startFrame": 631,
+          "endFrame": 638
+        },
+        {
+          "w": "làm",
+          "s": 21.28,
+          "e": 21.54,
+          "startFrame": 638,
+          "endFrame": 646
+        },
+        {
+          "w": "thay",
+          "s": 21.54,
+          "e": 21.72,
+          "startFrame": 646,
+          "endFrame": 652
+        },
+        {
+          "w": "đổi",
+          "s": 21.72,
+          "e": 21.88,
+          "startFrame": 652,
+          "endFrame": 656
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "text": "hoàn toàn suy nghĩ",
+      "startFrame": 656,
+      "endFrame": 682,
+      "words": [
+        {
+          "w": "hoàn",
+          "s": 21.88,
+          "e": 22.2,
+          "startFrame": 656,
+          "endFrame": 666
+        },
+        {
+          "w": "toàn",
+          "s": 22.2,
+          "e": 22.44,
+          "startFrame": 666,
+          "endFrame": 673
+        },
+        {
+          "w": "suy",
+          "s": 22.44,
+          "e": 22.6,
+          "startFrame": 673,
+          "endFrame": 678
+        },
+        {
+          "w": "nghĩ",
+          "s": 22.6,
+          "e": 22.72,
+          "startFrame": 678,
+          "endFrame": 682
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "text": "của ông.",
+      "startFrame": 682,
+      "endFrame": 706,
+      "words": [
+        {
+          "w": "của",
+          "s": 22.72,
+          "e": 22.88,
+          "startFrame": 682,
+          "endFrame": 686
+        },
+        {
+          "w": "ông.",
+          "s": 22.88,
+          "e": 23.08,
+          "startFrame": 686,
+          "endFrame": 692
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "text": "Nếu năm đó",
+      "startFrame": 706,
+      "endFrame": 716,
+      "words": [
+        {
+          "w": "Nếu",
+          "s": 23.52,
+          "e": 23.62,
+          "startFrame": 706,
+          "endFrame": 709
+        },
+        {
+          "w": "năm",
+          "s": 23.62,
+          "e": 23.72,
+          "startFrame": 709,
+          "endFrame": 712
+        },
+        {
+          "w": "đó",
+          "s": 23.72,
+          "e": 23.88,
+          "startFrame": 712,
+          "endFrame": 716
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "text": "Darwin từ chối",
+      "startFrame": 716,
+      "endFrame": 737,
+      "words": [
+        {
+          "w": "Darwin",
+          "s": 23.88,
+          "e": 24.2,
+          "startFrame": 716,
+          "endFrame": 726
+        },
+        {
+          "w": "từ",
+          "s": 24.2,
+          "e": 24.38,
+          "startFrame": 726,
+          "endFrame": 731
+        },
+        {
+          "w": "chối",
+          "s": 24.38,
+          "e": 24.56,
+          "startFrame": 731,
+          "endFrame": 737
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "text": "bước lên",
+      "startFrame": 737,
+      "endFrame": 749,
+      "words": [
+        {
+          "w": "bước",
+          "s": 24.56,
+          "e": 24.76,
+          "startFrame": 737,
+          "endFrame": 743
+        },
+        {
+          "w": "lên",
+          "s": 24.76,
+          "e": 24.96,
+          "startFrame": 743,
+          "endFrame": 749
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "text": "con tàu này,",
+      "startFrame": 749,
+      "endFrame": 779,
+      "words": [
+        {
+          "w": "con",
+          "s": 24.96,
+          "e": 25.12,
+          "startFrame": 749,
+          "endFrame": 754
+        },
+        {
+          "w": "tàu",
+          "s": 25.12,
+          "e": 25.48,
+          "startFrame": 754,
+          "endFrame": 764
+        },
+        {
+          "w": "này,",
+          "s": 25.48,
+          "e": 25.96,
+          "startFrame": 764,
+          "endFrame": 779
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "text": "liệu thuyết tiến hóa",
+      "startFrame": 779,
+      "endFrame": 801,
+      "words": [
+        {
+          "w": "liệu",
+          "s": 25.96,
+          "e": 26.08,
+          "startFrame": 779,
+          "endFrame": 782
+        },
+        {
+          "w": "thuyết",
+          "s": 26.08,
+          "e": 26.24,
+          "startFrame": 782,
+          "endFrame": 787
+        },
+        {
+          "w": "tiến",
+          "s": 26.24,
+          "e": 26.4,
+          "startFrame": 787,
+          "endFrame": 792
+        },
+        {
+          "w": "hóa",
+          "s": 26.4,
+          "e": 26.7,
+          "startFrame": 792,
+          "endFrame": 801
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "text": "có ra đời",
+      "startFrame": 801,
+      "endFrame": 816,
+      "words": [
+        {
+          "w": "có",
+          "s": 26.7,
+          "e": 26.84,
+          "startFrame": 801,
+          "endFrame": 805
+        },
+        {
+          "w": "ra",
+          "s": 26.84,
+          "e": 26.98,
+          "startFrame": 805,
+          "endFrame": 809
+        },
+        {
+          "w": "đời",
+          "s": 26.98,
+          "e": 27.2,
+          "startFrame": 809,
+          "endFrame": 816
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "text": "muộn hơn",
+      "startFrame": 816,
+      "endFrame": 832,
+      "words": [
+        {
+          "w": "muộn",
+          "s": 27.2,
+          "e": 27.52,
+          "startFrame": 816,
+          "endFrame": 826
+        },
+        {
+          "w": "hơn",
+          "s": 27.52,
+          "e": 27.74,
+          "startFrame": 826,
+          "endFrame": 832
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "text": "hàng thập kỷ?",
+      "startFrame": 832,
+      "endFrame": 855,
+      "words": [
+        {
+          "w": "hàng",
+          "s": 27.74,
+          "e": 27.94,
+          "startFrame": 832,
+          "endFrame": 838
+        },
+        {
+          "w": "thập",
+          "s": 27.94,
+          "e": 28.14,
+          "startFrame": 838,
+          "endFrame": 844
+        },
+        {
+          "w": "kỷ?",
+          "s": 28.14,
+          "e": 28.3,
+          "startFrame": 844,
+          "endFrame": 849
+        }
+      ]
+    }
+  ]
+}
