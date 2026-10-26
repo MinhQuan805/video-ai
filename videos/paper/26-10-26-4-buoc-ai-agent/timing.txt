@@ -1,0 +1,5 @@
+0 - 102 (102f): Tự tạo AI Agent chỉ với 4 bước
+102 - 165 (63f): Bước 01: Cài Agent
+165 - 288 (123f): Tìm Claude Desktop & ChatGPT App
+288 - 378 (90f): Không chỉ chat, làm trên máy
+378 - 472 (94f): Bước 02: Nối với công cụ

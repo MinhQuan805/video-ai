@@ -1,0 +1,829 @@
+{
+  "total_frames": 907,
+  "phrases": [
+    {
+      "start_frame": 0,
+      "end_frame": 28,
+      "text": "Zalo,",
+      "words": [
+        {
+          "text": "Zalo,",
+          "start_frame": 0,
+          "end_frame": 28
+        }
+      ]
+    },
+    {
+      "start_frame": 28,
+      "end_frame": 52,
+      "text": "Hạng F,",
+      "words": [
+        {
+          "text": "Hạng",
+          "start_frame": 28,
+          "end_frame": 40
+        },
+        {
+          "text": "F,",
+          "start_frame": 40,
+          "end_frame": 52
+        }
+      ]
+    },
+    {
+      "start_frame": 52,
+      "end_frame": 71,
+      "text": "nhắn tin tiện",
+      "words": [
+        {
+          "text": "nhắn",
+          "start_frame": 52,
+          "end_frame": 58
+        },
+        {
+          "text": "tin",
+          "start_frame": 58,
+          "end_frame": 65
+        },
+        {
+          "text": "tiện",
+          "start_frame": 65,
+          "end_frame": 71
+        }
+      ]
+    },
+    {
+      "start_frame": 71,
+      "end_frame": 89,
+      "text": "nhưng quản lý",
+      "words": [
+        {
+          "text": "nhưng",
+          "start_frame": 71,
+          "end_frame": 77
+        },
+        {
+          "text": "quản",
+          "start_frame": 77,
+          "end_frame": 83
+        },
+        {
+          "text": "lý",
+          "start_frame": 83,
+          "end_frame": 89
+        }
+      ]
+    },
+    {
+      "start_frame": 89,
+      "end_frame": 103,
+      "text": "nhiều khách hàng",
+      "words": [
+        {
+          "text": "nhiều",
+          "start_frame": 89,
+          "end_frame": 94
+        },
+        {
+          "text": "khách",
+          "start_frame": 94,
+          "end_frame": 98
+        },
+        {
+          "text": "hàng",
+          "start_frame": 98,
+          "end_frame": 103
+        }
+      ]
+    },
+    {
+      "start_frame": 103,
+      "end_frame": 118,
+      "text": "rất dễ bỏ",
+      "words": [
+        {
+          "text": "rất",
+          "start_frame": 103,
+          "end_frame": 108
+        },
+        {
+          "text": "dễ",
+          "start_frame": 108,
+          "end_frame": 113
+        },
+        {
+          "text": "bỏ",
+          "start_frame": 113,
+          "end_frame": 118
+        }
+      ]
+    },
+    {
+      "start_frame": 118,
+      "end_frame": 134,
+      "text": "sót thông tin.",
+      "words": [
+        {
+          "text": "sót",
+          "start_frame": 118,
+          "end_frame": 123
+        },
+        {
+          "text": "thông",
+          "start_frame": 123,
+          "end_frame": 129
+        },
+        {
+          "text": "tin.",
+          "start_frame": 129,
+          "end_frame": 134
+        }
+      ]
+    },
+    {
+      "start_frame": 134,
+      "end_frame": 189,
+      "text": "Google Sheet,",
+      "words": [
+        {
+          "text": "Google",
+          "start_frame": 134,
+          "end_frame": 162
+        },
+        {
+          "text": "Sheet,",
+          "start_frame": 162,
+          "end_frame": 189
+        }
+      ]
+    },
+    {
+      "start_frame": 189,
+      "end_frame": 214,
+      "text": "Hạng C,",
+      "words": [
+        {
+          "text": "Hạng",
+          "start_frame": 189,
+          "end_frame": 202
+        },
+        {
+          "text": "C,",
+          "start_frame": 202,
+          "end_frame": 214
+        }
+      ]
+    },
+    {
+      "start_frame": 214,
+      "end_frame": 238,
+      "text": "miễn phí, dễ dùng",
+      "words": [
+        {
+          "text": "miễn",
+          "start_frame": 214,
+          "end_frame": 220
+        },
+        {
+          "text": "phí,",
+          "start_frame": 220,
+          "end_frame": 226
+        },
+        {
+          "text": "dễ",
+          "start_frame": 226,
+          "end_frame": 232
+        },
+        {
+          "text": "dùng",
+          "start_frame": 232,
+          "end_frame": 238
+        }
+      ]
+    },
+    {
+      "start_frame": 238,
+      "end_frame": 260,
+      "text": "nhưng cập nhật",
+      "words": [
+        {
+          "text": "nhưng",
+          "start_frame": 238,
+          "end_frame": 245
+        },
+        {
+          "text": "cập",
+          "start_frame": 245,
+          "end_frame": 253
+        },
+        {
+          "text": "nhật",
+          "start_frame": 253,
+          "end_frame": 260
+        }
+      ]
+    },
+    {
+      "start_frame": 260,
+      "end_frame": 277,
+      "text": "thủ công",
+      "words": [
+        {
+          "text": "thủ",
+          "start_frame": 260,
+          "end_frame": 268
+        },
+        {
+          "text": "công",
+          "start_frame": 268,
+          "end_frame": 277
+        }
+      ]
+    },
+    {
+      "start_frame": 277,
+      "end_frame": 304,
+      "text": "khá mất thời gian.",
+      "words": [
+        {
+          "text": "khá",
+          "start_frame": 277,
+          "end_frame": 284
+        },
+        {
+          "text": "mất",
+          "start_frame": 284,
+          "end_frame": 290
+        },
+        {
+          "text": "thời",
+          "start_frame": 290,
+          "end_frame": 297
+        },
+        {
+          "text": "gian.",
+          "start_frame": 297,
+          "end_frame": 304
+        }
+      ]
+    },
+    {
+      "start_frame": 304,
+      "end_frame": 340,
+      "text": "HubSpot,",
+      "words": [
+        {
+          "text": "HubSpot,",
+          "start_frame": 304,
+          "end_frame": 340
+        }
+      ]
+    },
+    {
+      "start_frame": 340,
+      "end_frame": 370,
+      "text": "Hạng A,",
+      "words": [
+        {
+          "text": "Hạng",
+          "start_frame": 340,
+          "end_frame": 355
+        },
+        {
+          "text": "A,",
+          "start_frame": 355,
+          "end_frame": 370
+        }
+      ]
+    },
+    {
+      "start_frame": 370,
+      "end_frame": 401,
+      "text": "CRM chuyên nghiệp,",
+      "words": [
+        {
+          "text": "CRM",
+          "start_frame": 370,
+          "end_frame": 380
+        },
+        {
+          "text": "chuyên",
+          "start_frame": 380,
+          "end_frame": 391
+        },
+        {
+          "text": "nghiệp,",
+          "start_frame": 391,
+          "end_frame": 401
+        }
+      ]
+    },
+    {
+      "start_frame": 401,
+      "end_frame": 416,
+      "text": "nhiều tính năng",
+      "words": [
+        {
+          "text": "nhiều",
+          "start_frame": 401,
+          "end_frame": 406
+        },
+        {
+          "text": "tính",
+          "start_frame": 406,
+          "end_frame": 411
+        },
+        {
+          "text": "năng",
+          "start_frame": 411,
+          "end_frame": 416
+        }
+      ]
+    },
+    {
+      "start_frame": 416,
+      "end_frame": 434,
+      "text": "nhưng nâng cấp",
+      "words": [
+        {
+          "text": "nhưng",
+          "start_frame": 416,
+          "end_frame": 422
+        },
+        {
+          "text": "nâng",
+          "start_frame": 422,
+          "end_frame": 428
+        },
+        {
+          "text": "cấp",
+          "start_frame": 428,
+          "end_frame": 434
+        }
+      ]
+    },
+    {
+      "start_frame": 434,
+      "end_frame": 449,
+      "text": "có thể",
+      "words": [
+        {
+          "text": "có",
+          "start_frame": 434,
+          "end_frame": 442
+        },
+        {
+          "text": "thể",
+          "start_frame": 442,
+          "end_frame": 449
+        }
+      ]
+    },
+    {
+      "start_frame": 449,
+      "end_frame": 463,
+      "text": "khá tốn kém.",
+      "words": [
+        {
+          "text": "khá",
+          "start_frame": 449,
+          "end_frame": 454
+        },
+        {
+          "text": "tốn",
+          "start_frame": 454,
+          "end_frame": 458
+        },
+        {
+          "text": "kém.",
+          "start_frame": 458,
+          "end_frame": 463
+        }
+      ]
+    },
+    {
+      "start_frame": 463,
+      "end_frame": 497,
+      "text": "Notion,",
+      "words": [
+        {
+          "text": "Notion,",
+          "start_frame": 463,
+          "end_frame": 497
+        }
+      ]
+    },
+    {
+      "start_frame": 497,
+      "end_frame": 521,
+      "text": "Hạng B,",
+      "words": [
+        {
+          "text": "Hạng",
+          "start_frame": 497,
+          "end_frame": 509
+        },
+        {
+          "text": "B,",
+          "start_frame": 509,
+          "end_frame": 521
+        }
+      ]
+    },
+    {
+      "start_frame": 521,
+      "end_frame": 540,
+      "text": "linh hoạt,",
+      "words": [
+        {
+          "text": "linh",
+          "start_frame": 521,
+          "end_frame": 530
+        },
+        {
+          "text": "hoạt,",
+          "start_frame": 530,
+          "end_frame": 540
+        }
+      ]
+    },
+    {
+      "start_frame": 540,
+      "end_frame": 552,
+      "text": "quản lý được",
+      "words": [
+        {
+          "text": "quản",
+          "start_frame": 540,
+          "end_frame": 544
+        },
+        {
+          "text": "lý",
+          "start_frame": 544,
+          "end_frame": 548
+        },
+        {
+          "text": "được",
+          "start_frame": 548,
+          "end_frame": 552
+        }
+      ]
+    },
+    {
+      "start_frame": 552,
+      "end_frame": 569,
+      "text": "rất nhiều thứ",
+      "words": [
+        {
+          "text": "rất",
+          "start_frame": 552,
+          "end_frame": 558
+        },
+        {
+          "text": "nhiều",
+          "start_frame": 558,
+          "end_frame": 563
+        },
+        {
+          "text": "thứ",
+          "start_frame": 563,
+          "end_frame": 569
+        }
+      ]
+    },
+    {
+      "start_frame": 569,
+      "end_frame": 586,
+      "text": "nhưng phải tự",
+      "words": [
+        {
+          "text": "nhưng",
+          "start_frame": 569,
+          "end_frame": 575
+        },
+        {
+          "text": "phải",
+          "start_frame": 575,
+          "end_frame": 580
+        },
+        {
+          "text": "tự",
+          "start_frame": 580,
+          "end_frame": 586
+        }
+      ]
+    },
+    {
+      "start_frame": 586,
+      "end_frame": 606,
+      "text": "xây quy trình.",
+      "words": [
+        {
+          "text": "xây",
+          "start_frame": 586,
+          "end_frame": 593
+        },
+        {
+          "text": "quy",
+          "start_frame": 593,
+          "end_frame": 599
+        },
+        {
+          "text": "trình.",
+          "start_frame": 599,
+          "end_frame": 606
+        }
+      ]
+    },
+    {
+      "start_frame": 606,
+      "end_frame": 641,
+      "text": "Odoo,",
+      "words": [
+        {
+          "text": "Odoo,",
+          "start_frame": 606,
+          "end_frame": 641
+        }
+      ]
+    },
+    {
+      "start_frame": 641,
+      "end_frame": 668,
+      "text": "Hạng S,",
+      "words": [
+        {
+          "text": "Hạng",
+          "start_frame": 641,
+          "end_frame": 654
+        },
+        {
+          "text": "S,",
+          "start_frame": 654,
+          "end_frame": 668
+        }
+      ]
+    },
+    {
+      "start_frame": 668,
+      "end_frame": 693,
+      "text": "theo mình",
+      "words": [
+        {
+          "text": "theo",
+          "start_frame": 668,
+          "end_frame": 680
+        },
+        {
+          "text": "mình",
+          "start_frame": 680,
+          "end_frame": 693
+        }
+      ]
+    },
+    {
+      "start_frame": 693,
+      "end_frame": 707,
+      "text": "rất nên",
+      "words": [
+        {
+          "text": "rất",
+          "start_frame": 693,
+          "end_frame": 700
+        },
+        {
+          "text": "nên",
+          "start_frame": 700,
+          "end_frame": 707
+        }
+      ]
+    },
+    {
+      "start_frame": 707,
+      "end_frame": 724,
+      "text": "đầu tư lâu dài",
+      "words": [
+        {
+          "text": "đầu",
+          "start_frame": 707,
+          "end_frame": 711
+        },
+        {
+          "text": "tư",
+          "start_frame": 711,
+          "end_frame": 716
+        },
+        {
+          "text": "lâu",
+          "start_frame": 716,
+          "end_frame": 720
+        },
+        {
+          "text": "dài",
+          "start_frame": 720,
+          "end_frame": 724
+        }
+      ]
+    },
+    {
+      "start_frame": 724,
+      "end_frame": 749,
+      "text": "vì tích hợp CRM,",
+      "words": [
+        {
+          "text": "vì",
+          "start_frame": 724,
+          "end_frame": 730
+        },
+        {
+          "text": "tích",
+          "start_frame": 730,
+          "end_frame": 736
+        },
+        {
+          "text": "hợp",
+          "start_frame": 736,
+          "end_frame": 743
+        },
+        {
+          "text": "CRM,",
+          "start_frame": 743,
+          "end_frame": 749
+        }
+      ]
+    },
+    {
+      "start_frame": 749,
+      "end_frame": 773,
+      "text": "bán hàng,",
+      "words": [
+        {
+          "text": "bán",
+          "start_frame": 749,
+          "end_frame": 761
+        },
+        {
+          "text": "hàng,",
+          "start_frame": 761,
+          "end_frame": 773
+        }
+      ]
+    },
+    {
+      "start_frame": 773,
+      "end_frame": 787,
+      "text": "báo giá và",
+      "words": [
+        {
+          "text": "báo",
+          "start_frame": 773,
+          "end_frame": 778
+        },
+        {
+          "text": "giá",
+          "start_frame": 778,
+          "end_frame": 782
+        },
+        {
+          "text": "và",
+          "start_frame": 782,
+          "end_frame": 787
+        }
+      ]
+    },
+    {
+      "start_frame": 787,
+      "end_frame": 803,
+      "text": "hoá đơn trên",
+      "words": [
+        {
+          "text": "hoá",
+          "start_frame": 787,
+          "end_frame": 792
+        },
+        {
+          "text": "đơn",
+          "start_frame": 792,
+          "end_frame": 798
+        },
+        {
+          "text": "trên",
+          "start_frame": 798,
+          "end_frame": 803
+        }
+      ]
+    },
+    {
+      "start_frame": 803,
+      "end_frame": 821,
+      "text": "cùng một",
+      "words": [
+        {
+          "text": "cùng",
+          "start_frame": 803,
+          "end_frame": 812
+        },
+        {
+          "text": "một",
+          "start_frame": 812,
+          "end_frame": 821
+        }
+      ]
+    },
+    {
+      "start_frame": 821,
+      "end_frame": 828,
+      "text": "hệ thống.",
+      "words": [
+        {
+          "text": "hệ",
+          "start_frame": 821,
+          "end_frame": 824
+        },
+        {
+          "text": "thống.",
+          "start_frame": 824,
+          "end_frame": 828
+        }
+      ]
+    },
+    {
+      "start_frame": 828,
+      "end_frame": 860,
+      "text": "Còn bạn,",
+      "words": [
+        {
+          "text": "Còn",
+          "start_frame": 828,
+          "end_frame": 844
+        },
+        {
+          "text": "bạn,",
+          "start_frame": 844,
+          "end_frame": 860
+        }
+      ]
+    },
+    {
+      "start_frame": 860,
+      "end_frame": 873,
+      "text": "công cụ nào",
+      "words": [
+        {
+          "text": "công",
+          "start_frame": 860,
+          "end_frame": 864
+        },
+        {
+          "text": "cụ",
+          "start_frame": 864,
+          "end_frame": 869
+        },
+        {
+          "text": "nào",
+          "start_frame": 869,
+          "end_frame": 873
+        }
+      ]
+    },
+    {
+      "start_frame": 873,
+      "end_frame": 886,
+      "text": "xứng đáng",
+      "words": [
+        {
+          "text": "xứng",
+          "start_frame": 873,
+          "end_frame": 880
+        },
+        {
+          "text": "đáng",
+          "start_frame": 880,
+          "end_frame": 886
+        }
+      ]
+    },
+    {
+      "start_frame": 886,
+      "end_frame": 907,
+      "text": "được hạng S?",
+      "words": [
+        {
+          "text": "được",
+          "start_frame": 886,
+          "end_frame": 893
+        },
+        {
+          "text": "hạng",
+          "start_frame": 893,
+          "end_frame": 900
+        },
+        {
+          "text": "S?",
+          "start_frame": 900,
+          "end_frame": 907
+        }
+      ]
+    }
+  ]
+}

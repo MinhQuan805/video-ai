@@ -1,0 +1,43 @@
+907
+0 Zalo,
+28 Hạng F,
+52 nhắn tin tiện
+71 nhưng quản lý
+89 nhiều khách hàng
+103 rất dễ bỏ
+118 sót thông tin.
+134 Google Sheet,
+189 Hạng C,
+214 miễn phí, dễ dùng
+238 nhưng cập nhật
+260 thủ công
+277 khá mất thời gian.
+304 HubSpot,
+340 Hạng A,
+370 CRM chuyên nghiệp,
+401 nhiều tính năng
+416 nhưng nâng cấp
+434 có thể
+449 khá tốn kém.
+463 Notion,
+497 Hạng B,
+521 linh hoạt,
+540 quản lý được
+552 rất nhiều thứ
+569 nhưng phải tự
+586 xây quy trình.
+606 Odoo,
+641 Hạng S,
+668 theo mình
+693 rất nên
+707 đầu tư lâu dài
+724 vì tích hợp CRM,
+749 bán hàng,
+773 báo giá và
+787 hoá đơn trên
+803 cùng một
+821 hệ thống.
+828 Còn bạn,
+860 công cụ nào
+873 xứng đáng
+886 được hạng S?

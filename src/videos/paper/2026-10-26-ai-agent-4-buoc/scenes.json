@@ -1,0 +1,30 @@
+{
+  "video_id": "paper-2026-10-26-ai-agent-4-buoc",
+  "total_frames": 1541,
+  "fps": 30,
+  "visual_system": "paper-sample-match",
+  "source_video": "public/videos/paper/2026-10-26-ai-agent-4-buoc/assets/sample-reference.mp4",
+  "audio_source": "voice.wav",
+  "scenes": [
+    { "id": "01-hook", "title": "AI Agent làm việc thay bạn", "from": 0, "to": 101, "coverage": "speaker-full + paper graphic" },
+    { "id": "02-step-1", "title": "Cài AI Agent", "from": 101, "to": 190, "coverage": "graphic-center" },
+    { "id": "03-search", "title": "Tìm Claude hoặc ChatGPT Desktop App", "from": 190, "to": 262, "coverage": "interface-focus" },
+    { "id": "04-download", "title": "Tải về và đăng nhập", "from": 262, "to": 283, "coverage": "interface-focus" },
+    { "id": "05-local-work", "title": "Agent làm việc trên máy", "from": 283, "to": 373, "coverage": "interface + speaker" },
+    { "id": "06-step-2", "title": "Kết nối công cụ", "from": 373, "to": 471, "coverage": "graphic-center" },
+    { "id": "07-support-growth", "title": "Email hỗ trợ tăng theo người dùng", "from": 471, "to": 564, "coverage": "speaker-full + paper graphic" },
+    { "id": "08-classify-email", "title": "Đọc và phân loại email", "from": 564, "to": 649, "coverage": "paper graphic + speaker" },
+    { "id": "09-issue-groups", "title": "Nhóm vấn đề cần hỗ trợ", "from": 649, "to": 688, "coverage": "graphic-center" },
+    { "id": "10-draft-reply", "title": "Soạn câu trả lời để duyệt", "from": 688, "to": 751, "coverage": "paper graphic + speaker" },
+    { "id": "11-connectors", "title": "Tìm Gmail trong Connectors", "from": 751, "to": 824, "coverage": "interface-focus" },
+    { "id": "12-email-access", "title": "Kết nối email thật", "from": 824, "to": 864, "coverage": "interface-focus" },
+    { "id": "13-step-3", "title": "Mô tả nhiệm vụ kỹ", "from": 864, "to": 948, "coverage": "graphic-center + speaker" },
+    { "id": "14-task-example", "title": "Phân loại email theo vấn đề", "from": 948, "to": 1028, "coverage": "paper graphic" },
+    { "id": "15-refine", "title": "Tinh chỉnh đến khi đúng ý", "from": 1028, "to": 1123, "coverage": "speaker-full + paper graphic" },
+    { "id": "16-step-4", "title": "Tạo skill", "from": 1123, "to": 1198, "coverage": "graphic-center" },
+    { "id": "17-schedule", "title": "Đóng gói quy trình và chạy mỗi sáng", "from": 1198, "to": 1311, "coverage": "interface-focus" },
+    { "id": "18-call-skill", "title": "Gọi skill bằng lệnh slash", "from": 1311, "to": 1405, "coverage": "interface + paper graphic" },
+    { "id": "19-summary", "title": "AI Agent xử lý công việc", "from": 1405, "to": 1500, "coverage": "paper graphic + speaker" },
+    { "id": "20-cta", "title": "Follow và comment", "from": 1500, "to": 1541, "coverage": "speaker-full + paper graphic" }
+  ]
+}

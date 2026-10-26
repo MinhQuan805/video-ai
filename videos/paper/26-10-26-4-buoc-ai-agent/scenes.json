@@ -1,0 +1,37 @@
+{
+  "video_id": "paper-10-26-26",
+  "total_frames": 472,
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "scene_01_hook",
+      "title": "Tự tạo AI Agent chỉ với 4 bước",
+      "from": 0,
+      "to": 102
+    },
+    {
+      "id": "scene_02_step1_badge",
+      "title": "Bước 01: Cài Agent",
+      "from": 102,
+      "to": 165
+    },
+    {
+      "id": "scene_03_search_desktop",
+      "title": "Tìm Claude Desktop & ChatGPT App",
+      "from": 165,
+      "to": 288
+    },
+    {
+      "id": "scene_04_local_agent",
+      "title": "Không chỉ chat, làm trên máy",
+      "from": 288,
+      "to": 378
+    },
+    {
+      "id": "scene_05_step2_connect",
+      "title": "Bước 02: Nối với công cụ",
+      "from": 378,
+      "to": 472
+    }
+  ]
+}

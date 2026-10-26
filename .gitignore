@@ -36,6 +36,9 @@ output/
 videos/**/output/
 videos/**/temp_frames/
 public/videos/**/temp_frames/
+**/all_frames/
+**/review-frames/
+**/reference-analysis/
 
 # Large rendered video files (tùy chọn nhưng nên bỏ qua để tránh vượt giới hạn GitHub 100MB)
 *.mp4

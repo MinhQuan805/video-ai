@@ -5,5 +5,9 @@
 - Mỗi lần dựng xem `output/review.png` một lần.
 - Sửa nhỏ thì sửa đúng cảnh đó, không viết lại cả file.
 - Lệnh chạy lâu như cài đặt, xuất video thì chạy một lần và chờ, xong rồi không chạy lại để kiểm.
-- Một lệnh lỗi 2 lần liền cùng một kiểu thì dừng và báo người dùng.
+- Khi cần dùng hoặc tự lấy icon, mặc định luôn dùng Font Awesome (qua linh kiện `<FaIcon icon="..." />` hoặc `pipeline/assets/fetch_fa_icon.py`).
+- Khi cần nghiên cứu web, lấy asset, chụp/quay web, thêm dependency hoặc cập nhật skill, luôn áp dụng `.agents/skills/autonomous-skill-and-asset-evolution/SKILL.md`; tự làm các bước low-risk và chỉ dừng ở các cổng an toàn nêu trong skill.
+- Khi tạo video, ưu tiên concept và motion graphic sáng tạo theo nội dung; chỉ dùng asset ngoài hoặc visual system có sẵn khi thực sự phù hợp. Dùng `.agents/skills/ai-video-pipeline/SKILL.md` và `docs/auto-production-system.md`.
+- Tuyệt đối không render video cho đến khi người dùng duyệt rõ project/version cụ thể trong chat. Trước đó chỉ làm analysis, timeline, component, static/audio QA và approval packet.
+- Tool dùng chung đặt trong `pipeline/<stage>/`; helper riêng của video đặt trong `videos/<video-name>/tools/`. Không xóa/di chuyển tool cũ trước khi rà reference và giữ thay đổi dang dở.
 - Trả lời ngắn.

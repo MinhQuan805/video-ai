@@ -1,0 +1,1641 @@
+{
+  "total_frames": 1541,
+  "fps": 30,
+  "phrases": [
+    {
+      "text": "Đây là cách để bạn tự tạo một AI Agent làm việc thay bạn chỉ với bốn bước đơn giản",
+      "start_frame": 0,
+      "end_frame": 102,
+      "words": [
+        {
+          "text": "Đây",
+          "start_frame": 0,
+          "end_frame": 5
+        },
+        {
+          "text": "là",
+          "start_frame": 5,
+          "end_frame": 10
+        },
+        {
+          "text": "cách",
+          "start_frame": 10,
+          "end_frame": 15
+        },
+        {
+          "text": "để",
+          "start_frame": 15,
+          "end_frame": 20
+        },
+        {
+          "text": "bạn",
+          "start_frame": 20,
+          "end_frame": 25
+        },
+        {
+          "text": "tự",
+          "start_frame": 25,
+          "end_frame": 30
+        },
+        {
+          "text": "tạo",
+          "start_frame": 30,
+          "end_frame": 35
+        },
+        {
+          "text": "một",
+          "start_frame": 35,
+          "end_frame": 40
+        },
+        {
+          "text": "AI",
+          "start_frame": 40,
+          "end_frame": 45
+        },
+        {
+          "text": "Agent",
+          "start_frame": 45,
+          "end_frame": 51
+        },
+        {
+          "text": "làm",
+          "start_frame": 51,
+          "end_frame": 56
+        },
+        {
+          "text": "việc",
+          "start_frame": 56,
+          "end_frame": 61
+        },
+        {
+          "text": "thay",
+          "start_frame": 61,
+          "end_frame": 66
+        },
+        {
+          "text": "bạn",
+          "start_frame": 66,
+          "end_frame": 71
+        },
+        {
+          "text": "chỉ",
+          "start_frame": 71,
+          "end_frame": 76
+        },
+        {
+          "text": "với",
+          "start_frame": 76,
+          "end_frame": 81
+        },
+        {
+          "text": "bốn",
+          "start_frame": 81,
+          "end_frame": 86
+        },
+        {
+          "text": "bước",
+          "start_frame": 86,
+          "end_frame": 91
+        },
+        {
+          "text": "đơn",
+          "start_frame": 91,
+          "end_frame": 96
+        },
+        {
+          "text": "giản",
+          "start_frame": 96,
+          "end_frame": 102
+        }
+      ]
+    },
+    {
+      "text": "Bước đầu tiên là cài AI Agent, bạn có thể cài Claude Code và Codex đều được",
+      "start_frame": 102,
+      "end_frame": 190,
+      "words": [
+        {
+          "text": "Bước",
+          "start_frame": 102,
+          "end_frame": 107
+        },
+        {
+          "text": "đầu",
+          "start_frame": 107,
+          "end_frame": 112
+        },
+        {
+          "text": "tiên",
+          "start_frame": 112,
+          "end_frame": 117
+        },
+        {
+          "text": "là",
+          "start_frame": 117,
+          "end_frame": 122
+        },
+        {
+          "text": "cài",
+          "start_frame": 122,
+          "end_frame": 127
+        },
+        {
+          "text": "AI",
+          "start_frame": 127,
+          "end_frame": 133
+        },
+        {
+          "text": "Agent,",
+          "start_frame": 133,
+          "end_frame": 138
+        },
+        {
+          "text": "bạn",
+          "start_frame": 138,
+          "end_frame": 143
+        },
+        {
+          "text": "có",
+          "start_frame": 143,
+          "end_frame": 148
+        },
+        {
+          "text": "thể",
+          "start_frame": 148,
+          "end_frame": 153
+        },
+        {
+          "text": "cài",
+          "start_frame": 153,
+          "end_frame": 158
+        },
+        {
+          "text": "Claude",
+          "start_frame": 158,
+          "end_frame": 164
+        },
+        {
+          "text": "Code",
+          "start_frame": 164,
+          "end_frame": 169
+        },
+        {
+          "text": "và",
+          "start_frame": 169,
+          "end_frame": 174
+        },
+        {
+          "text": "Codex",
+          "start_frame": 174,
+          "end_frame": 179
+        },
+        {
+          "text": "đều",
+          "start_frame": 179,
+          "end_frame": 184
+        },
+        {
+          "text": "được",
+          "start_frame": 184,
+          "end_frame": 190
+        }
+      ]
+    },
+    {
+      "text": "Chỉ cần lên Google tìm Claude hoặc ChatGPT Desktop App",
+      "start_frame": 190,
+      "end_frame": 262,
+      "words": [
+        {
+          "text": "Chỉ",
+          "start_frame": 190,
+          "end_frame": 197
+        },
+        {
+          "text": "cần",
+          "start_frame": 197,
+          "end_frame": 204
+        },
+        {
+          "text": "lên",
+          "start_frame": 204,
+          "end_frame": 211
+        },
+        {
+          "text": "Google",
+          "start_frame": 211,
+          "end_frame": 218
+        },
+        {
+          "text": "tìm",
+          "start_frame": 218,
+          "end_frame": 226
+        },
+        {
+          "text": "Claude",
+          "start_frame": 226,
+          "end_frame": 233
+        },
+        {
+          "text": "hoặc",
+          "start_frame": 233,
+          "end_frame": 240
+        },
+        {
+          "text": "ChatGPT",
+          "start_frame": 240,
+          "end_frame": 247
+        },
+        {
+          "text": "Desktop",
+          "start_frame": 247,
+          "end_frame": 254
+        },
+        {
+          "text": "App",
+          "start_frame": 254,
+          "end_frame": 262
+        }
+      ]
+    },
+    {
+      "text": "Tải về rồi đăng nhập",
+      "start_frame": 262,
+      "end_frame": 283,
+      "words": [
+        {
+          "text": "Tải",
+          "start_frame": 262,
+          "end_frame": 266
+        },
+        {
+          "text": "về",
+          "start_frame": 266,
+          "end_frame": 270
+        },
+        {
+          "text": "rồi",
+          "start_frame": 270,
+          "end_frame": 274
+        },
+        {
+          "text": "đăng",
+          "start_frame": 274,
+          "end_frame": 278
+        },
+        {
+          "text": "nhập",
+          "start_frame": 278,
+          "end_frame": 283
+        }
+      ]
+    },
+    {
+      "text": "Khác với chat bình thường, nó có thể tự mở file và làm việc ngay trên máy của bạn",
+      "start_frame": 283,
+      "end_frame": 373,
+      "words": [
+        {
+          "text": "Khác",
+          "start_frame": 283,
+          "end_frame": 287
+        },
+        {
+          "text": "với",
+          "start_frame": 287,
+          "end_frame": 292
+        },
+        {
+          "text": "chat",
+          "start_frame": 292,
+          "end_frame": 297
+        },
+        {
+          "text": "bình",
+          "start_frame": 297,
+          "end_frame": 301
+        },
+        {
+          "text": "thường,",
+          "start_frame": 301,
+          "end_frame": 306
+        },
+        {
+          "text": "nó",
+          "start_frame": 306,
+          "end_frame": 311
+        },
+        {
+          "text": "có",
+          "start_frame": 311,
+          "end_frame": 316
+        },
+        {
+          "text": "thể",
+          "start_frame": 316,
+          "end_frame": 320
+        },
+        {
+          "text": "tự",
+          "start_frame": 320,
+          "end_frame": 325
+        },
+        {
+          "text": "mở",
+          "start_frame": 325,
+          "end_frame": 330
+        },
+        {
+          "text": "file",
+          "start_frame": 330,
+          "end_frame": 335
+        },
+        {
+          "text": "và",
+          "start_frame": 335,
+          "end_frame": 339
+        },
+        {
+          "text": "làm",
+          "start_frame": 339,
+          "end_frame": 344
+        },
+        {
+          "text": "việc",
+          "start_frame": 344,
+          "end_frame": 349
+        },
+        {
+          "text": "ngay",
+          "start_frame": 349,
+          "end_frame": 354
+        },
+        {
+          "text": "trên",
+          "start_frame": 354,
+          "end_frame": 358
+        },
+        {
+          "text": "máy",
+          "start_frame": 358,
+          "end_frame": 363
+        },
+        {
+          "text": "của",
+          "start_frame": 363,
+          "end_frame": 368
+        },
+        {
+          "text": "bạn",
+          "start_frame": 368,
+          "end_frame": 373
+        }
+      ]
+    },
+    {
+      "text": "Tiếp theo, hãy kết nối nó với các công cụ nó cần để làm việc thay cho bạn",
+      "start_frame": 373,
+      "end_frame": 472,
+      "words": [
+        {
+          "text": "Tiếp",
+          "start_frame": 373,
+          "end_frame": 378
+        },
+        {
+          "text": "theo,",
+          "start_frame": 378,
+          "end_frame": 384
+        },
+        {
+          "text": "hãy",
+          "start_frame": 384,
+          "end_frame": 389
+        },
+        {
+          "text": "kết",
+          "start_frame": 389,
+          "end_frame": 395
+        },
+        {
+          "text": "nối",
+          "start_frame": 395,
+          "end_frame": 400
+        },
+        {
+          "text": "nó",
+          "start_frame": 400,
+          "end_frame": 406
+        },
+        {
+          "text": "với",
+          "start_frame": 406,
+          "end_frame": 411
+        },
+        {
+          "text": "các",
+          "start_frame": 411,
+          "end_frame": 417
+        },
+        {
+          "text": "công",
+          "start_frame": 417,
+          "end_frame": 422
+        },
+        {
+          "text": "cụ",
+          "start_frame": 422,
+          "end_frame": 428
+        },
+        {
+          "text": "nó",
+          "start_frame": 428,
+          "end_frame": 433
+        },
+        {
+          "text": "cần",
+          "start_frame": 433,
+          "end_frame": 439
+        },
+        {
+          "text": "để",
+          "start_frame": 439,
+          "end_frame": 444
+        },
+        {
+          "text": "làm",
+          "start_frame": 444,
+          "end_frame": 450
+        },
+        {
+          "text": "việc",
+          "start_frame": 450,
+          "end_frame": 455
+        },
+        {
+          "text": "thay",
+          "start_frame": 455,
+          "end_frame": 461
+        },
+        {
+          "text": "cho",
+          "start_frame": 461,
+          "end_frame": 466
+        },
+        {
+          "text": "bạn",
+          "start_frame": 466,
+          "end_frame": 472
+        }
+      ]
+    },
+    {
+      "text": "Ví dụ như app của mình, hiện có nhiều người dùng nên email hỗ trợ cũng nhiều lên",
+      "start_frame": 472,
+      "end_frame": 564,
+      "words": [
+        {
+          "text": "Ví",
+          "start_frame": 472,
+          "end_frame": 477
+        },
+        {
+          "text": "dụ",
+          "start_frame": 477,
+          "end_frame": 482
+        },
+        {
+          "text": "như",
+          "start_frame": 482,
+          "end_frame": 487
+        },
+        {
+          "text": "app",
+          "start_frame": 487,
+          "end_frame": 492
+        },
+        {
+          "text": "của",
+          "start_frame": 492,
+          "end_frame": 497
+        },
+        {
+          "text": "mình,",
+          "start_frame": 497,
+          "end_frame": 502
+        },
+        {
+          "text": "hiện",
+          "start_frame": 502,
+          "end_frame": 507
+        },
+        {
+          "text": "có",
+          "start_frame": 507,
+          "end_frame": 512
+        },
+        {
+          "text": "nhiều",
+          "start_frame": 512,
+          "end_frame": 518
+        },
+        {
+          "text": "người",
+          "start_frame": 518,
+          "end_frame": 523
+        },
+        {
+          "text": "dùng",
+          "start_frame": 523,
+          "end_frame": 528
+        },
+        {
+          "text": "nên",
+          "start_frame": 528,
+          "end_frame": 533
+        },
+        {
+          "text": "email",
+          "start_frame": 533,
+          "end_frame": 538
+        },
+        {
+          "text": "hỗ",
+          "start_frame": 538,
+          "end_frame": 543
+        },
+        {
+          "text": "trợ",
+          "start_frame": 543,
+          "end_frame": 548
+        },
+        {
+          "text": "cũng",
+          "start_frame": 548,
+          "end_frame": 553
+        },
+        {
+          "text": "nhiều",
+          "start_frame": 553,
+          "end_frame": 558
+        },
+        {
+          "text": "lên",
+          "start_frame": 558,
+          "end_frame": 564
+        }
+      ]
+    },
+    {
+      "text": "Và mình muốn tạo một AI Agent đọc toàn bộ email, xác định và phân loại",
+      "start_frame": 564,
+      "end_frame": 649,
+      "words": [
+        {
+          "text": "Và",
+          "start_frame": 564,
+          "end_frame": 569
+        },
+        {
+          "text": "mình",
+          "start_frame": 569,
+          "end_frame": 574
+        },
+        {
+          "text": "muốn",
+          "start_frame": 574,
+          "end_frame": 579
+        },
+        {
+          "text": "tạo",
+          "start_frame": 579,
+          "end_frame": 585
+        },
+        {
+          "text": "một",
+          "start_frame": 585,
+          "end_frame": 590
+        },
+        {
+          "text": "AI",
+          "start_frame": 590,
+          "end_frame": 595
+        },
+        {
+          "text": "Agent",
+          "start_frame": 595,
+          "end_frame": 601
+        },
+        {
+          "text": "đọc",
+          "start_frame": 601,
+          "end_frame": 606
+        },
+        {
+          "text": "toàn",
+          "start_frame": 606,
+          "end_frame": 611
+        },
+        {
+          "text": "bộ",
+          "start_frame": 611,
+          "end_frame": 617
+        },
+        {
+          "text": "email,",
+          "start_frame": 617,
+          "end_frame": 622
+        },
+        {
+          "text": "xác",
+          "start_frame": 622,
+          "end_frame": 627
+        },
+        {
+          "text": "định",
+          "start_frame": 627,
+          "end_frame": 633
+        },
+        {
+          "text": "và",
+          "start_frame": 633,
+          "end_frame": 638
+        },
+        {
+          "text": "phân",
+          "start_frame": 638,
+          "end_frame": 643
+        },
+        {
+          "text": "loại",
+          "start_frame": 643,
+          "end_frame": 649
+        }
+      ]
+    },
+    {
+      "text": "các vấn đề người dùng cần hỗ trợ",
+      "start_frame": 649,
+      "end_frame": 688,
+      "words": [
+        {
+          "text": "các",
+          "start_frame": 649,
+          "end_frame": 653
+        },
+        {
+          "text": "vấn",
+          "start_frame": 653,
+          "end_frame": 658
+        },
+        {
+          "text": "đề",
+          "start_frame": 658,
+          "end_frame": 663
+        },
+        {
+          "text": "người",
+          "start_frame": 663,
+          "end_frame": 668
+        },
+        {
+          "text": "dùng",
+          "start_frame": 668,
+          "end_frame": 673
+        },
+        {
+          "text": "cần",
+          "start_frame": 673,
+          "end_frame": 678
+        },
+        {
+          "text": "hỗ",
+          "start_frame": 678,
+          "end_frame": 683
+        },
+        {
+          "text": "trợ",
+          "start_frame": 683,
+          "end_frame": 688
+        }
+      ]
+    },
+    {
+      "text": "Rồi soạn câu trả lời để mình chỉ cần duyệt và gửi",
+      "start_frame": 688,
+      "end_frame": 751,
+      "words": [
+        {
+          "text": "Rồi",
+          "start_frame": 688,
+          "end_frame": 693
+        },
+        {
+          "text": "soạn",
+          "start_frame": 693,
+          "end_frame": 698
+        },
+        {
+          "text": "câu",
+          "start_frame": 698,
+          "end_frame": 703
+        },
+        {
+          "text": "trả",
+          "start_frame": 703,
+          "end_frame": 709
+        },
+        {
+          "text": "lời",
+          "start_frame": 709,
+          "end_frame": 714
+        },
+        {
+          "text": "để",
+          "start_frame": 714,
+          "end_frame": 719
+        },
+        {
+          "text": "mình",
+          "start_frame": 719,
+          "end_frame": 724
+        },
+        {
+          "text": "chỉ",
+          "start_frame": 724,
+          "end_frame": 730
+        },
+        {
+          "text": "cần",
+          "start_frame": 730,
+          "end_frame": 735
+        },
+        {
+          "text": "duyệt",
+          "start_frame": 735,
+          "end_frame": 740
+        },
+        {
+          "text": "và",
+          "start_frame": 740,
+          "end_frame": 745
+        },
+        {
+          "text": "gửi",
+          "start_frame": 745,
+          "end_frame": 751
+        }
+      ]
+    },
+    {
+      "text": "Bạn chỉ cần vào phần Connectors, tìm Gmail rồi bấm kết nối",
+      "start_frame": 751,
+      "end_frame": 824,
+      "words": [
+        {
+          "text": "Bạn",
+          "start_frame": 751,
+          "end_frame": 757
+        },
+        {
+          "text": "chỉ",
+          "start_frame": 757,
+          "end_frame": 763
+        },
+        {
+          "text": "cần",
+          "start_frame": 763,
+          "end_frame": 769
+        },
+        {
+          "text": "vào",
+          "start_frame": 769,
+          "end_frame": 775
+        },
+        {
+          "text": "phần",
+          "start_frame": 775,
+          "end_frame": 781
+        },
+        {
+          "text": "Connectors,",
+          "start_frame": 781,
+          "end_frame": 787
+        },
+        {
+          "text": "tìm",
+          "start_frame": 787,
+          "end_frame": 793
+        },
+        {
+          "text": "Gmail",
+          "start_frame": 793,
+          "end_frame": 799
+        },
+        {
+          "text": "rồi",
+          "start_frame": 799,
+          "end_frame": 805
+        },
+        {
+          "text": "bấm",
+          "start_frame": 805,
+          "end_frame": 811
+        },
+        {
+          "text": "kết",
+          "start_frame": 811,
+          "end_frame": 817
+        },
+        {
+          "text": "nối",
+          "start_frame": 817,
+          "end_frame": 824
+        }
+      ]
+    },
+    {
+      "text": "để AI đọc được email thật của bạn",
+      "start_frame": 824,
+      "end_frame": 864,
+      "words": [
+        {
+          "text": "để",
+          "start_frame": 824,
+          "end_frame": 829
+        },
+        {
+          "text": "AI",
+          "start_frame": 829,
+          "end_frame": 834
+        },
+        {
+          "text": "đọc",
+          "start_frame": 834,
+          "end_frame": 839
+        },
+        {
+          "text": "được",
+          "start_frame": 839,
+          "end_frame": 844
+        },
+        {
+          "text": "email",
+          "start_frame": 844,
+          "end_frame": 849
+        },
+        {
+          "text": "thật",
+          "start_frame": 849,
+          "end_frame": 854
+        },
+        {
+          "text": "của",
+          "start_frame": 854,
+          "end_frame": 859
+        },
+        {
+          "text": "bạn",
+          "start_frame": 859,
+          "end_frame": 864
+        }
+      ]
+    },
+    {
+      "text": "Bước 3 sẽ là giao việc, bạn nên mô tả cho AI Agent thật kỹ về nhiệm vụ",
+      "start_frame": 864,
+      "end_frame": 948,
+      "words": [
+        {
+          "text": "Bước",
+          "start_frame": 864,
+          "end_frame": 868
+        },
+        {
+          "text": "3",
+          "start_frame": 868,
+          "end_frame": 873
+        },
+        {
+          "text": "sẽ",
+          "start_frame": 873,
+          "end_frame": 878
+        },
+        {
+          "text": "là",
+          "start_frame": 878,
+          "end_frame": 882
+        },
+        {
+          "text": "giao",
+          "start_frame": 882,
+          "end_frame": 887
+        },
+        {
+          "text": "việc,",
+          "start_frame": 887,
+          "end_frame": 892
+        },
+        {
+          "text": "bạn",
+          "start_frame": 892,
+          "end_frame": 896
+        },
+        {
+          "text": "nên",
+          "start_frame": 896,
+          "end_frame": 901
+        },
+        {
+          "text": "mô",
+          "start_frame": 901,
+          "end_frame": 906
+        },
+        {
+          "text": "tả",
+          "start_frame": 906,
+          "end_frame": 910
+        },
+        {
+          "text": "cho",
+          "start_frame": 910,
+          "end_frame": 915
+        },
+        {
+          "text": "AI",
+          "start_frame": 915,
+          "end_frame": 920
+        },
+        {
+          "text": "Agent",
+          "start_frame": 920,
+          "end_frame": 924
+        },
+        {
+          "text": "thật",
+          "start_frame": 924,
+          "end_frame": 929
+        },
+        {
+          "text": "kỹ",
+          "start_frame": 929,
+          "end_frame": 934
+        },
+        {
+          "text": "về",
+          "start_frame": 934,
+          "end_frame": 938
+        },
+        {
+          "text": "nhiệm",
+          "start_frame": 938,
+          "end_frame": 943
+        },
+        {
+          "text": "vụ",
+          "start_frame": 943,
+          "end_frame": 948
+        }
+      ]
+    },
+    {
+      "text": "Ví dụ muốn AI đọc toàn bộ email hỗ trợ, phân loại theo từng vấn đề",
+      "start_frame": 948,
+      "end_frame": 1028,
+      "words": [
+        {
+          "text": "Ví",
+          "start_frame": 948,
+          "end_frame": 953
+        },
+        {
+          "text": "dụ",
+          "start_frame": 953,
+          "end_frame": 958
+        },
+        {
+          "text": "muốn",
+          "start_frame": 958,
+          "end_frame": 963
+        },
+        {
+          "text": "AI",
+          "start_frame": 963,
+          "end_frame": 968
+        },
+        {
+          "text": "đọc",
+          "start_frame": 968,
+          "end_frame": 973
+        },
+        {
+          "text": "toàn",
+          "start_frame": 973,
+          "end_frame": 978
+        },
+        {
+          "text": "bộ",
+          "start_frame": 978,
+          "end_frame": 983
+        },
+        {
+          "text": "email",
+          "start_frame": 983,
+          "end_frame": 988
+        },
+        {
+          "text": "hỗ",
+          "start_frame": 988,
+          "end_frame": 993
+        },
+        {
+          "text": "trợ,",
+          "start_frame": 993,
+          "end_frame": 998
+        },
+        {
+          "text": "phân",
+          "start_frame": 998,
+          "end_frame": 1003
+        },
+        {
+          "text": "loại",
+          "start_frame": 1003,
+          "end_frame": 1008
+        },
+        {
+          "text": "theo",
+          "start_frame": 1008,
+          "end_frame": 1013
+        },
+        {
+          "text": "từng",
+          "start_frame": 1013,
+          "end_frame": 1018
+        },
+        {
+          "text": "vấn",
+          "start_frame": 1018,
+          "end_frame": 1023
+        },
+        {
+          "text": "đề",
+          "start_frame": 1023,
+          "end_frame": 1028
+        }
+      ]
+    },
+    {
+      "text": "Rồi soạn câu trả lời để mình duyệt, bạn có thể yêu cầu cho đến khi đúng ý mình",
+      "start_frame": 1028,
+      "end_frame": 1123,
+      "words": [
+        {
+          "text": "Rồi",
+          "start_frame": 1028,
+          "end_frame": 1033
+        },
+        {
+          "text": "soạn",
+          "start_frame": 1033,
+          "end_frame": 1038
+        },
+        {
+          "text": "câu",
+          "start_frame": 1038,
+          "end_frame": 1043
+        },
+        {
+          "text": "trả",
+          "start_frame": 1043,
+          "end_frame": 1048
+        },
+        {
+          "text": "lời",
+          "start_frame": 1048,
+          "end_frame": 1053
+        },
+        {
+          "text": "để",
+          "start_frame": 1053,
+          "end_frame": 1058
+        },
+        {
+          "text": "mình",
+          "start_frame": 1058,
+          "end_frame": 1063
+        },
+        {
+          "text": "duyệt,",
+          "start_frame": 1063,
+          "end_frame": 1068
+        },
+        {
+          "text": "bạn",
+          "start_frame": 1068,
+          "end_frame": 1073
+        },
+        {
+          "text": "có",
+          "start_frame": 1073,
+          "end_frame": 1078
+        },
+        {
+          "text": "thể",
+          "start_frame": 1078,
+          "end_frame": 1083
+        },
+        {
+          "text": "yêu",
+          "start_frame": 1083,
+          "end_frame": 1088
+        },
+        {
+          "text": "cầu",
+          "start_frame": 1088,
+          "end_frame": 1093
+        },
+        {
+          "text": "cho",
+          "start_frame": 1093,
+          "end_frame": 1098
+        },
+        {
+          "text": "đến",
+          "start_frame": 1098,
+          "end_frame": 1103
+        },
+        {
+          "text": "khi",
+          "start_frame": 1103,
+          "end_frame": 1108
+        },
+        {
+          "text": "đúng",
+          "start_frame": 1108,
+          "end_frame": 1113
+        },
+        {
+          "text": "ý",
+          "start_frame": 1113,
+          "end_frame": 1118
+        },
+        {
+          "text": "mình",
+          "start_frame": 1118,
+          "end_frame": 1123
+        }
+      ]
+    },
+    {
+      "text": "Bước cuối cùng là tạo skill, khi thấy AI Agent đã làm ổn rồi",
+      "start_frame": 1123,
+      "end_frame": 1198,
+      "words": [
+        {
+          "text": "Bước",
+          "start_frame": 1123,
+          "end_frame": 1128
+        },
+        {
+          "text": "cuối",
+          "start_frame": 1128,
+          "end_frame": 1133
+        },
+        {
+          "text": "cùng",
+          "start_frame": 1133,
+          "end_frame": 1139
+        },
+        {
+          "text": "là",
+          "start_frame": 1139,
+          "end_frame": 1144
+        },
+        {
+          "text": "tạo",
+          "start_frame": 1144,
+          "end_frame": 1149
+        },
+        {
+          "text": "skill,",
+          "start_frame": 1149,
+          "end_frame": 1155
+        },
+        {
+          "text": "khi",
+          "start_frame": 1155,
+          "end_frame": 1160
+        },
+        {
+          "text": "thấy",
+          "start_frame": 1160,
+          "end_frame": 1165
+        },
+        {
+          "text": "AI",
+          "start_frame": 1165,
+          "end_frame": 1171
+        },
+        {
+          "text": "Agent",
+          "start_frame": 1171,
+          "end_frame": 1176
+        },
+        {
+          "text": "đã",
+          "start_frame": 1176,
+          "end_frame": 1181
+        },
+        {
+          "text": "làm",
+          "start_frame": 1181,
+          "end_frame": 1187
+        },
+        {
+          "text": "ổn",
+          "start_frame": 1187,
+          "end_frame": 1192
+        },
+        {
+          "text": "rồi",
+          "start_frame": 1192,
+          "end_frame": 1198
+        }
+      ]
+    },
+    {
+      "text": "Bạn chỉ cần bảo hãy đóng gói toàn bộ quy trình vừa rồi thành một skill và tự động chạy mỗi sáng",
+      "start_frame": 1198,
+      "end_frame": 1311,
+      "words": [
+        {
+          "text": "Bạn",
+          "start_frame": 1198,
+          "end_frame": 1203
+        },
+        {
+          "text": "chỉ",
+          "start_frame": 1203,
+          "end_frame": 1208
+        },
+        {
+          "text": "cần",
+          "start_frame": 1208,
+          "end_frame": 1213
+        },
+        {
+          "text": "bảo",
+          "start_frame": 1213,
+          "end_frame": 1218
+        },
+        {
+          "text": "hãy",
+          "start_frame": 1218,
+          "end_frame": 1223
+        },
+        {
+          "text": "đóng",
+          "start_frame": 1223,
+          "end_frame": 1228
+        },
+        {
+          "text": "gói",
+          "start_frame": 1228,
+          "end_frame": 1233
+        },
+        {
+          "text": "toàn",
+          "start_frame": 1233,
+          "end_frame": 1239
+        },
+        {
+          "text": "bộ",
+          "start_frame": 1239,
+          "end_frame": 1244
+        },
+        {
+          "text": "quy",
+          "start_frame": 1244,
+          "end_frame": 1249
+        },
+        {
+          "text": "trình",
+          "start_frame": 1249,
+          "end_frame": 1254
+        },
+        {
+          "text": "vừa",
+          "start_frame": 1254,
+          "end_frame": 1259
+        },
+        {
+          "text": "rồi",
+          "start_frame": 1259,
+          "end_frame": 1264
+        },
+        {
+          "text": "thành",
+          "start_frame": 1264,
+          "end_frame": 1269
+        },
+        {
+          "text": "một",
+          "start_frame": 1269,
+          "end_frame": 1275
+        },
+        {
+          "text": "skill",
+          "start_frame": 1275,
+          "end_frame": 1280
+        },
+        {
+          "text": "và",
+          "start_frame": 1280,
+          "end_frame": 1285
+        },
+        {
+          "text": "tự",
+          "start_frame": 1285,
+          "end_frame": 1290
+        },
+        {
+          "text": "động",
+          "start_frame": 1290,
+          "end_frame": 1295
+        },
+        {
+          "text": "chạy",
+          "start_frame": 1295,
+          "end_frame": 1300
+        },
+        {
+          "text": "mỗi",
+          "start_frame": 1300,
+          "end_frame": 1305
+        },
+        {
+          "text": "sáng",
+          "start_frame": 1305,
+          "end_frame": 1311
+        }
+      ]
+    },
+    {
+      "text": "Vậy là xong, những lần sau bạn muốn sử dụng chỉ cần nhập lệnh slash rồi tên skill của bạn",
+      "start_frame": 1311,
+      "end_frame": 1405,
+      "words": [
+        {
+          "text": "Vậy",
+          "start_frame": 1311,
+          "end_frame": 1315
+        },
+        {
+          "text": "là",
+          "start_frame": 1315,
+          "end_frame": 1320
+        },
+        {
+          "text": "xong,",
+          "start_frame": 1320,
+          "end_frame": 1325
+        },
+        {
+          "text": "những",
+          "start_frame": 1325,
+          "end_frame": 1329
+        },
+        {
+          "text": "lần",
+          "start_frame": 1329,
+          "end_frame": 1334
+        },
+        {
+          "text": "sau",
+          "start_frame": 1334,
+          "end_frame": 1339
+        },
+        {
+          "text": "bạn",
+          "start_frame": 1339,
+          "end_frame": 1343
+        },
+        {
+          "text": "muốn",
+          "start_frame": 1343,
+          "end_frame": 1348
+        },
+        {
+          "text": "sử",
+          "start_frame": 1348,
+          "end_frame": 1353
+        },
+        {
+          "text": "dụng",
+          "start_frame": 1353,
+          "end_frame": 1358
+        },
+        {
+          "text": "chỉ",
+          "start_frame": 1358,
+          "end_frame": 1362
+        },
+        {
+          "text": "cần",
+          "start_frame": 1362,
+          "end_frame": 1367
+        },
+        {
+          "text": "nhập",
+          "start_frame": 1367,
+          "end_frame": 1372
+        },
+        {
+          "text": "lệnh",
+          "start_frame": 1372,
+          "end_frame": 1376
+        },
+        {
+          "text": "slash",
+          "start_frame": 1376,
+          "end_frame": 1381
+        },
+        {
+          "text": "rồi",
+          "start_frame": 1381,
+          "end_frame": 1386
+        },
+        {
+          "text": "tên",
+          "start_frame": 1386,
+          "end_frame": 1390
+        },
+        {
+          "text": "skill",
+          "start_frame": 1390,
+          "end_frame": 1395
+        },
+        {
+          "text": "của",
+          "start_frame": 1395,
+          "end_frame": 1400
+        },
+        {
+          "text": "bạn",
+          "start_frame": 1400,
+          "end_frame": 1405
+        }
+      ]
+    },
+    {
+      "text": "Nếu bạn muốn xem hướng dẫn chi tiết cách mình tạo AI Agent để xử lý công việc cho mình",
+      "start_frame": 1405,
+      "end_frame": 1500,
+      "words": [
+        {
+          "text": "Nếu",
+          "start_frame": 1405,
+          "end_frame": 1409
+        },
+        {
+          "text": "bạn",
+          "start_frame": 1409,
+          "end_frame": 1414
+        },
+        {
+          "text": "muốn",
+          "start_frame": 1414,
+          "end_frame": 1419
+        },
+        {
+          "text": "xem",
+          "start_frame": 1419,
+          "end_frame": 1424
+        },
+        {
+          "text": "hướng",
+          "start_frame": 1424,
+          "end_frame": 1428
+        },
+        {
+          "text": "dẫn",
+          "start_frame": 1428,
+          "end_frame": 1433
+        },
+        {
+          "text": "chi",
+          "start_frame": 1433,
+          "end_frame": 1438
+        },
+        {
+          "text": "tiết",
+          "start_frame": 1438,
+          "end_frame": 1443
+        },
+        {
+          "text": "cách",
+          "start_frame": 1443,
+          "end_frame": 1447
+        },
+        {
+          "text": "mình",
+          "start_frame": 1447,
+          "end_frame": 1452
+        },
+        {
+          "text": "tạo",
+          "start_frame": 1452,
+          "end_frame": 1457
+        },
+        {
+          "text": "AI",
+          "start_frame": 1457,
+          "end_frame": 1462
+        },
+        {
+          "text": "Agent",
+          "start_frame": 1462,
+          "end_frame": 1466
+        },
+        {
+          "text": "để",
+          "start_frame": 1466,
+          "end_frame": 1471
+        },
+        {
+          "text": "xử",
+          "start_frame": 1471,
+          "end_frame": 1476
+        },
+        {
+          "text": "lý",
+          "start_frame": 1476,
+          "end_frame": 1481
+        },
+        {
+          "text": "công",
+          "start_frame": 1481,
+          "end_frame": 1485
+        },
+        {
+          "text": "việc",
+          "start_frame": 1485,
+          "end_frame": 1490
+        },
+        {
+          "text": "cho",
+          "start_frame": 1490,
+          "end_frame": 1495
+        },
+        {
+          "text": "mình",
+          "start_frame": 1495,
+          "end_frame": 1500
+        }
+      ]
+    },
+    {
+      "text": "thì hãy follow và comment xuống nhé",
+      "start_frame": 1500,
+      "end_frame": 1541,
+      "words": [
+        {
+          "text": "thì",
+          "start_frame": 1500,
+          "end_frame": 1505
+        },
+        {
+          "text": "hãy",
+          "start_frame": 1505,
+          "end_frame": 1511
+        },
+        {
+          "text": "follow",
+          "start_frame": 1511,
+          "end_frame": 1517
+        },
+        {
+          "text": "và",
+          "start_frame": 1517,
+          "end_frame": 1523
+        },
+        {
+          "text": "comment",
+          "start_frame": 1523,
+          "end_frame": 1529
+        },
+        {
+          "text": "xuống",
+          "start_frame": 1529,
+          "end_frame": 1535
+        },
+        {
+          "text": "nhé",
+          "start_frame": 1535,
+          "end_frame": 1541
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+export {CrmRankingVideo} from './RankingVideo';

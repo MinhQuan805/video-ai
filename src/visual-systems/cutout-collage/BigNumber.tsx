@@ -1,5 +1,5 @@
 import React from "react";
-import { useCurrentFrame, useVideoConfig, interpolate } from "remotion";
+import { useCurrentFrame, interpolate } from "remotion";
 import { theme } from "./theme";
 
 export interface BigNumberProps {

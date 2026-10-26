@@ -4,7 +4,6 @@ import {
   spring,
   staticFile,
   useCurrentFrame,
-  useVideoConfig,
 } from "remotion";
 import { theme } from "./theme";
 
@@ -143,7 +142,7 @@ export const MapRoute: React.FC<MapRouteProps> = ({
       >
         {/* Ảnh bản đồ Nam Mỹ Equirectangular */}
         <img
-          src={staticFile("videos/darwin/assets/south_america_map.png")}
+          src={staticFile("videos/vox/darwin/assets/south_america_map.png")}
           alt="South America Map"
           style={{
             position: "absolute",

@@ -1,6 +1,5 @@
 import React from "react";
-import { useCurrentFrame, interpolate, staticFile } from "remotion";
-import { theme } from "./theme";
+import { useCurrentFrame, interpolate } from "remotion";
 
 export interface PopUpCharacterProps {
   src: string;

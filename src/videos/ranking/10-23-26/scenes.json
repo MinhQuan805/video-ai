@@ -1,0 +1,159 @@
+{
+  "total_frames": 1081,
+  "fps": 30,
+  "title": "XẾP HẠNG CÁCH KIẾM KHÁCH HÀNG ONLINE",
+  "tiers": [
+    {
+      "id": "S",
+      "label": "S",
+      "color": "#FF5E5E",
+      "bg": "#FFEBEB"
+    },
+    {
+      "id": "A",
+      "label": "A",
+      "color": "#FF9F43",
+      "bg": "#FFF2E5"
+    },
+    {
+      "id": "B",
+      "label": "B",
+      "color": "#FECA57",
+      "bg": "#FFF9E6"
+    },
+    {
+      "id": "C",
+      "label": "C",
+      "color": "#FFD93D",
+      "bg": "#FFFAEB"
+    },
+    {
+      "id": "F",
+      "label": "F",
+      "color": "#54A0FF",
+      "bg": "#EBF3FF"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "meta_ads",
+      "name": "Meta Ads",
+      "tier": "C",
+      "icon": "icon/meta.png",
+      "start_frame": 0,
+      "end_frame": 194,
+      "fly_frame": 40,
+      "land_frame": 60,
+      "card_start_frame": 65,
+      "card_end_frame": 190,
+      "explanation": {
+        "headline": "Meta Ads Manager",
+        "sub": "Tiếp cận nhanh nhưng dễ đốt tiền",
+        "badge": "Chi phí cao",
+        "stat_title": "Ngân sách chi tiêu",
+        "stat_val": "$2,450",
+        "roi": "0.7x (Chưa tối ưu)"
+      }
+    },
+    {
+      "id": "cold_outreach",
+      "name": "Cold Outreach",
+      "tier": "A",
+      "icon": "icon/call.png",
+      "start_frame": 195,
+      "end_frame": 369,
+      "fly_frame": 222,
+      "land_frame": 242,
+      "card_start_frame": 246,
+      "card_end_frame": 365,
+      "explanation": {
+        "headline": "Direct Outreach",
+        "sub": "Chủ động tiếp cận đúng tệp",
+        "badge": "Rất đáng thử",
+        "stat_title": "Tỉ lệ phản hồi",
+        "stat_val": "34.5%",
+        "roi": "Chốt lịch hẹn cao"
+      }
+    },
+    {
+      "id": "spam_dm",
+      "name": "Spam DM",
+      "tier": "F",
+      "icon": "icon/message.png",
+      "start_frame": 370,
+      "end_frame": 582,
+      "fly_frame": 419,
+      "land_frame": 439,
+      "card_start_frame": 444,
+      "card_end_frame": 578,
+      "explanation": {
+        "headline": "Hộp thư rác (Spam)",
+        "sub": "Hàng loạt tin nhắn sao chép",
+        "badge": "Mất uy tín",
+        "stat_title": "Báo cáo vi phạm",
+        "stat_val": "98%",
+        "roi": "Dễ bị khoá nick"
+      }
+    },
+    {
+      "id": "referral",
+      "name": "Referral",
+      "tier": "S",
+      "icon": "icon/business.png",
+      "start_frame": 583,
+      "end_frame": 750,
+      "fly_frame": 612,
+      "land_frame": 632,
+      "card_start_frame": 637,
+      "card_end_frame": 746,
+      "explanation": {
+        "headline": "Khách cũ giới thiệu",
+        "sub": "Có sẵn sự tin tưởng tuyệt đối",
+        "badge": "Hiệu quả nhất",
+        "stat_title": "Tỉ lệ chốt đơn",
+        "stat_val": "88%",
+        "roi": "Chi phí $0"
+      }
+    },
+    {
+      "id": "content_marketing",
+      "name": "Content Marketing",
+      "tier": "B",
+      "icon": "icon/youtube.png",
+      "start_frame": 751,
+      "end_frame": 973,
+      "fly_frame": 805,
+      "land_frame": 825,
+      "card_start_frame": 830,
+      "card_end_frame": 969,
+      "explanation": {
+        "headline": "Content Marketing",
+        "sub": "Xây thương hiệu & hút khách tự nhiên",
+        "badge": "Cần kiên trì",
+        "stat_title": "Lượng Reach tự nhiên",
+        "stat_val": "+120K",
+        "roi": "Giá trị lâu dài"
+      }
+    },
+    {
+      "id": "outro",
+      "name": "Outro",
+      "tier": "",
+      "icon": "",
+      "start_frame": 974,
+      "end_frame": 1081,
+      "fly_frame": 0,
+      "land_frame": 0,
+      "card_start_frame": 0,
+      "card_end_frame": 0,
+      "explanation": {
+        "headline": "Kênh của bạn là gì?",
+        "sub": "Hãy để lại bình luận bên dưới!",
+        "badge": "Thảo luận",
+        "stat_title": "Bảng xếp hạng",
+        "stat_val": "S > A > B > C > F",
+        "roi": ""
+      }
+    }
+  ]
+}

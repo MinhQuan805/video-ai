@@ -1,0 +1,931 @@
+{
+  "total_frames": 1081,
+  "phrases": [
+    {
+      "start_frame": 0,
+      "end_frame": 37,
+      "text": "Meta Ads",
+      "words": [
+        {
+          "text": "Meta",
+          "start_frame": 0,
+          "end_frame": 18
+        },
+        {
+          "text": "Ads",
+          "start_frame": 18,
+          "end_frame": 37
+        }
+      ]
+    },
+    {
+      "start_frame": 37,
+      "end_frame": 64,
+      "text": "Hạng C",
+      "words": [
+        {
+          "text": "Hạng",
+          "start_frame": 37,
+          "end_frame": 50
+        },
+        {
+          "text": "C",
+          "start_frame": 50,
+          "end_frame": 64
+        }
+      ]
+    },
+    {
+      "start_frame": 64,
+      "end_frame": 79,
+      "text": "Rất phổ biến,",
+      "words": [
+        {
+          "text": "Rất",
+          "start_frame": 64,
+          "end_frame": 69
+        },
+        {
+          "text": "phổ",
+          "start_frame": 69,
+          "end_frame": 74
+        },
+        {
+          "text": "biến,",
+          "start_frame": 74,
+          "end_frame": 79
+        }
+      ]
+    },
+    {
+      "start_frame": 79,
+      "end_frame": 110,
+      "text": "tiếp cận khách nhanh,",
+      "words": [
+        {
+          "text": "tiếp",
+          "start_frame": 79,
+          "end_frame": 86
+        },
+        {
+          "text": "cận",
+          "start_frame": 86,
+          "end_frame": 94
+        },
+        {
+          "text": "khách",
+          "start_frame": 94,
+          "end_frame": 102
+        },
+        {
+          "text": "nhanh,",
+          "start_frame": 102,
+          "end_frame": 110
+        }
+      ]
+    },
+    {
+      "start_frame": 110,
+      "end_frame": 130,
+      "text": "nhưng theo mình,",
+      "words": [
+        {
+          "text": "nhưng",
+          "start_frame": 110,
+          "end_frame": 116
+        },
+        {
+          "text": "theo",
+          "start_frame": 116,
+          "end_frame": 123
+        },
+        {
+          "text": "mình,",
+          "start_frame": 123,
+          "end_frame": 130
+        }
+      ]
+    },
+    {
+      "start_frame": 130,
+      "end_frame": 150,
+      "text": "nếu chưa biết tối ưu",
+      "words": [
+        {
+          "text": "nếu",
+          "start_frame": 130,
+          "end_frame": 134
+        },
+        {
+          "text": "chưa",
+          "start_frame": 134,
+          "end_frame": 138
+        },
+        {
+          "text": "biết",
+          "start_frame": 138,
+          "end_frame": 142
+        },
+        {
+          "text": "tối",
+          "start_frame": 142,
+          "end_frame": 146
+        },
+        {
+          "text": "ưu",
+          "start_frame": 146,
+          "end_frame": 150
+        }
+      ]
+    },
+    {
+      "start_frame": 150,
+      "end_frame": 195,
+      "text": "thì rất dễ đốt tiền.",
+      "words": [
+        {
+          "text": "thì",
+          "start_frame": 150,
+          "end_frame": 159
+        },
+        {
+          "text": "rất",
+          "start_frame": 159,
+          "end_frame": 168
+        },
+        {
+          "text": "dễ",
+          "start_frame": 168,
+          "end_frame": 176
+        },
+        {
+          "text": "đốt",
+          "start_frame": 176,
+          "end_frame": 186
+        },
+        {
+          "text": "tiền.",
+          "start_frame": 186,
+          "end_frame": 195
+        }
+      ]
+    },
+    {
+      "start_frame": 195,
+      "end_frame": 221,
+      "text": "Cold Outreach",
+      "words": [
+        {
+          "text": "Cold",
+          "start_frame": 195,
+          "end_frame": 208
+        },
+        {
+          "text": "Outreach",
+          "start_frame": 208,
+          "end_frame": 221
+        }
+      ]
+    },
+    {
+      "start_frame": 221,
+      "end_frame": 246,
+      "text": "Hạng A",
+      "words": [
+        {
+          "text": "Hạng",
+          "start_frame": 221,
+          "end_frame": 234
+        },
+        {
+          "text": "A",
+          "start_frame": 234,
+          "end_frame": 246
+        }
+      ]
+    },
+    {
+      "start_frame": 246,
+      "end_frame": 269,
+      "text": "Chủ động tìm kiếm",
+      "words": [
+        {
+          "text": "Chủ",
+          "start_frame": 246,
+          "end_frame": 252
+        },
+        {
+          "text": "động",
+          "start_frame": 252,
+          "end_frame": 258
+        },
+        {
+          "text": "tìm",
+          "start_frame": 258,
+          "end_frame": 264
+        },
+        {
+          "text": "kiếm",
+          "start_frame": 264,
+          "end_frame": 269
+        }
+      ]
+    },
+    {
+      "start_frame": 269,
+      "end_frame": 295,
+      "text": "và tiếp cận khách hàng.",
+      "words": [
+        {
+          "text": "và",
+          "start_frame": 269,
+          "end_frame": 274
+        },
+        {
+          "text": "tiếp",
+          "start_frame": 274,
+          "end_frame": 279
+        },
+        {
+          "text": "cận",
+          "start_frame": 279,
+          "end_frame": 285
+        },
+        {
+          "text": "khách",
+          "start_frame": 285,
+          "end_frame": 290
+        },
+        {
+          "text": "hàng.",
+          "start_frame": 290,
+          "end_frame": 295
+        }
+      ]
+    },
+    {
+      "start_frame": 295,
+      "end_frame": 320,
+      "text": "Nếu nhắm đúng đối tượng,",
+      "words": [
+        {
+          "text": "Nếu",
+          "start_frame": 295,
+          "end_frame": 300
+        },
+        {
+          "text": "nhắm",
+          "start_frame": 300,
+          "end_frame": 305
+        },
+        {
+          "text": "đúng",
+          "start_frame": 305,
+          "end_frame": 310
+        },
+        {
+          "text": "đối",
+          "start_frame": 310,
+          "end_frame": 315
+        },
+        {
+          "text": "tượng,",
+          "start_frame": 315,
+          "end_frame": 320
+        }
+      ]
+    },
+    {
+      "start_frame": 320,
+      "end_frame": 336,
+      "text": "thì đây là cách",
+      "words": [
+        {
+          "text": "thì",
+          "start_frame": 320,
+          "end_frame": 324
+        },
+        {
+          "text": "đây",
+          "start_frame": 324,
+          "end_frame": 328
+        },
+        {
+          "text": "là",
+          "start_frame": 328,
+          "end_frame": 332
+        },
+        {
+          "text": "cách",
+          "start_frame": 332,
+          "end_frame": 336
+        }
+      ]
+    },
+    {
+      "start_frame": 336,
+      "end_frame": 370,
+      "text": "rất đáng thử.",
+      "words": [
+        {
+          "text": "rất",
+          "start_frame": 336,
+          "end_frame": 348
+        },
+        {
+          "text": "đáng",
+          "start_frame": 348,
+          "end_frame": 358
+        },
+        {
+          "text": "thử.",
+          "start_frame": 358,
+          "end_frame": 370
+        }
+      ]
+    },
+    {
+      "start_frame": 370,
+      "end_frame": 419,
+      "text": "Spam DM",
+      "words": [
+        {
+          "text": "Spam",
+          "start_frame": 370,
+          "end_frame": 395
+        },
+        {
+          "text": "DM",
+          "start_frame": 395,
+          "end_frame": 419
+        }
+      ]
+    },
+    {
+      "start_frame": 419,
+      "end_frame": 449,
+      "text": "Hạng F",
+      "words": [
+        {
+          "text": "Hạng",
+          "start_frame": 419,
+          "end_frame": 434
+        },
+        {
+          "text": "F",
+          "start_frame": 434,
+          "end_frame": 449
+        }
+      ]
+    },
+    {
+      "start_frame": 449,
+      "end_frame": 469,
+      "text": "Nhắn tin hàng loạt,",
+      "words": [
+        {
+          "text": "Nhắn",
+          "start_frame": 449,
+          "end_frame": 454
+        },
+        {
+          "text": "tin",
+          "start_frame": 454,
+          "end_frame": 459
+        },
+        {
+          "text": "hàng",
+          "start_frame": 459,
+          "end_frame": 464
+        },
+        {
+          "text": "loạt,",
+          "start_frame": 464,
+          "end_frame": 469
+        }
+      ]
+    },
+    {
+      "start_frame": 469,
+      "end_frame": 504,
+      "text": "nội dung y chang nhau.",
+      "words": [
+        {
+          "text": "nội",
+          "start_frame": 469,
+          "end_frame": 476
+        },
+        {
+          "text": "dung",
+          "start_frame": 476,
+          "end_frame": 483
+        },
+        {
+          "text": "y",
+          "start_frame": 483,
+          "end_frame": 490
+        },
+        {
+          "text": "chang",
+          "start_frame": 490,
+          "end_frame": 497
+        },
+        {
+          "text": "nhau.",
+          "start_frame": 497,
+          "end_frame": 504
+        }
+      ]
+    },
+    {
+      "start_frame": 504,
+      "end_frame": 531,
+      "text": "Vừa gây khó chịu,",
+      "words": [
+        {
+          "text": "Vừa",
+          "start_frame": 504,
+          "end_frame": 511
+        },
+        {
+          "text": "gây",
+          "start_frame": 511,
+          "end_frame": 517
+        },
+        {
+          "text": "khó",
+          "start_frame": 517,
+          "end_frame": 524
+        },
+        {
+          "text": "chịu,",
+          "start_frame": 524,
+          "end_frame": 531
+        }
+      ]
+    },
+    {
+      "start_frame": 531,
+      "end_frame": 582,
+      "text": "vừa rất dễ mất uy tín.",
+      "words": [
+        {
+          "text": "vừa",
+          "start_frame": 531,
+          "end_frame": 539
+        },
+        {
+          "text": "rất",
+          "start_frame": 539,
+          "end_frame": 548
+        },
+        {
+          "text": "dễ",
+          "start_frame": 548,
+          "end_frame": 557
+        },
+        {
+          "text": "mất",
+          "start_frame": 557,
+          "end_frame": 565
+        },
+        {
+          "text": "uy",
+          "start_frame": 565,
+          "end_frame": 574
+        },
+        {
+          "text": "tín.",
+          "start_frame": 574,
+          "end_frame": 582
+        }
+      ]
+    },
+    {
+      "start_frame": 582,
+      "end_frame": 610,
+      "text": "Referral",
+      "words": [
+        {
+          "text": "Referral",
+          "start_frame": 582,
+          "end_frame": 610
+        }
+      ]
+    },
+    {
+      "start_frame": 610,
+      "end_frame": 638,
+      "text": "Hạng S",
+      "words": [
+        {
+          "text": "Hạng",
+          "start_frame": 610,
+          "end_frame": 624
+        },
+        {
+          "text": "S",
+          "start_frame": 624,
+          "end_frame": 638
+        }
+      ]
+    },
+    {
+      "start_frame": 638,
+      "end_frame": 654,
+      "text": "Khách cũ giới thiệu",
+      "words": [
+        {
+          "text": "Khách",
+          "start_frame": 638,
+          "end_frame": 642
+        },
+        {
+          "text": "cũ",
+          "start_frame": 642,
+          "end_frame": 646
+        },
+        {
+          "text": "giới",
+          "start_frame": 646,
+          "end_frame": 650
+        },
+        {
+          "text": "thiệu",
+          "start_frame": 650,
+          "end_frame": 654
+        }
+      ]
+    },
+    {
+      "start_frame": 654,
+      "end_frame": 670,
+      "text": "khách mới.",
+      "words": [
+        {
+          "text": "khách",
+          "start_frame": 654,
+          "end_frame": 661
+        },
+        {
+          "text": "mới.",
+          "start_frame": 661,
+          "end_frame": 670
+        }
+      ]
+    },
+    {
+      "start_frame": 670,
+      "end_frame": 690,
+      "text": "Theo mình đây là",
+      "words": [
+        {
+          "text": "Theo",
+          "start_frame": 670,
+          "end_frame": 675
+        },
+        {
+          "text": "mình",
+          "start_frame": 675,
+          "end_frame": 680
+        },
+        {
+          "text": "đây",
+          "start_frame": 680,
+          "end_frame": 686
+        },
+        {
+          "text": "là",
+          "start_frame": 686,
+          "end_frame": 690
+        }
+      ]
+    },
+    {
+      "start_frame": 690,
+      "end_frame": 706,
+      "text": "một trong những cách",
+      "words": [
+        {
+          "text": "một",
+          "start_frame": 690,
+          "end_frame": 695
+        },
+        {
+          "text": "trong",
+          "start_frame": 695,
+          "end_frame": 698
+        },
+        {
+          "text": "những",
+          "start_frame": 698,
+          "end_frame": 701
+        },
+        {
+          "text": "cách",
+          "start_frame": 701,
+          "end_frame": 706
+        }
+      ]
+    },
+    {
+      "start_frame": 706,
+      "end_frame": 720,
+      "text": "hiệu quả nhất",
+      "words": [
+        {
+          "text": "hiệu",
+          "start_frame": 706,
+          "end_frame": 710
+        },
+        {
+          "text": "quả",
+          "start_frame": 710,
+          "end_frame": 716
+        },
+        {
+          "text": "nhất",
+          "start_frame": 716,
+          "end_frame": 720
+        }
+      ]
+    },
+    {
+      "start_frame": 720,
+      "end_frame": 732,
+      "text": "vì đã có sẵn",
+      "words": [
+        {
+          "text": "vì",
+          "start_frame": 720,
+          "end_frame": 723
+        },
+        {
+          "text": "đã",
+          "start_frame": 723,
+          "end_frame": 726
+        },
+        {
+          "text": "có",
+          "start_frame": 726,
+          "end_frame": 730
+        },
+        {
+          "text": "sẵn",
+          "start_frame": 730,
+          "end_frame": 732
+        }
+      ]
+    },
+    {
+      "start_frame": 732,
+      "end_frame": 748,
+      "text": "sự tin tưởng.",
+      "words": [
+        {
+          "text": "sự",
+          "start_frame": 732,
+          "end_frame": 737
+        },
+        {
+          "text": "tin",
+          "start_frame": 737,
+          "end_frame": 743
+        },
+        {
+          "text": "tưởng.",
+          "start_frame": 743,
+          "end_frame": 748
+        }
+      ]
+    },
+    {
+      "start_frame": 748,
+      "end_frame": 805,
+      "text": "Content Marketing",
+      "words": [
+        {
+          "text": "Content",
+          "start_frame": 748,
+          "end_frame": 776
+        },
+        {
+          "text": "Marketing",
+          "start_frame": 776,
+          "end_frame": 805
+        }
+      ]
+    },
+    {
+      "start_frame": 805,
+      "end_frame": 840,
+      "text": "Hạng B",
+      "words": [
+        {
+          "text": "Hạng",
+          "start_frame": 805,
+          "end_frame": 822
+        },
+        {
+          "text": "B",
+          "start_frame": 822,
+          "end_frame": 840
+        }
+      ]
+    },
+    {
+      "start_frame": 840,
+      "end_frame": 870,
+      "text": "Giúp xây dựng thương hiệu",
+      "words": [
+        {
+          "text": "Giúp",
+          "start_frame": 840,
+          "end_frame": 846
+        },
+        {
+          "text": "xây",
+          "start_frame": 846,
+          "end_frame": 852
+        },
+        {
+          "text": "dựng",
+          "start_frame": 852,
+          "end_frame": 858
+        },
+        {
+          "text": "thương",
+          "start_frame": 858,
+          "end_frame": 864
+        },
+        {
+          "text": "hiệu",
+          "start_frame": 864,
+          "end_frame": 870
+        }
+      ]
+    },
+    {
+      "start_frame": 870,
+      "end_frame": 909,
+      "text": "và thu hút khách tự nhiên,",
+      "words": [
+        {
+          "text": "và",
+          "start_frame": 870,
+          "end_frame": 877
+        },
+        {
+          "text": "thu",
+          "start_frame": 877,
+          "end_frame": 883
+        },
+        {
+          "text": "hút",
+          "start_frame": 883,
+          "end_frame": 890
+        },
+        {
+          "text": "khách",
+          "start_frame": 890,
+          "end_frame": 896
+        },
+        {
+          "text": "tự",
+          "start_frame": 896,
+          "end_frame": 902
+        },
+        {
+          "text": "nhiên,",
+          "start_frame": 902,
+          "end_frame": 909
+        }
+      ]
+    },
+    {
+      "start_frame": 909,
+      "end_frame": 942,
+      "text": "nhưng cần kiên trì",
+      "words": [
+        {
+          "text": "nhưng",
+          "start_frame": 909,
+          "end_frame": 918
+        },
+        {
+          "text": "cần",
+          "start_frame": 918,
+          "end_frame": 925
+        },
+        {
+          "text": "kiên",
+          "start_frame": 925,
+          "end_frame": 933
+        },
+        {
+          "text": "trì",
+          "start_frame": 933,
+          "end_frame": 942
+        }
+      ]
+    },
+    {
+      "start_frame": 942,
+      "end_frame": 974,
+      "text": "mới thấy kết quả.",
+      "words": [
+        {
+          "text": "mới",
+          "start_frame": 942,
+          "end_frame": 950
+        },
+        {
+          "text": "thấy",
+          "start_frame": 950,
+          "end_frame": 958
+        },
+        {
+          "text": "kết",
+          "start_frame": 958,
+          "end_frame": 966
+        },
+        {
+          "text": "quả.",
+          "start_frame": 966,
+          "end_frame": 974
+        }
+      ]
+    },
+    {
+      "start_frame": 974,
+      "end_frame": 994,
+      "text": "Còn bạn,",
+      "words": [
+        {
+          "text": "Còn",
+          "start_frame": 974,
+          "end_frame": 984
+        },
+        {
+          "text": "bạn,",
+          "start_frame": 984,
+          "end_frame": 994
+        }
+      ]
+    },
+    {
+      "start_frame": 994,
+      "end_frame": 1020,
+      "text": "kênh nào đang mang về",
+      "words": [
+        {
+          "text": "kênh",
+          "start_frame": 994,
+          "end_frame": 999
+        },
+        {
+          "text": "nào",
+          "start_frame": 999,
+          "end_frame": 1004
+        },
+        {
+          "text": "đang",
+          "start_frame": 1004,
+          "end_frame": 1010
+        },
+        {
+          "text": "mang",
+          "start_frame": 1010,
+          "end_frame": 1015
+        },
+        {
+          "text": "về",
+          "start_frame": 1015,
+          "end_frame": 1020
+        }
+      ]
+    },
+    {
+      "start_frame": 1020,
+      "end_frame": 1081,
+      "text": "nhiều khách nhất?",
+      "words": [
+        {
+          "text": "nhiều",
+          "start_frame": 1020,
+          "end_frame": 1040
+        },
+        {
+          "text": "khách",
+          "start_frame": 1040,
+          "end_frame": 1061
+        },
+        {
+          "text": "nhất?",
+          "start_frame": 1061,
+          "end_frame": 1081
+        }
+      ]
+    }
+  ]
+}

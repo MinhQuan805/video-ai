@@ -1,16 +1,28 @@
 import React from "react";
 import { useCurrentFrame, useVideoConfig } from "remotion";
 import { theme } from "./theme";
-import captionsData from "../../data/darwinCaptions.json";
+import { useVideoContext } from "../../context/VideoContext";
+import { CaptionsPayload } from "../../types";
 
 export interface PaperCaptionProps {
+  captions?: CaptionsPayload;
   style?: React.CSSProperties;
 }
 
-export const PaperCaption: React.FC<PaperCaptionProps> = ({ style }) => {
+export const PaperCaption: React.FC<PaperCaptionProps> = ({
+  captions: propCaptions,
+  style,
+}) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const currentTime = frame / fps;
+
+  const context = useVideoContext();
+  const captionsData = propCaptions || context.captions;
+
+  if (!captionsData || !captionsData.phrases) {
+    return null;
+  }
 
   // Tìm phrase đang active ở frame hiện tại
   const activePhrase = captionsData.phrases.find(

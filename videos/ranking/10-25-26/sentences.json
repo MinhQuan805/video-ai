@@ -1,0 +1,751 @@
+[
+  {
+    "start": 0.0,
+    "end": 4.48,
+    "text": "Yellow, HX, nhắn tính tiền nhưng ngoại lý nhiều khách hàng rất dễ bỏ sót thông tin",
+    "words": [
+      {
+        "w": "Yellow,",
+        "s": 0.0,
+        "e": 0.48,
+        "start_frame": 0,
+        "end_frame": 14
+      },
+      {
+        "w": "HX,",
+        "s": 0.94,
+        "e": 1.1,
+        "start_frame": 28,
+        "end_frame": 33
+      },
+      {
+        "w": "nhắn",
+        "s": 1.74,
+        "e": 1.9,
+        "start_frame": 52,
+        "end_frame": 57
+      },
+      {
+        "w": "tính",
+        "s": 1.9,
+        "e": 2.08,
+        "start_frame": 57,
+        "end_frame": 62
+      },
+      {
+        "w": "tiền",
+        "s": 2.08,
+        "e": 2.38,
+        "start_frame": 62,
+        "end_frame": 71
+      },
+      {
+        "w": "nhưng",
+        "s": 2.38,
+        "e": 2.68,
+        "start_frame": 71,
+        "end_frame": 80
+      },
+      {
+        "w": "ngoại",
+        "s": 2.68,
+        "e": 2.84,
+        "start_frame": 80,
+        "end_frame": 85
+      },
+      {
+        "w": "lý",
+        "s": 2.84,
+        "e": 2.96,
+        "start_frame": 85,
+        "end_frame": 89
+      },
+      {
+        "w": "nhiều",
+        "s": 2.96,
+        "e": 3.14,
+        "start_frame": 89,
+        "end_frame": 94
+      },
+      {
+        "w": "khách",
+        "s": 3.14,
+        "e": 3.3,
+        "start_frame": 94,
+        "end_frame": 99
+      },
+      {
+        "w": "hàng",
+        "s": 3.3,
+        "e": 3.44,
+        "start_frame": 99,
+        "end_frame": 103
+      },
+      {
+        "w": "rất",
+        "s": 3.44,
+        "e": 3.62,
+        "start_frame": 103,
+        "end_frame": 109
+      },
+      {
+        "w": "dễ",
+        "s": 3.62,
+        "e": 3.8,
+        "start_frame": 109,
+        "end_frame": 114
+      },
+      {
+        "w": "bỏ",
+        "s": 3.8,
+        "e": 3.94,
+        "start_frame": 114,
+        "end_frame": 118
+      },
+      {
+        "w": "sót",
+        "s": 3.94,
+        "e": 4.16,
+        "start_frame": 118,
+        "end_frame": 125
+      },
+      {
+        "w": "thông",
+        "s": 4.16,
+        "e": 4.32,
+        "start_frame": 125,
+        "end_frame": 130
+      },
+      {
+        "w": "tin",
+        "s": 4.32,
+        "e": 4.48,
+        "start_frame": 130,
+        "end_frame": 134
+      }
+    ]
+  },
+  {
+    "start": 4.48,
+    "end": 10.14,
+    "text": "Google Sheet, HX, miễn phí dễ dung nhưng công nhật thủ công khá mất thời gian",
+    "words": [
+      {
+        "w": "Google",
+        "s": 4.48,
+        "e": 5.26,
+        "start_frame": 134,
+        "end_frame": 158
+      },
+      {
+        "w": "Sheet,",
+        "s": 5.26,
+        "e": 6.2,
+        "start_frame": 158,
+        "end_frame": 186
+      },
+      {
+        "w": "HX,",
+        "s": 6.3,
+        "e": 6.64,
+        "start_frame": 189,
+        "end_frame": 199
+      },
+      {
+        "w": "miễn",
+        "s": 7.14,
+        "e": 7.38,
+        "start_frame": 214,
+        "end_frame": 221
+      },
+      {
+        "w": "phí",
+        "s": 7.38,
+        "e": 7.58,
+        "start_frame": 221,
+        "end_frame": 227
+      },
+      {
+        "w": "dễ",
+        "s": 7.58,
+        "e": 7.94,
+        "start_frame": 227,
+        "end_frame": 238
+      },
+      {
+        "w": "dung",
+        "s": 7.94,
+        "e": 8.18,
+        "start_frame": 238,
+        "end_frame": 245
+      },
+      {
+        "w": "nhưng",
+        "s": 8.18,
+        "e": 8.44,
+        "start_frame": 245,
+        "end_frame": 253
+      },
+      {
+        "w": "công",
+        "s": 8.44,
+        "e": 8.68,
+        "start_frame": 253,
+        "end_frame": 260
+      },
+      {
+        "w": "nhật",
+        "s": 8.68,
+        "e": 8.86,
+        "start_frame": 260,
+        "end_frame": 266
+      },
+      {
+        "w": "thủ",
+        "s": 8.86,
+        "e": 9.02,
+        "start_frame": 266,
+        "end_frame": 271
+      },
+      {
+        "w": "công",
+        "s": 9.02,
+        "e": 9.22,
+        "start_frame": 271,
+        "end_frame": 277
+      },
+      {
+        "w": "khá",
+        "s": 9.22,
+        "e": 9.48,
+        "start_frame": 277,
+        "end_frame": 284
+      },
+      {
+        "w": "mất",
+        "s": 9.48,
+        "e": 9.64,
+        "start_frame": 284,
+        "end_frame": 289
+      },
+      {
+        "w": "thời",
+        "s": 9.64,
+        "e": 9.84,
+        "start_frame": 289,
+        "end_frame": 295
+      },
+      {
+        "w": "gian",
+        "s": 9.84,
+        "e": 10.14,
+        "start_frame": 295,
+        "end_frame": 304
+      }
+    ]
+  },
+  {
+    "start": 10.14,
+    "end": 15.44,
+    "text": "HubSpot, HXA, CMO chuyên nghiệp, nhiều tỉnh năng nhưng nâng cấp có thể khả tôn kém",
+    "words": [
+      {
+        "w": "HubSpot,",
+        "s": 10.14,
+        "e": 10.92,
+        "start_frame": 304,
+        "end_frame": 328
+      },
+      {
+        "w": "HXA,",
+        "s": 11.34,
+        "e": 12.1,
+        "start_frame": 340,
+        "end_frame": 363
+      },
+      {
+        "w": "CMO",
+        "s": 12.32,
+        "e": 12.66,
+        "start_frame": 370,
+        "end_frame": 380
+      },
+      {
+        "w": "chuyên",
+        "s": 12.66,
+        "e": 12.92,
+        "start_frame": 380,
+        "end_frame": 388
+      },
+      {
+        "w": "nghiệp,",
+        "s": 12.92,
+        "e": 13.26,
+        "start_frame": 388,
+        "end_frame": 398
+      },
+      {
+        "w": "nhiều",
+        "s": 13.38,
+        "e": 13.46,
+        "start_frame": 401,
+        "end_frame": 404
+      },
+      {
+        "w": "tỉnh",
+        "s": 13.46,
+        "e": 13.68,
+        "start_frame": 404,
+        "end_frame": 410
+      },
+      {
+        "w": "năng",
+        "s": 13.68,
+        "e": 13.88,
+        "start_frame": 410,
+        "end_frame": 416
+      },
+      {
+        "w": "nhưng",
+        "s": 13.88,
+        "e": 14.16,
+        "start_frame": 416,
+        "end_frame": 425
+      },
+      {
+        "w": "nâng",
+        "s": 14.16,
+        "e": 14.38,
+        "start_frame": 425,
+        "end_frame": 431
+      },
+      {
+        "w": "cấp",
+        "s": 14.38,
+        "e": 14.46,
+        "start_frame": 431,
+        "end_frame": 434
+      },
+      {
+        "w": "có",
+        "s": 14.46,
+        "e": 14.64,
+        "start_frame": 434,
+        "end_frame": 439
+      },
+      {
+        "w": "thể",
+        "s": 14.64,
+        "e": 14.78,
+        "start_frame": 439,
+        "end_frame": 443
+      },
+      {
+        "w": "khả",
+        "s": 14.78,
+        "e": 14.96,
+        "start_frame": 443,
+        "end_frame": 449
+      },
+      {
+        "w": "tôn",
+        "s": 14.96,
+        "e": 15.16,
+        "start_frame": 449,
+        "end_frame": 455
+      },
+      {
+        "w": "kém",
+        "s": 15.16,
+        "e": 15.44,
+        "start_frame": 455,
+        "end_frame": 463
+      }
+    ]
+  },
+  {
+    "start": 15.44,
+    "end": 20.2,
+    "text": "Noulson, HXB, Linh Hoa, quả lý được rất nhiều thứ nhưng phải tự xây quy trình",
+    "words": [
+      {
+        "w": "Noulson,",
+        "s": 15.44,
+        "e": 16.26,
+        "start_frame": 463,
+        "end_frame": 488
+      },
+      {
+        "w": "HXB,",
+        "s": 16.58,
+        "e": 17.2,
+        "start_frame": 497,
+        "end_frame": 516
+      },
+      {
+        "w": "Linh",
+        "s": 17.36,
+        "e": 17.7,
+        "start_frame": 521,
+        "end_frame": 531
+      },
+      {
+        "w": "Hoa,",
+        "s": 17.7,
+        "e": 17.78,
+        "start_frame": 531,
+        "end_frame": 533
+      },
+      {
+        "w": "quả",
+        "s": 18.0,
+        "e": 18.1,
+        "start_frame": 540,
+        "end_frame": 543
+      },
+      {
+        "w": "lý",
+        "s": 18.1,
+        "e": 18.24,
+        "start_frame": 543,
+        "end_frame": 547
+      },
+      {
+        "w": "được",
+        "s": 18.24,
+        "e": 18.4,
+        "start_frame": 547,
+        "end_frame": 552
+      },
+      {
+        "w": "rất",
+        "s": 18.4,
+        "e": 18.56,
+        "start_frame": 552,
+        "end_frame": 557
+      },
+      {
+        "w": "nhiều",
+        "s": 18.56,
+        "e": 18.76,
+        "start_frame": 557,
+        "end_frame": 563
+      },
+      {
+        "w": "thứ",
+        "s": 18.76,
+        "e": 18.98,
+        "start_frame": 563,
+        "end_frame": 569
+      },
+      {
+        "w": "nhưng",
+        "s": 18.98,
+        "e": 19.22,
+        "start_frame": 569,
+        "end_frame": 577
+      },
+      {
+        "w": "phải",
+        "s": 19.22,
+        "e": 19.4,
+        "start_frame": 577,
+        "end_frame": 582
+      },
+      {
+        "w": "tự",
+        "s": 19.4,
+        "e": 19.54,
+        "start_frame": 582,
+        "end_frame": 586
+      },
+      {
+        "w": "xây",
+        "s": 19.54,
+        "e": 19.76,
+        "start_frame": 586,
+        "end_frame": 593
+      },
+      {
+        "w": "quy",
+        "s": 19.76,
+        "e": 19.92,
+        "start_frame": 593,
+        "end_frame": 598
+      },
+      {
+        "w": "trình",
+        "s": 19.92,
+        "e": 20.2,
+        "start_frame": 598,
+        "end_frame": 606
+      }
+    ]
+  },
+  {
+    "start": 20.2,
+    "end": 27.6,
+    "text": "Odu, HX, theo mình rất nãn đồ tự lâu dài vì tích hợp CMO bán hàng, bảo giá và hỏi đơn trên cùng một hệ thống",
+    "words": [
+      {
+        "w": "Odu,",
+        "s": 20.2,
+        "e": 21.04,
+        "start_frame": 606,
+        "end_frame": 631
+      },
+      {
+        "w": "HX,",
+        "s": 21.38,
+        "e": 21.66,
+        "start_frame": 641,
+        "end_frame": 650
+      },
+      {
+        "w": "theo",
+        "s": 22.26,
+        "e": 22.4,
+        "start_frame": 668,
+        "end_frame": 672
+      },
+      {
+        "w": "mình",
+        "s": 22.4,
+        "e": 22.6,
+        "start_frame": 672,
+        "end_frame": 678
+      },
+      {
+        "w": "rất",
+        "s": 22.6,
+        "e": 23.1,
+        "start_frame": 678,
+        "end_frame": 693
+      },
+      {
+        "w": "nãn",
+        "s": 23.1,
+        "e": 23.36,
+        "start_frame": 693,
+        "end_frame": 701
+      },
+      {
+        "w": "đồ",
+        "s": 23.36,
+        "e": 23.44,
+        "start_frame": 701,
+        "end_frame": 703
+      },
+      {
+        "w": "tự",
+        "s": 23.44,
+        "e": 23.58,
+        "start_frame": 703,
+        "end_frame": 707
+      },
+      {
+        "w": "lâu",
+        "s": 23.58,
+        "e": 23.74,
+        "start_frame": 707,
+        "end_frame": 712
+      },
+      {
+        "w": "dài",
+        "s": 23.74,
+        "e": 23.98,
+        "start_frame": 712,
+        "end_frame": 719
+      },
+      {
+        "w": "vì",
+        "s": 23.98,
+        "e": 24.12,
+        "start_frame": 719,
+        "end_frame": 724
+      },
+      {
+        "w": "tích",
+        "s": 24.12,
+        "e": 24.28,
+        "start_frame": 724,
+        "end_frame": 728
+      },
+      {
+        "w": "hợp",
+        "s": 24.28,
+        "e": 24.5,
+        "start_frame": 728,
+        "end_frame": 735
+      },
+      {
+        "w": "CMO",
+        "s": 24.5,
+        "e": 24.96,
+        "start_frame": 735,
+        "end_frame": 749
+      },
+      {
+        "w": "bán",
+        "s": 24.96,
+        "e": 25.22,
+        "start_frame": 749,
+        "end_frame": 757
+      },
+      {
+        "w": "hàng,",
+        "s": 25.22,
+        "e": 25.54,
+        "start_frame": 757,
+        "end_frame": 766
+      },
+      {
+        "w": "bảo",
+        "s": 25.76,
+        "e": 25.86,
+        "start_frame": 773,
+        "end_frame": 776
+      },
+      {
+        "w": "giá",
+        "s": 25.86,
+        "e": 26.1,
+        "start_frame": 776,
+        "end_frame": 783
+      },
+      {
+        "w": "và",
+        "s": 26.1,
+        "e": 26.24,
+        "start_frame": 783,
+        "end_frame": 787
+      },
+      {
+        "w": "hỏi",
+        "s": 26.24,
+        "e": 26.42,
+        "start_frame": 787,
+        "end_frame": 793
+      },
+      {
+        "w": "đơn",
+        "s": 26.42,
+        "e": 26.6,
+        "start_frame": 793,
+        "end_frame": 798
+      },
+      {
+        "w": "trên",
+        "s": 26.6,
+        "e": 26.78,
+        "start_frame": 798,
+        "end_frame": 803
+      },
+      {
+        "w": "cùng",
+        "s": 26.78,
+        "e": 27.02,
+        "start_frame": 803,
+        "end_frame": 811
+      },
+      {
+        "w": "một",
+        "s": 27.02,
+        "e": 27.22,
+        "start_frame": 811,
+        "end_frame": 817
+      },
+      {
+        "w": "hệ",
+        "s": 27.22,
+        "e": 27.38,
+        "start_frame": 817,
+        "end_frame": 821
+      },
+      {
+        "w": "thống",
+        "s": 27.38,
+        "e": 27.6,
+        "start_frame": 821,
+        "end_frame": 828
+      }
+    ]
+  },
+  {
+    "start": 27.6,
+    "end": 29.98,
+    "text": "Công bản, công cụ nơi xưng đáng được hẹn ít",
+    "words": [
+      {
+        "w": "Công",
+        "s": 27.6,
+        "e": 28.2,
+        "start_frame": 828,
+        "end_frame": 846
+      },
+      {
+        "w": "bản,",
+        "s": 28.2,
+        "e": 28.4,
+        "start_frame": 846,
+        "end_frame": 852
+      },
+      {
+        "w": "công",
+        "s": 28.66,
+        "e": 28.8,
+        "start_frame": 860,
+        "end_frame": 864
+      },
+      {
+        "w": "cụ",
+        "s": 28.8,
+        "e": 29.0,
+        "start_frame": 864,
+        "end_frame": 870
+      },
+      {
+        "w": "nơi",
+        "s": 29.0,
+        "e": 29.1,
+        "start_frame": 870,
+        "end_frame": 873
+      },
+      {
+        "w": "xưng",
+        "s": 29.1,
+        "e": 29.28,
+        "start_frame": 873,
+        "end_frame": 878
+      },
+      {
+        "w": "đáng",
+        "s": 29.28,
+        "e": 29.42,
+        "start_frame": 878,
+        "end_frame": 883
+      },
+      {
+        "w": "được",
+        "s": 29.42,
+        "e": 29.54,
+        "start_frame": 883,
+        "end_frame": 886
+      },
+      {
+        "w": "hẹn",
+        "s": 29.54,
+        "e": 29.76,
+        "start_frame": 886,
+        "end_frame": 893
+      },
+      {
+        "w": "ít",
+        "s": 29.76,
+        "e": 29.98,
+        "start_frame": 893,
+        "end_frame": 899
+      }
+    ]
+  }
+]

@@ -1,0 +1,159 @@
+{
+  "total_frames": 907,
+  "fps": 30,
+  "title": "XẾP HẠNG CÔNG CỤ QUẢN LÝ KHÁCH HÀNG",
+  "tiers": [
+    {
+      "id": "S",
+      "label": "S",
+      "color": "#FF5E5E",
+      "bg": "#FFEBEB"
+    },
+    {
+      "id": "A",
+      "label": "A",
+      "color": "#FF9F43",
+      "bg": "#FFF2E5"
+    },
+    {
+      "id": "B",
+      "label": "B",
+      "color": "#FECA57",
+      "bg": "#FFF9E6"
+    },
+    {
+      "id": "C",
+      "label": "C",
+      "color": "#FFD93D",
+      "bg": "#FFFAEB"
+    },
+    {
+      "id": "F",
+      "label": "F",
+      "color": "#54A0FF",
+      "bg": "#EBF3FF"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "zalo",
+      "name": "Zalo",
+      "tier": "F",
+      "icon": "icon/zalo.png",
+      "start_frame": 0,
+      "end_frame": 133,
+      "fly_frame": 28,
+      "land_frame": 48,
+      "card_start_frame": 52,
+      "card_end_frame": 130,
+      "explanation": {
+        "headline": "Dễ trôi tin nhắn",
+        "sub": "",
+        "badge": "",
+        "stat_title": "",
+        "stat_val": "",
+        "roi": ""
+      }
+    },
+    {
+      "id": "google_sheet",
+      "name": "Google Sheet",
+      "tier": "C",
+      "icon": "icon/googlesheet.png",
+      "start_frame": 134,
+      "end_frame": 303,
+      "fly_frame": 185,
+      "land_frame": 205,
+      "card_start_frame": 210,
+      "card_end_frame": 300,
+      "explanation": {
+        "headline": "Cập nhật thủ công",
+        "sub": "",
+        "badge": "",
+        "stat_title": "",
+        "stat_val": "",
+        "roi": ""
+      }
+    },
+    {
+      "id": "hubspot",
+      "name": "HubSpot",
+      "tier": "A",
+      "icon": "icon/hubspot.png",
+      "start_frame": 304,
+      "end_frame": 462,
+      "fly_frame": 335,
+      "land_frame": 355,
+      "card_start_frame": 360,
+      "card_end_frame": 458,
+      "explanation": {
+        "headline": "Chi phí tăng nhanh",
+        "sub": "",
+        "badge": "",
+        "stat_title": "",
+        "stat_val": "",
+        "roi": ""
+      }
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "tier": "B",
+      "icon": "icon/notion.png",
+      "start_frame": 463,
+      "end_frame": 605,
+      "fly_frame": 495,
+      "land_frame": 515,
+      "card_start_frame": 520,
+      "card_end_frame": 600,
+      "explanation": {
+        "headline": "Tự xây quy trình",
+        "sub": "",
+        "badge": "",
+        "stat_title": "",
+        "stat_val": "",
+        "roi": ""
+      }
+    },
+    {
+      "id": "odoo",
+      "name": "Odoo",
+      "tier": "S",
+      "icon": "icon/odoo.png",
+      "start_frame": 606,
+      "end_frame": 827,
+      "fly_frame": 638,
+      "land_frame": 658,
+      "card_start_frame": 665,
+      "card_end_frame": 824,
+      "explanation": {
+        "headline": "Cùng một hệ thống",
+        "sub": "",
+        "badge": "",
+        "stat_title": "",
+        "stat_val": "",
+        "roi": ""
+      }
+    },
+    {
+      "id": "outro",
+      "name": "Outro",
+      "tier": "",
+      "icon": "",
+      "start_frame": 828,
+      "end_frame": 907,
+      "fly_frame": 0,
+      "land_frame": 0,
+      "card_start_frame": 0,
+      "card_end_frame": 0,
+      "explanation": {
+        "headline": "Hạng S của bạn?",
+        "sub": "",
+        "badge": "",
+        "stat_title": "",
+        "stat_val": "",
+        "roi": ""
+      }
+    }
+  ]
+}

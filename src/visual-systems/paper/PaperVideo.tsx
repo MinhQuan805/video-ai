@@ -1,6 +1,6 @@
 import React from "react";
 import { AbsoluteFill, Audio, Sequence, staticFile } from "remotion";
-import scenesData from "../../../videos/darwin/scenes.json";
+import scenesData from "../../../videos/vox/darwin/scenes.json";
 import { BigNumberScene } from "./BigNumberScene";
 import { ComparisonScene } from "./ComparisonScene";
 import { StepListScene } from "./StepListScene";
@@ -17,7 +17,7 @@ export const PaperVideo: React.FC = () => {
   return (
     <AbsoluteFill style={{ backgroundColor: "#FAF8F5", overflow: "hidden" }}>
       {/* Giọng đọc voice.wav */}
-      <Audio src={staticFile("videos/darwin/voice.wav")} />
+      <Audio src={staticFile("videos/vox/darwin/voice.wav")} />
 
       {/* Cảnh 1: Con số lớn 22 tuổi */}
       <Sequence from={s1.from} durationInFrames={s1.to - s1.from}>

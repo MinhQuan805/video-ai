@@ -7,6 +7,7 @@ export interface InkBlockProps {
   style?: React.CSSProperties;
   innerStyle?: React.CSSProperties;
   paperPadding?: { top?: number; right?: number; bottom?: number; left?: number };
+  borderPadding?: number;
   rotate?: number;
 }
 
@@ -14,19 +15,24 @@ export const InkBlock: React.FC<InkBlockProps> = ({
   children,
   style,
   innerStyle,
-  paperPadding = { top: 6, right: 8, bottom: 9, left: 11 }, // Viền giấy dày mỏng không đều như cắt lệch
+  paperPadding,
+  borderPadding,
   rotate = -0.5,
 }) => {
+  const defaultPadding = borderPadding
+    ? { top: borderPadding, right: borderPadding, bottom: borderPadding, left: borderPadding }
+    : { top: 6, right: 8, bottom: 9, left: 11 };
+  const pad = paperPadding ?? defaultPadding;
   return (
     <div
       style={{
         display: "inline-block",
         position: "relative",
         backgroundColor: theme.colors.paper,
-        paddingTop: `${paperPadding.top ?? 6}px`,
-        paddingRight: `${paperPadding.right ?? 8}px`,
-        paddingBottom: `${paperPadding.bottom ?? 9}px`,
-        paddingLeft: `${paperPadding.left ?? 11}px`,
+        paddingTop: `${pad.top ?? 6}px`,
+        paddingRight: `${pad.right ?? 8}px`,
+        paddingBottom: `${pad.bottom ?? 9}px`,
+        paddingLeft: `${pad.left ?? 11}px`,
         boxShadow: "0 2px 4px rgba(27, 24, 21, 0.25)",
         transform: `rotate(${rotate}deg)`,
         ...style,

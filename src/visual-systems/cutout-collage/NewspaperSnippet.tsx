@@ -281,7 +281,7 @@ export const NewspaperSnippet: React.FC<NewspaperSnippetProps> = ({
           }}
         >
           <img
-            src={staticFile("videos/darwin/assets/beagle-painting.png")}
+            src={staticFile("videos/vox/darwin/assets/beagle-painting.png")}
             alt="HMS Beagle Painting"
             style={{
               width: "100%",

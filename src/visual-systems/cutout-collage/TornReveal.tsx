@@ -1,5 +1,5 @@
 import React from "react";
-import { useCurrentFrame, interpolate } from "remotion";
+import { useCurrentFrame } from "remotion";
 import { theme } from "./theme";
 
 export interface TornRevealProps {
@@ -27,7 +27,6 @@ export const TornReveal: React.FC<TornRevealProps> = ({
   const revealPercent = t * 100;
 
   // Dải giấy xé rơi đi sau khi quét xong (sau frame 12)
-  const isTornStripFalling = rel >= duration;
   const fallRel = Math.max(0, rel - duration);
   const fallY = fallRel * fallRel * 6; // gia tốc rơi
   const fallRot = fallRel * 4;
