@@ -14,8 +14,21 @@ export const theme = {
     line: "rgba(26, 24, 22, 0.12)",
   },
   fonts: {
-    title: loadFraunces().fontFamily,
-    body: loadInter().fontFamily,
+    title: (loadFraunces('normal', {
+      weights: ['700', '800'],
+      subsets: ['vietnamese', 'latin'],
+      ignoreTooManyRequestsWarning: true,
+    }),
+    loadFraunces('italic', {
+      weights: ['700', '800'],
+      subsets: ['vietnamese', 'latin'],
+      ignoreTooManyRequestsWarning: true,
+    })).fontFamily,
+    body: loadInter('normal', {
+      weights: ['500', '600', '700', '800', '900'],
+      subsets: ['vietnamese', 'latin'],
+      ignoreTooManyRequestsWarning: true,
+    }).fontFamily,
   },
 } as const;
 

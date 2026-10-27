@@ -31,7 +31,7 @@ const composition = await selectComposition({
 });
 
 if (mode !== 'final') {
-  const frames = [40, 180, 340, 500, 660, 820, 980, 1140, 1300, 1500];
+  const frames = [60, 145, 220, 360, 465, 530, 620, 715, 790, 880, 930, 1020, 1140, 1220, 1310, 1430, 1530];
   const frameDir = path.join(output, 'review-frames');
   fs.mkdirSync(frameDir, { recursive: true });
 
@@ -43,6 +43,7 @@ if (mode !== 'final') {
       output: path.join(frameDir, `${frame}.png`),
       frame,
       port: 3046,
+      timeoutInMilliseconds: 60000,
     });
   }
 

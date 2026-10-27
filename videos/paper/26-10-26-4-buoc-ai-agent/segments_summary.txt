@@ -1,0 +1,13 @@
+Total whisper segments: 12
+Seg 1 [0.00s - 5.64s | 0f - 169f]:  Đây là cách để bàn tạm 1 AI dần làm vì thay mình chỉ vô bốn bức đơn giản, bức 1, cài đặt AI dần,
+Seg 2 [6.02s - 9.72s | 181f - 292f]:  thay vì dùng trách bót gõp rung thông thường, hay cài, cơ lô, cốt, hoặc của đét,
+Seg 3 [10.08s - 14.48s | 302f - 434f]:  đi mang tìa đây là, AI dần có thể chuyết cậm phai và thực thi tách vụ chực tiếp ngay trên mây tính của bạn.
+Seg 4 [14.86s - 18.84s | 446f - 565f]:  Bước 2, kết nối công cụ, và 1, có nét tờ để liên kết cái cướng dụng bài dụng hàng ngày,
+Seg 5 [19.24s - 22.92s | 577f - 688f]:  bí dụng như gờ mêo, bước này, cấp buồn cho AI từ đóng đọc thư mở,
+Seg 6 [22.92s - 27.60s | 688f - 828f]:  và nhân dịt phấn đề cần sự lý, muốn xem video hướng dẫn cài đặt thực tế tương bước bình luận
+Seg 7 [27.60s - 31.52s | 828f - 946f]:  ai dần nhé. Bước 3, giao vì rõ ràng, đưa ra yêu cầu thật trường sách,
+Seg 8 [31.74s - 35.80s | 952f - 1074f]:  đọc e-mail hổ chở, phương nhóm vấn đề và sạng sẵn bản nhép câu trải lời để tôi dịt.
+Seg 9 [36.32s - 39.58s | 1090f - 1187f]:  Kết quả chưa nghĩ, thì bộ xung chỉ giống vài lần cho nên khi quay trình chạy mở.
+Seg 10 [39.84s - 45.80s | 1195f - 1374f]:  Bước 4, đồng gó thân SKU, yêu cầu AI, lưu tành bộ quay trình vừa tạo thành 1 SKY tái sĩ dụng từ ngày mai,
+Seg 11 [45.80s - 50.32s | 1374f - 1510f]:  bài chỉ cần gọi đúng 1 lần gạt thiếu hoặc khiến giờ mỗi sáng AI sẽ từ đồng sử lý
+Seg 12 [50.32s - 51.98s | 1510f - 1559f]:  xong suy trước khi bạn kịp mở mấy.

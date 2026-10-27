@@ -1,5 +1,17 @@
-0 - 102 (102f): Tự tạo AI Agent chỉ với 4 bước
-102 - 165 (63f): Bước 01: Cài Agent
-165 - 288 (123f): Tìm Claude Desktop & ChatGPT App
-288 - 378 (90f): Không chỉ chat, làm trên máy
-378 - 472 (94f): Bước 02: Nối với công cụ
+0 - 121 (121f): Tự tạo AI Agent chỉ với 4 bước
+121 - 170 (49f): Bước 01: Cài Agent
+170 - 295 (125f): Chatbot vs Claude Code / Codex
+295 - 440 (145f): Không chỉ chat, làm trên máy
+440 - 488 (48f): Bước 02: Nối với công cụ
+488 - 565 (77f): Mục Connectors liên kết ứng dụng
+565 - 688 (123f): Gmail tự động đọc thư mới
+688 - 742 (54f): Nhận diện & phân loại vấn đề
+742 - 850 (108f): Bình luận AI Agent
+850 - 905 (55f): Bước 03: Giao việc rõ ràng
+905 - 955 (50f): Yêu cầu thật chính xác
+955 - 1080 (125f): Soạn nháp, chỉ cần duyệt & gửi
+1080 - 1195 (115f): Tối ưu chỉ dẫn cho đến khi mượt
+1195 - 1245 (50f): Bước 04: Đóng gói thành Skill
+1245 - 1374 (129f): Lưu Skill tái sử dụng mỗi ngày
+1374 - 1500 (126f): Lệnh slash hoặc hẹn giờ mỗi sáng
+1500 - 1565 (65f): Xong xuôi trước khi mở máy

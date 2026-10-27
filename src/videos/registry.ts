@@ -1,7 +1,7 @@
 import { DarwinVideo } from "./vox/darwin";
 import { RankingVideo } from "./ranking/10-23-26";
 import { CrmRankingVideo } from "./ranking/10-25-26";
-import { PaperVideo1026 } from "./paper/2026-10-26-ai-agent-4-buoc";
+import { PaperVideo1026 } from "./paper/26-10-26-ai-agent-4-buoc";
 import { VideoProjectConfig } from "../types";
 
 /**
@@ -14,7 +14,7 @@ export const videoProjects: Record<string, VideoProjectConfig> = {
   "paper-10-26-26": {
     id: "paper-10-26-26",
     title: "Tự tạo AI Agent chỉ với 4 bước (Paper Editorial)",
-    durationInFrames: 472,
+    durationInFrames: 1565,
     fps: 30,
     width: 1080,
     height: 1920,
@@ -23,7 +23,7 @@ export const videoProjects: Record<string, VideoProjectConfig> = {
   "paper-2026-10-26-ai-agent-4-buoc": {
     id: "paper-2026-10-26-ai-agent-4-buoc",
     title: "Tự tạo AI Agent chỉ với 4 bước (Paper Editorial)",
-    durationInFrames: 472,
+    durationInFrames: 1565,
     fps: 30,
     width: 1080,
     height: 1920,

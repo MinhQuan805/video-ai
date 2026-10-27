@@ -1,0 +1,109 @@
+{
+  "video_id": "paper-2026-10-26-ai-agent-4-buoc",
+  "total_frames": 1565,
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "scene_01_hook",
+      "title": "Tự tạo AI Agent chỉ với 4 bước",
+      "from": 0,
+      "to": 121
+    },
+    {
+      "id": "scene_02_step1_badge",
+      "title": "Bước 01: Cài Agent",
+      "from": 121,
+      "to": 170
+    },
+    {
+      "id": "scene_03_search_desktop",
+      "title": "Chatbot vs Claude Code / Codex",
+      "from": 170,
+      "to": 295
+    },
+    {
+      "id": "scene_04_local_agent",
+      "title": "Không chỉ chat, làm trên máy",
+      "from": 295,
+      "to": 440
+    },
+    {
+      "id": "scene_05_step2_connect",
+      "title": "Bước 02: Nối với công cụ",
+      "from": 440,
+      "to": 488
+    },
+    {
+      "id": "scene_06_connector_catalog",
+      "title": "Mục Connectors liên kết ứng dụng",
+      "from": 488,
+      "to": 565
+    },
+    {
+      "id": "scene_07_gmail_auto_read",
+      "title": "Gmail tự động đọc thư mới",
+      "from": 565,
+      "to": 688
+    },
+    {
+      "id": "scene_08_problem_triage",
+      "title": "Nhận diện & phân loại vấn đề",
+      "from": 688,
+      "to": 742
+    },
+    {
+      "id": "scene_09_callout_cta",
+      "title": "Bình luận AI Agent",
+      "from": 742,
+      "to": 850
+    },
+    {
+      "id": "scene_10_step3_badge",
+      "title": "Bước 03: Giao việc rõ ràng",
+      "from": 850,
+      "to": 905
+    },
+    {
+      "id": "scene_11_prompt_instruction",
+      "title": "Yêu cầu thật chính xác",
+      "from": 905,
+      "to": 955
+    },
+    {
+      "id": "scene_12_draft_approval",
+      "title": "Soạn nháp, chỉ cần duyệt & gửi",
+      "from": 955,
+      "to": 1080
+    },
+    {
+      "id": "scene_13_iteration_loop",
+      "title": "Tối ưu chỉ dẫn cho đến khi mượt",
+      "from": 1080,
+      "to": 1195
+    },
+    {
+      "id": "scene_14_step4_badge",
+      "title": "Bước 04: Đóng gói thành Skill",
+      "from": 1195,
+      "to": 1245
+    },
+    {
+      "id": "scene_15_package_skill",
+      "title": "Lưu Skill tái sử dụng mỗi ngày",
+      "from": 1245,
+      "to": 1374
+    },
+    {
+      "id": "scene_16_slash_and_cron",
+      "title": "Lệnh slash hoặc hẹn giờ mỗi sáng",
+      "from": 1374,
+      "to": 1500
+    },
+    {
+      "id": "scene_17_outro_complete",
+      "title": "Xong xuôi trước khi mở máy",
+      "from": 1500,
+      "to": 1565
+    }
+  ]
+}

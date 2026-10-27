@@ -3,28 +3,35 @@ from PIL import Image, ImageDraw, ImageFont
 
 episode = Path(__file__).resolve().parent
 output = episode / 'output'
-frames = [40, 180, 340, 500, 660, 820, 980, 1140, 1300, 1500]
+frames = [60, 145, 220, 360, 465, 530, 620, 715, 790, 880, 930, 1020, 1140, 1220, 1310, 1430, 1530]
 labels = [
     '01 / Hook',
-    '02 / Step 1',
-    '03 / Search app',
-    '04 / Work on device',
-    '05 / Connect tools',
-    '06 / Classify email',
-    '07 / Gmail connector',
-    '08 / Step 3',
-    '09 / Create skill',
-    '10 / CTA'
+    '02 / Step 1 Badge',
+    '03 / Chatbot vs Code',
+    '04 / Local Machine',
+    '05 / Step 2 Badge',
+    '06 / Connectors',
+    '07 / Gmail Scanner',
+    '08 / Problem Triage',
+    '09 / CTA Comment',
+    '10 / Step 3 Badge',
+    '11 / Prompt Rules',
+    '12 / Draft Approval',
+    '13 / Iteration Loop',
+    '14 / Step 4 Badge',
+    '15 / Package Skill',
+    '16 / Slash & Cron',
+    '17 / Complete'
 ]
 
 panel_w, panel_h, gap, header = 216, 384, 12, 38
-columns = 5
+columns = 6
 rows = (len(frames) + columns - 1) // columns
 canvas = Image.new('RGB', (columns * (panel_w + gap) + gap, rows * (panel_h + header + gap) + gap), '#FAF8F5')
 draw = ImageDraw.Draw(canvas)
 
 try:
-    font = ImageFont.truetype('C:/Windows/Fonts/segoeui.ttf', 16)
+    font = ImageFont.truetype('C:/Windows/Fonts/segoeui.ttf', 15)
 except Exception:
     font = ImageFont.load_default()
 
