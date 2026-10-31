@@ -25,7 +25,7 @@ export const PaperVideo1026: React.FC = () => {
   const { fps } = useVideoConfig();
 
   return (
-    <AbsoluteFill style={{ backgroundColor: '#FAF8F5' }}>
+    <AbsoluteFill style={{ backgroundColor: '#F4EFE6' }}>
       {/* User Voice Audio */}
       <Audio src={staticFile('videos/paper/26-10-26-ai-agent-4-buoc/user_voice.wav')} />
 

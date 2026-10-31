@@ -3,8 +3,8 @@ name: ai-video-pipeline
 description: >-
   End-to-end master workflow for producing programmatic AI short-form videos (vertical/horizontal)
   using Remotion and Python. Use this skill when planning, creating, or editing any automated video
-  across all pipeline stages: research & scripting, TTS synthesis, Whisper forced alignment,
-  scene timing, asset preparation, visual system selection, QA review grid, and final rendering.
+  across raw intake, local transcription, source/edit timing, creative motion, physical interactions,
+  asset preparation, static/audio QA, render approval, and delivery. TTS is an optional route.
 ---
 
 # Master AI Video Production Pipeline
@@ -13,11 +13,33 @@ This skill serves as the foundational runbook for producing high-quality, progra
 
 For the complete intake, timeline, QA, snapshot, packaging, and folder contract, follow [the auto production system](../../../docs/auto-production-system.md).
 
+## Routing: raw footage first
+
+When the user supplies raw footage, follow [raw-first-workflow.md](references/raw-first-workflow.md) before the
+legacy TTS steps below. Preserve the recorded voice, meaning, and useful pauses. TTS is a separate opt-in path.
+Check real tool availability; a documented directory/CLI is not proof of an implemented pipeline.
+For new projects, canonical `edit/timeline.json` in milliseconds owns time; legacy files below are compatibility outputs.
+
+Use [creative-video-direction](../creative-video-direction/SKILL.md) for selection, art direction and design memory.
+Cards, clean typography, evidence, speaker footage, diagrams and custom objects are equally valid by context.
+Use [physical-interaction-direction](../physical-interaction-direction/SKILL.md) when relationships need motion;
+use [character-and-object-design](../character-and-object-design/SKILL.md) only when a custom object/creature helps.
+There is no required card/mascot/effect quota. Apply [quality-and-acceptance.md](references/quality-and-acceptance.md)
+for static/audio checks, honest pending statuses, render approval and temporal QA.
+
+For the current motion-led paper continuation, each graphic beat records a primary action, cue, affected actors,
+material/constraint response and readable end state. Reuse the previous project's motion grammar via
+[paper-motion-continuity.md](../motion-graphic-design/references/paper-motion-continuity.md). A planned video
+of static cards with only fades is insufficient. Design characters proactively when their actions serve the idea;
+keep reading/speaker holds as deliberate phases of the overall rhythm.
+
 ---
 
 ## Architecture & Directory Conventions
 
-For any video project `<video-name>`, all state, metadata, and artifacts must reside in:
+Project data belongs under `videos/<video-name>/`. The tree below is the legacy compatibility layout;
+new projects use the canonical input/analysis/edit/src structure in the production document. Keep existing
+consumers working without moving episode source or opening restricted files as a side effect:
 
 ```text
 videos/<video-name>/
@@ -36,60 +58,65 @@ videos/<video-name>/
 
 ## 7-Stage Production Runbook
 
-### Stage 1: Fact Research & Script Drafting
+### Stage 1: Preserve Raw or Draft an Authorized Script
 1. **Source Verification**:
-   - Cross-examine at least two authoritative, peer-reviewed, or primary historical/scientific sources.
-   - Every number, year, person, or technical entity mentioned must be backed by citations.
+   - Verify factual claims that need evidence using primary/authoritative sources; cross-check disputed or consequential claims.
+   - Do not demand sources for the creator's personal experience or invent evidence for uncertain claims.
    - Record all source URLs at the very top of `videos/<video-name>/script.md` prefixed with `#`.
 2. **Script Formatting & Timing Budget**:
    - Write one sentence per line.
-   - Target pacing for Vietnamese narration is **3.8 to 4.2 syllables per second**.
-   - For a standard **30-second video**, the script must total **110 – 120 words/syllables** (excluding comment lines `#`).
-   - **Narrative Hook**: The opening sentence must state an unexpected paradox or surprising fact.
-   - **Call-to-Action / Cliffhanger**: The final sentence must pose a thought-provoking open question to the viewer.
+   - Use timing budgets only for a newly requested script; raw delivery determines timing for creator footage.
+   - For a newly authored 30-second Vietnamese voiceover, 110–120 syllables is a rough planning estimate, not a raw-edit constraint.
+   - **Opening**: Use a truthful point of interest already in the content; preserve meaning and useful context.
+   - **Ending**: Deliver the promised takeaway. Add a question or CTA only when appropriate to the brief.
 3. **Tone Validation**: Read aloud or verify conversationally—strip out stiff written phrasing in favor of natural storytelling.
 
 ---
 
-### Stage 2: Voice Synthesis & Word-Level Alignment
+### Stage 2: Raw Voice Analysis, or Opt-In Voice Synthesis
+For raw, use the permitted source, ASR uncertainty and source/edit mapping in the raw-first reference.
+The following synthesis steps apply only to authorized TTS work. ASR timestamps plus text reconciliation are
+not a guarantee of exact forced alignment; record approximations and use a verified aligner if needed and available.
 1. **TTS Audio Generation**:
    - Synthesize speech per line with a consistent pause (e.g., 0.28s) between sentences to maintain natural cadence.
    - Save output as `videos/<video-name>/voice.wav` and record sentence boundary timestamps in `sentences.json`.
-2. **Forced Alignment with Faster-Whisper**:
-   - Transcribe `voice.wav` using Faster-Whisper (`medium` model on CPU/GPU) in Vietnamese.
+2. **ASR Timestamps and Text Reconciliation**:
+   - Transcribe the authorized voice source using an available local Faster-Whisper model appropriate to the language/hardware.
    - Reconcile Whisper's recognized tokens with the ground-truth text from `script.md`.
    - Never replace the script's exact wording; use Whisper solely to anchor starting second (`s`) and ending second (`e`) for each word.
-   - For words with recognition discrepancies (e.g., foreign proper nouns or numerals), interpolate evenly between the closest anchored timestamps.
+   - For limited recognition discrepancies, interpolate between reliable anchors only as an approximation; flag uncertain spans and never present guessed timing as measured alignment.
    - Enforce sentence boundaries using `sentences.json` so words never cross sentence boundaries.
    - Save output to `videos/<video-name>/words.json`.
 3. **Natural Phrase Chunking**:
    - Cluster words into 2 to 4 words per group following natural linguistic pause points.
-   - Calculate starting frame at 30 fps: $\text{frame} = \lfloor s \times 30 \rfloor$.
-   - Output to `videos/<video-name>/timing.txt`: Line 1 = total video frames; subsequent lines = `<start_frame> <phrase text>`.
+   - Project milliseconds to frames at configured fps: $\text{frame} = \lfloor (ms / 1000) \times fps \rfloor$.
+   - Export `timing.txt` in the format required by the actual consumer. Existing projects may use phrase rows or scene ranges; do not overwrite one format with the other.
 
 ---
 
 ### Stage 3: Scene Decomposition & Timing Architecture
 1. **Define `scenes.json`**:
-   - Divide the video into sequential scenes (minimum 2.0 seconds per scene, i.e., $\ge 60$ frames).
-   - Ensure scene transitions strictly align with sentence boundaries.
+   - Divide the video by idea and delivery, leaving enough time to read setup and payoff. Do not impose a minimum scene duration on every beat.
+   - Prefer meaningful phrase/idea boundaries; gestures and evidence can motivate other cuts without cutting words or changing meaning.
    - For creator-led/raw footage, optionally set each scene's `coverage` to `speaker-full`, `split`, `graphic-center`, or a story-specific mode, and note the transition anchor (speech, gesture, sound, shape, or color). Select modes by meaning; do not force all modes into every video.
    - Declare the visual system at the root level:
      ```json
      {
-       "visual_system": "cutout-collage" // or "paper", "kinetic-type", etc.
-       "scenes": [ ... ]
+       "visual_system": "paper",
+       "scenes": []
      }
      ```
 2. **Keyframe Mapping**:
-   - Specify `from` and `to` frames.
+   - Use semantic anchors and milliseconds in the canonical timeline; derive `from` and `to` frames for existing consumers at configured fps.
    - Mark words intended for typographic accenting between asterisks (`*từ nhấn*`).
    - List keyframe events matching exact speech milestones.
 
 ---
 
 ### Stage 4: Visual System Selection & Asset Processing
-Choose a visual direction for each video from its story, source material, pacing, and intended audience; there is no mandatory default system:
+Honor explicit user/project direction first. For this user's requested continuation, use the previous paper
+profile and motion grammar unless they select another direction. For an unrelated brief, choose by content;
+the options below do not impose a universal style:
 * **`paper` (Paper Minimal Editorial)**:
   - Full-canvas motion graphics with tactile paper materiality (`#FAF8F5`, `#1A1816`, `#C6532A`) when it fits the story.
   - Spring-driven physical motion, reactive recoil micro-interactions, 3D card unfolds, and dynamic bezier conduits.
@@ -121,10 +148,18 @@ For assets & Autonomous Tooling:
 ---
 
 ### Stage 5: Programmatic Remotion Animation
-1. **Motion Rules**:
+1. **Motion Rules & Creativity-First Direction**:
+   - **Creativity-First Motion & The Anti-Slop Directive**:
+     - *Thẩm mỹ cao cấp & Tỷ lệ chuẩn*: Đồ họa chính chiếm 75%–85% active canvas (width 780–880px trên 1080px), không được vẽ quá bé tạo cảm giác lọt thỏm, không chèn sát viền (lề an toàn >= 80px hai bên, >= 140px lề phải tránh nút TikTok).
+     - *Tối giản chữ tuyệt đối (Zero Text Clutter)*: Motion graphic KHÔNG PHẢI slide thuyết trình. Cấm đưa câu văn hoàn chỉnh, đoạn văn, hay checklist vào graphic. Chỉ dùng nhãn từ **1 đến 3 từ khóa định danh** (ví dụ: `QUY TRÌNH`, `BÀI MẪU`, `TÀI LIỆU`, `CHỦ ĐỀ`, `Ý THÔ`). Mọi văn bản dài phải chuyển hóa thành guide rules / vạch mực hoặc icon trực quan.
+     - *Tối giản tinh tế (Stripped-Down Silhouette)*: Loại bỏ tem rác, con dấu phụ giả tạo ("BÍ TRUYỀN", "VIP"), card lồng card dày đặc. Giữ lại vật thể cốt lõi phục vụ chuyển động.
+     - *Zero-Repetition Staging (Cấm Lặp Lại Component)*: Không lặp lại cùng một kiểu layout card quá 1-2 lần trong cùng video. Mỗi scene phải có một cơ chế vật thể vật lý riêng biệt (rương báu, trục in giấy, kéo thả chat box + bút tracking, khe cắm cartridge, bàn mixer fader/dial/switch, phễu nén khí, bánh lái bánh răng, cầu dao công nghiệp).
+     - *Cố định bố cục phân cảnh (Scene-Level Stability)*: Giữ cố định layout suốt scene, cấm dịch chuyển giữa chừng (`centerShift`). Có speaker thì speaker hiện diện 100% thời lượng (graphic ở nửa trên); không speaker thì graphic căn giữa màn hình (`justifyContent: 'center'`).
+     - *Tương tác vật lý nhân quả (Action-Reaction Physics)*: Mọi element luôn có chuyển động sống (`continuousFloat`), va đập thụt lún (`dropRecoil`), nảy đàn hồi tắt dần (`dampedOscillation`), bút bám đầu dòng mực theo thời gian thực (`WritingPencil`), và bánh răng xoay ngược chiều ăn khớp.
    - **No CSS animations and no `setTimeout`**. Every transformation must derive mathematically from `useCurrentFrame()`.
    - Use `interpolate` with `{ extrapolateLeft: "clamp", extrapolateRight: "clamp" }`.
-   - Use `spring({ frame, fps: 30, config })` for natural physical bounce, overshoot, and decay.
+   - Use `spring({ frame, fps, config })` where material/intent calls for it, with fps from project config. Easing, steady motion, holds and cuts are valid.
+   - Share interaction events, contact anchors and end states across actors; do not assign unrelated delays for the same contact.
 2. **Caption Placement**:
    - Position captions in the lower third ($y \approx 1400 - 1500$ on 1080x1920 canvas).
    - Display full phrases with real-time active spoken word color changes.
@@ -157,9 +192,12 @@ For assets & Autonomous Tooling:
    - Do not interpret “continue”, “show me”, or approval of script/concept as render approval.
 2. **After approval, Command Execution**:
    - Ensure cache directories point to high-capacity storage (`process.env.TEMP`).
-   - Run the Remotion media renderer (H.264, 1080x1920, 30fps, audio enabled).
+   - Run the verified media renderer once with approved canvas/fps/audio settings (H.264, 1080x1920, 30fps is one profile, not a mandatory setting for every raw).
    - Use an isolated port (e.g., `port: 3030`) if Remotion Studio is active on 3000.
 3. **Audio-Video Sync Check via `ffprobe`**:
+   - Use the actual authorized source/derived audio and rendered output paths recorded in the manifest;
+     the commands below illustrate the legacy TTS route only. Raw edits compare against canonical edited duration,
+     not untrimmed source length. Check segment mapping and audio/caption/cue sync as well as mux duration.
    ```bash
    ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 videos/<video-name>/voice.wav
    ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 videos/<video-name>/output/final.mp4

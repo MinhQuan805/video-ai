@@ -118,7 +118,7 @@ export const Scene9CalloutCTA: React.FC = () => {
                 width: 48,
                 height: 48,
                 borderRadius: '50%',
-                backgroundColor: '#FAF8F5',
+                backgroundColor: '#F4EFE6',
                 border: '1.5px solid rgba(26,24,22,0.1)',
                 display: 'flex',
                 alignItems: 'center',

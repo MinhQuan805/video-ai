@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "durationMs": 4000,
+  "safeBounds": {"x": 0, "y": 0, "width": 1080, "height": 940},
+  "interactions": [
+    {"id": "press-test", "kind": "press", "spec": {"approachMs": 100, "contactMs": 650, "loadedMs": 850, "releaseMs": 1900, "settledMs": 2900, "centerX": 540, "groundY": 750, "targetWidth": 300, "targetHeight": 140, "loadWidth": 220, "loadHeight": 130, "dropDistance": 240, "liftDistance": 200, "compression": 0.22}},
+    {"id": "pull-test", "kind": "pull", "spec": {"reachMs": 100, "gripMs": 400, "pullMs": 650, "releaseMs": 1650, "targetStart": {"x": 430, "y": 530}, "travel": {"x": 160, "y": 0}, "handStart": {"x": 200, "y": 530}, "width": 180, "height": 100, "friction": 700}},
+    {"id": "swallow-test", "kind": "swallow", "spec": {"openMs": 100, "entryMs": 750, "biteMs": 950, "swallowedMs": 1750, "settledMs": 2200, "mouth": {"x": 400, "y": 410, "width": 120, "height": 110}, "targetStart": {"x": 850, "y": 465}, "targetWidth": 160, "targetHeight": 80}},
+    {"id": "card-test", "kind": "card", "spec": {"kind": "expand", "startMs": 200, "endMs": 1000, "from": {"x": 430, "y": 500}, "to": {"x": 560, "y": 500}, "width": 220, "height": 140, "expandedWidth": 340}}
+  ]
+}

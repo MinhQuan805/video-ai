@@ -1,0 +1,55 @@
+{
+  "video_id": "paper-2026-10-29-prompt-to-skill",
+  "total_frames": 1319,
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "scene_01_hook_prompt_hunting",
+      "title": "Thời săn Prompt & Sưu tầm bí kíp",
+      "from": 0,
+      "to": 180
+    },
+    {
+      "id": "scene_02_hook_long_prompt_scroll",
+      "title": "Câu lệnh dài cả trang 20 năm kinh nghiệm",
+      "from": 180,
+      "to": 384
+    },
+    {
+      "id": "scene_03_pain_point_copy_paste",
+      "title": "Nỗi đau: Tìm, sửa, copy paste lặp đi lặp lại",
+      "from": 384,
+      "to": 505
+    },
+    {
+      "id": "scene_04_solution_skill_intro",
+      "title": "Giải pháp: Lưu sẵn cách làm vào Skill",
+      "from": 505,
+      "to": 691
+    },
+    {
+      "id": "scene_05_example_content_creator",
+      "title": "Ví dụ: Gom tông văn, bài mẫu và checklist",
+      "from": 691,
+      "to": 845
+    },
+    {
+      "id": "scene_06_skill_one_input",
+      "title": "Chỉ cần đưa chủ đề & nguyên liệu thô",
+      "from": 845,
+      "to": 996
+    },
+    {
+      "id": "scene_07_prompt_vs_skill",
+      "title": "Prompt nói việc cần làm, Skill giữ cách làm",
+      "from": 996,
+      "to": 1188
+    },
+    {
+      "id": "scene_08_outro_call_to_action",
+      "title": "Gom lời dặn quen thuộc thành Skill ngay",
+      "from": 1188,
+      "to": 1319
+    }
+  ]
+}

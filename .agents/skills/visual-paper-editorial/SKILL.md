@@ -9,48 +9,109 @@ description: >-
 
 # Paper Minimal Editorial & Motion Graphics Master System
 
-This skill is the **primary and official video editing standard** for producing world-class, programmatic, short-form motion graphic videos (1080x1920 vertical, 30fps) using Remotion and TypeScript.
+Use this visual system when paper editorial materiality fits the content or the user chooses it.
+It is one available art direction in Remotion/TypeScript, not the default for every video or aspect ratio.
 
 It synthesizes modern editorial graphic design (tactile paper texture, deep carbon ink, warm terracotta accents, Fraunces serif italic typography) with cinema-grade motion graphics (spring physics, reactive recoil micro-interactions, 3D card unfolds, dynamic bezier conduits, camera motion blur, and seamless scene transitions).
 
 **Core Mandate**:
-- **Never hardcode static components** or force every script into rigid pre-defined boxes.
-- The AI acts as a **Lead Creative Motion Designer**: when given any input video or voiceover, analyze the core conceptual meaning of each line, invent a bespoke tactile physical metaphor, choreograph smooth physics-based motion, and assemble a complete, non-repeating video.
+- Choose cards, clean type, evidence, speaker footage or custom metaphors by meaning; a static component can be the right choice.
+- Analyze beats, keep one coherent art direction and choreograph actions that help the story. Do not invent a metaphor for every line.
+- Use [creative-video-direction](../creative-video-direction/SKILL.md) and its [automated-creativity-engine](../creative-video-direction/references/automated-creativity-engine.md) for kinetic metaphor ideation and spatial balance,
+  [physical-interaction-direction](../physical-interaction-direction/SKILL.md) for card/object interactions, and
+  [character-and-object-design](../character-and-object-design/SKILL.md) only when a custom object helps.
+
+For the current user's continuation, preserve the previous paper project's tokens and motion grammar via
+[paper-motion-continuity.md](../motion-graphic-design/references/paper-motion-continuity.md). Graphic beats
+need a meaningful primary motion, including card interactions; holds follow actions for readability.
+Actively design a new character when its physical role is useful and feasible. Build contact, material and
+force response using [physical-dynamics.md](../physical-interaction-direction/references/physical-dynamics.md).
+
+### Core Directives for Paper Editorial Motion (Bộ 5 Nguyên Tắc Chống Lỗi Hệ Thống):
+1. **Tuyệt Đối Tránh Thiết Kế Xấu & Thiếu Thẩm Mỹ (High-End Aesthetic & Proportions)**:
+   - Áp dụng triệt để phong cách Editorial cao cấp: Nền giấy sợi hữu cơ ấm áp (`#F4EFE6` / `#FAF8F5`), mực in carbon sâu thẳm (`#1A1816`), điểm nhấn cam đất terracotta sang trọng (`#C6532A`).
+   - Căn chỉnh tỷ lệ vàng cho đồ họa: Đồ họa phải đủ lớn, chiếm 75–85% chiều ngang active stage (chiều rộng 780–880px trên khung 1080px), không được vẽ quá bé tạo cảm giác lọt thỏm, nhưng cũng không được tràn sát viền màn hình (giữ lề an toàn tối thiểu 80–110px hai bên).
+   - Viền nét (strokes) luôn thanh mảnh, tinh xảo (1.5px – 2.5px), bo góc mượt mà (radius 18px – 26px), bóng đổ khuếch tán đa tầng mềm mại (`0 20px 48px rgba(26,24,22,0.12)`).
+
+2. **Cực Kỳ Tối Giản Về Chữ – Tuyệt Đối Không Nhồi Nhét Chữ (Visual-First, Zero-Text-Clutter)**:
+   - **Video ngắn KHÔNG PHẢI là slide thuyết trình Powerpoint**: Khán giả đã nghe voiceover của người nói và đọc phụ đề caption ở dưới. Motion graphic sinh ra để **hiển thị ẩn dụ thị giác, cơ chế hoạt động, chuyển động cơ khí**, KHÔNG PHẢI để đọc lại văn bản!
+   - **Quy tắc 1–3 từ khóa định danh**: Trong toàn bộ khu vực motion graphic, các nhãn chỉ được phép dài từ **1 đến tối đa 3 từ** (ví dụ: `QUY TRÌNH`, `BÀI MẪU`, `TÀI LIỆU`, `CHỦ ĐỀ`, `Ý THÔ`, `PROMPT`, `SKILL`).
+   - **Cấm tiệt**: Không bao giờ đưa câu văn hoàn chỉnh, đoạn hướng dẫn, checklist 3–4 dòng văn bản, hay các nhãn rườm rà (như "System Prompt", "Yêu cầu viết bài 1000 chữ", "Cần sửa lại...") vào trong đồ họa. Thay văn bản bằng icon Font Awesome và các thanh guide rule / đường mực biểu trưng.
+
+3. **Tối Giản Tinh Tế & Loại Bỏ Hoàn Toàn Chi Tiết Thừa (Stripped-Down Minimalist Clarity)**:
+   - Loại bỏ các tem nhãn giả (như con dấu "BÍ TRUYỀN", tem dán vụn vặt), loại bỏ card lồng trong card (nested boxes) dày đặc gây ngột ngạt.
+   - Giữ lại hình khối cốt lõi (Core Silhouette): Khi vẽ tờ giấy, chỉ cần viền giấy trắng sạch, kẹp bướm và các đường kẻ mực. Khi vẽ rương, chỉ cần thân rương, đai kim loại và ổ khóa. Mọi chi tiết xuất hiện đều phải phục vụ trực tiếp cho ý niệm chuyển động.
+
+4. **Tuyệt Đối Không Lạm Dụng Component – Chống Bẫy "Card Chữ Nhật Bo Góc" (Zero-Repetition & Storytelling Staging)**:
+   - **Cấm bẫy "Card Chữ Nhật Bo Góc" (The Beige Box Trap)**: Tuyệt đối không biến nửa sau video thành một chuỗi các khung chữ nhật bo góc chứa các ô con giống nhau (Scene 4 hộp 3 ô, Scene 5 lại hộp 3 ô, Scene 6 lại hộp 2 ô). Đó là biểu hiện của sự lười biếng và thiếu sáng tạo!
+   - **Kể câu chuyện thị giác liền mạch (Visual Storytelling)**: Mỗi scene phải là một chương trong câu chuyện với hình thái vật lý (Silhouette & Physics) hoàn toàn riêng biệt:
+     - *Scene 1 (Săn tìm/Tích trữ)*: Rương báu mở nắp nảy lò xo, các lá thư bay lọt hẳn vào khe khoang tối bên trong miệng rương (xếp lớp chui vào sau thành trước của rương, không đè lên icon mặt trước), rương to dần dần theo từng lá thư nhận được kèm chấn động nảy lò xo (`dampedOscillation`).
+     - *Scene 2 (Dài dòng vô tận)*: Trục lăn cơ khí phía dưới tuôn cuộn giấy dài bất tận trồi lên kèm thước đo kỹ thuật số có kim trượt theo chiều cao.
+     - *Scene 3 (Soạn thảo/Sao chép thủ công)*: Thao tác chuột vector gắp file thả vào khung chat Claude thực tế kèm bút chì cơ học nghiêng 38 độ di chuyển bám ngòi vẽ từng dòng mực theo thời gian thực (real-time sub-pixel tracking).
+     - *Scene 4 (Đóng gói tri thức vào Skill Core)*: Một Lõi Vi Mạch Tri Thức (Skill Core Floppy/Cartridge) được lắp ráp từ 3 khối vật thể đặc trưng (Quy trình, Bài mẫu, Tài liệu) bay từ các hướng ráp khớp vào nhau phát sáng hào quang.
+     - *Scene 5 (Ví dụ Content Creator cụ thể)*: Bàn làm việc biên kịch / sáng tạo nội dung thực tế (Editorial Creator Desk): 1 Micro thu âm phát sóng âm hữu cơ (Tông văn) + 1 Cuốn sổ tay mở lật các trang mẫu (Bài mẫu) + 1 Kính lúp soi danh sách tiêu chí kiểm định (Checklist).
+     - *Scene 6 (Đầu vào tinh gọn -> Thành phẩm tự động)*: Băng chuyền cơ khí tự động (Automated Content Factory): 2 viên nang nguyên liệu thô (`Chủ đề` + `Ý thô`) rơi vào buồng xử lý -> Lõi Skill xoay kích hoạt -> Băng chuyền đẩy ra Bài viết hoàn chỉnh được dập mạnh con dấu sáp `100% CHUẨN GU`.
+     - *Scene 7 (Phân định vai trò)*: Bánh lái tàu bằng đồng (Prompt định hướng) truyền động lực qua dây curoa/xung lực sang cụm bánh răng cơ khí ăn khớp quay ngược chiều (Skill động cơ thực thi).
+     - *Scene 8 (Kêu gọi hành động)*: Cầu dao công nghiệp gạt tay đỏ dập mạnh xuống, kích hoạt đèn LED xanh và phóng sóng xung lực bung huy hiệu chiến thắng.
+
+5. **Bắt Buộc Có Chuyển Động Sống & Tương Tác Vật Lý Nhân Quả (Alive States & Action-Reaction Physics)**:
+   - **Cơ chế hút/lọt vào trong (Physical Slot Ingestion)**: Khi vật thể (lá thư, linh kiện, file) đi vào một vật chứa, vật thể PHẢI đi xuyên qua miệng khoang (`aperture/mouth`), nằm ở lớp `zIndex: 7` (sau thành trước `zIndex: 8`), thu nhỏ dần theo chiều sâu phối cảnh và mờ dần trong bóng tối bên trong, tuyệt đối KHÔNG dán nổi lên mặt trước hay đè lên biểu tượng trung tâm.
+   - **Tăng trưởng lũy tiến từng bước (Incremental Progressive Scaling)**: Khi vật chứa hấp thụ nhiều phần tử, nó phải to dần dần từng bước một dựa trên từng phần tử tiếp nhận (mỗi phần tử rơi vào cộng thêm $+0.02 - 0.03$ quy mô kèm độ nảy đàn hồi lò xo `dampedOscillation`), tuyệt đối không nhảy vọt đột ngột từ vừa sang quá to.
+   - **Không để element chết/bất động**: Sau khi xuất hiện, element không được đứng im như một tấm ảnh phẳng. Phải có nhịp thở nhẹ (`continuousFloat`), rung chấn cơ học, hoặc kim đồng hồ/bánh răng xoay.
+   - **Nguyên nhân và Hệ quả (Causal Impact)**: Mọi hành động đều phải có phản lực:
+     - Thả vật thể vào ô chứa: Ô chứa phải nảy lún xuống (`dropRecoil`) và đàn hồi bật lại (`dampedOscillation`).
+     - Bút vẽ: Ngòi bút chì phải di chuyển khớp từng pixel với đầu dòng mực đang tuôn ra, kèm độ rung nhẹ của tay viết (`writingJitter`).
+     - Bánh răng ăn khớp: Bánh răng A quay góc $\theta$ thì bánh răng B ăn khớp phải quay góc $-\theta \times \text{ratio}$.
+     - Cuộn giấy in: Giấy tuôn ra phải cuộn từ từ, nhịp nhàng theo lời nói, có độ phấp phới ngẫu nhiên (`flutter`).
+     - Gạt cầu dao / Dập nắp: Chạm điểm đáy phải có độ rung lắc tắt dần và sóng xung kích (`shockwaves`) tỏa ra xung quanh.
+
+6. **Scene-Level Layout Stability (Không dịch chuyển layout giữa chừng)**: Mỗi phân cảnh (scene) phải giữ cố định bố cục từ đầu đến cuối, TUYỆT ĐỐI KHÔNG dịch chuyển layout hay trượt motion graphic lên xuống giữa chừng (`centerShift` gây rối mắt). Nếu scene đó có mặt người nói thì người nói phải hiện diện xuyên suốt 100% thời lượng scene đó (motion graphic nằm cố định ở nửa trên). Nếu scene đó là cảnh thuần motion graphic (không có người nói), toàn bộ cụm đồ họa phải nằm cố định ngay trung tâm màn hình (`justifyContent: 'center'`) từ đầu đến cuối scene.
+7. **Title vs Caption Decoupling & Typography**: Titles strictly serve as editorial chapter markers and concept anchors (`EyebrowHeader` + Fraunces 64-72px). Never repeat spoken voiceover/caption sentences in the title. Xuống dòng tiêu đề cân đối theo cụm nghĩa, không để từ đơn côi (orphan word) rớt dòng.
+8. **TikTok / Shorts Safe Zone**: Chừa lề phải tối thiểu 140px (tránh cụm nút tương tác Like/Share/Comment) và lề đáy tối thiểu 440px (phụ đề đặt ở `y <= 1500px` để tránh bị đè bởi username và thanh nhạc TikTok).
 
 ---
 
 ## 1. Aesthetic Philosophy & Visual Identity
 
 ### A. The "Thoáng Đãng, Trọng Lượng & Xúc Giác" Philosophy
-1. **Breathing Room**: Clean, expansive canvas margins. Do not crowd the screen.
-2. **Tactile Weight**: Every element has simulated physical mass. Nothing moves with linear robotic speed; elements enter with acceleration, overshoot with elastic tension, and settle with damped decay.
-3. **Reactive Interactivity**: Elements in a scene do not exist in isolation. Whenever an item connects, clicks, stamps, or lands, the central hero element **reacts** (squash/stretch, recoil bounce, shockwave ripple, or jump).
-4. **Editorial Sophistication**: Clean paper textures, carbon printing ink, warm terracotta accents, and elegant serif italic emphasis.
+1. **Breathing Room**: Keep clean canvas margins and avoid crowding the screen. On a 1080px-wide frame, aim for 80–110px side clearance around the main composition; never let visible artwork, shadows, or motion trails come within 64px of the frame edge.
+2. **Scale to the Active Area**: Judge each scene after accounting for its headline, speaker footage, captions, and platform-safe zones. When the hero composition looks undersized and unused space remains, enlarge the related visual group (typically by 10–25%), then recenter it in the space available. Do not leave a small focal group stranded in a large empty stage.
+3. **Fit the Group, Not Each Item**: Scale connected cards, icons, labels, and their gaps together so their hierarchy and spacing remain intentional. Preserve readable text and recognizable marks; do not enlarge one item until it crowds its neighbors.
+4. **Check the Outer Bounds**: Measure the full animated footprint, including shadows, rotation, spring overshoot, connector lines, and flight paths. Keep the complete footprint inside the safe clearance throughout the motion, not only at rest.
+5. **Tactile Weight**: Choose easing, steady movement, spring or stillness to match the material and action. Overshoot is optional; grounded reading states should settle.
+6. **Causal Interactivity**: The affected element reacts at the shared contact/state event. Scale the response to the action and material; the central hero need not react to unrelated events.
+7. **Editorial Sophistication**: Clean paper textures, carbon printing ink, warm terracotta accents, and elegant serif italic emphasis.
 
 ### B. Canvas Architecture & Spatial Safe Zones (1080 × 1920, 9:16 Vertical)
 To ensure optimal readability across mobile platforms (TikTok, Instagram Reels, YouTube Shorts), divide the vertical stage into 4 dedicated zones:
 
 ```text
  0px ┌──────────────────────────────────────────────┐
-     │ Zone 1: Eyebrow Header & Case Metadata       │ y: 140 - 340px
+     │ Zone 1: Top UI Buffer + Header / Headline    │ y: 220 - 420px
      │   - Uppercase category tag, case number,     │
      │   - Dynamic Fraunces headline                │
      ├──────────────────────────────────────────────┤
-     │ Zone 2: Visual Hero Stage (Dynamic Theater)  │ y: 360 - 1360px
+     │ Zone 2: Visual Hero Stage (Dynamic Theater)  │ y: 440 - 1360px
      │   - 100% full-canvas motion graphic          │
      │   - Tactile paper cards, 3D window frames    │
      │   - Animated conduits, brand logos, badges   │
-     │   - Height: 1000px of pure creative space    │
+     │   - Height: 920px of pure creative space     │
      ├──────────────────────────────────────────────┤
-     │ Zone 3: Floating Karaoke Captions (Safe)     │ y: 1380 - 1640px
+     │ Zone 3: Floating Karaoke Captions (Safe)     │ y: 1380 - 1600px
      │   - Floating paper capsule, 54px Inter       │
      │   - Real-time active spoken word highlight   │
      │   - ZERO scene graphics may intrude here     │
      ├──────────────────────────────────────────────┤
-     │ Zone 4: Mobile Platform Safe Margin (Floor)  │ y: 1640 - 1920px
-     │   - 280px clearance for platform UI / icons  │
+     │ Zone 4: Mobile Platform Safe Margin (Floor)  │ y: 1600 - 1920px
+     │   - 320px clearance for platform UI / icons  │
 1920px└─────────────────────────────────────────────┘
 ```
+
+### Short-Platform Compatibility (9:16)
+- Keep essential headlines, faces, widget labels, and interaction points outside platform overlays. On a 1080 × 1920 frame, use a conservative starting safe area of **x: 80–900px** and **y: 220–1600px**; reserve the lower 320px for captions, controls, and platform UI.
+- Treat the right edge as the most obstructed side because Shorts, Reels, and TikTok place action controls there. Keep essential content at least 180px from the right edge; verify the target platform's current preview when available because overlay layouts can change.
+- Calculate the usable stage after accounting for split-screen speaker footage, captions, and any scene-specific crop. Move the whole composition down when a top title approaches the top UI buffer, while keeping its last motion frame clear of the speaker panel and caption zone.
+- Include animation travel, shadows, and spring overshoot when checking these bounds. Background texture may extend behind overlays; information the viewer must read may not.
 
 ### C. Design Tokens & Color Palette
 ```typescript
@@ -80,7 +141,8 @@ export const theme = {
 ## 2. Motion Physics & Remotion Animation Engine
 
 ### A. Spring Physics Standard Configurations
-Never use arbitrary CSS transitions or linear interpolation for motion. Every animation derives mathematically from `useCurrentFrame()` and Remotion's `spring()`:
+Derive animation from `useCurrentFrame()` with configured fps and shared events. Use easing/interpolation,
+spring, holds or baked tracks as appropriate; do not use autonomous CSS transitions. These spring configs are examples:
 
 ```typescript
 import { spring } from 'remotion';
@@ -99,7 +161,8 @@ export const SPRING_RECOIL = { mass: 0.4, damping: 8, stiffness: 240 };
 ```
 
 ### B. Cinema-Grade Motion Blur with `@remotion/motion-blur`
-When cards fly in quickly or elements rotate, wrap the animated layer in `<CameraMotionBlur>` to give natural motion blur matching high-end After Effects renders:
+For fast-moving layers, consider `<CameraMotionBlur>` only when it helps and the installed API is compatible.
+Keep text sharp, check render cost, and do not wrap the whole composition by default:
 
 ```tsx
 import { CameraMotionBlur } from '@remotion/motion-blur';
@@ -115,7 +178,8 @@ import { CameraMotionBlur } from '@remotion/motion-blur';
 ```
 
 ### C. Continuous Idle Breathing (Living Elements)
-Static graphics look dead. After entering their final position, elements maintain continuous micro-motion:
+Idle motion is optional. Grounded objects and cards usually settle; use breathing only for a suitable character
+or atmosphere, and stop it when it competes with reading or the main action:
 ```typescript
 const floatY = Math.sin(frame * 0.07 + phaseOffset) * 6; // ±6px gentle drift
 const floatRot = Math.cos(frame * 0.05 + phaseOffset) * 1.2; // ±1.2deg organic tilt
@@ -126,7 +190,8 @@ const floatRot = Math.cos(frame * 0.05 + phaseOffset) * 1.2; // ±1.2deg organic
 ## 3. Reactive Physical Micro-Interactions (The Core Differentiation)
 
 In premium motion graphics, elements **react physically** to events happening around them. 
-Whenever a subsidiary element touches, connects, or clicks:
+When an event actually affects another element, choose a restrained reaction appropriate to the material.
+The following are optional examples, not mandatory reactions to every click:
 
 ### 1. Central Hero Squash & Recoil
 When an item lands or a wire plugs in at frame `triggerFrame`:
@@ -430,7 +495,8 @@ export const AnimatedCursor: React.FC<{
 
 ## 5. Creative Visual Metaphor Generation Engine
 
-**Never default to generic boxes or repetitive layouts.** When translating any line of narration into a visual scene, use the **3-Step Metaphor Translation Engine**:
+Choose meaningful cards, direct visuals or a metaphor by the actual idea. The following metaphor prompts
+are examples for relevant beats, not a requirement to turn each line into a physical object:
 
 ### Step 1: Detect the Emotional Conflict / Conceptual Dynamic
 Analyze what is actually happening in the voiceover:
@@ -456,7 +522,8 @@ Analyze what is actually happening in the voiceover:
 | **Call to Action / Outro** | Pair of clean editorial cards: Follow button + Comment input box. | Staggered `StampDropIn`; pulsing finger indicator and question tag. |
 
 ### Step 3: Enforce Visual Contrast Between Consecutive Scenes
-Maintain audience engagement by alternating physics across scenes:
+Vary physics only when it helps the new idea; held layouts and repeated mechanisms can preserve continuity.
+The following alternation is an optional example:
 - **Scene N**: Rapid lateral split or slide.
 - **Scene N+1**: Heavy vertical stamp drop with shockwave.
 - **Scene N+2**: 3D horizontal card flip or unfold.
@@ -483,7 +550,31 @@ Maintain audience engagement by alternating physics across scenes:
 
 ---
 
-## 7. Floating Karaoke Subtitle System
+## 7. Lower-Third Talking-Head & Pedestal Card Architecture (Kallaway Standard)
+
+When the editorial paper video features a speaker/talking head in split-screen, follow the comprehensive guide in [paper-lower-third-talking-head.md](./references/paper-lower-third-talking-head.md):
+
+1. **3-Tier Vertical Canvas Distribution**:
+   - **Zone 1 (Top Hero Graphic, y: 200 - 640px)**: Upper motion graphic stage, settles before y = 640px.
+   - **Zone 2 (Floating Captions, y: 760 - 840px)**: In split-screen, placed at 	op: 780px right under graphics, leaving an 85px buffer above the hair at y ~ 925px. In pure motion scenes, slides to safe bottom floor at 	op: 1480px.
+   - **Zone 3 (Talking Head & Pedestal, y: 920 - 1920px)**: Speaker breakout over a slate-gray pedestal card.
+2. **Kallaway Slate-Gray Pedestal Card**:
+   - CARD_WIDTH: 920px (85% canvas width, snug fit to shoulders, zero empty side-wings).
+   - height: 520px (top edge at y = 1400px, cradling the neck and jawline).
+   - ackgroundColor: #989FA4 (crisp slate-gray with high contrast against #FAF8F5).
+   - orderRadius: 44px 44px 0 0.
+   - **Strict Zero-Text Rule**: Absolutely NO badges, labels, or speaker names on the card.
+3. **Head Breakout (Pop-out) & Scale**:
+   - SCALE = 0.96: Large, expressive face occupying ~600px height.
+   - ottom: -220px (	ransformOrigin: 'center bottom').
+   - Head and hair pop out above the card, while torso and shoulders remain cleanly inside.
+4. **Remotion WebM Decoding Stability**:
+   - **Never use <OffthreadVideo> for VP9 alpha WebM** without dense intra-keyframes (causes Compositor error: No frame found at position).
+   - **Always use <Video>**: Decodes VP9 alpha natively in Chromium with 100% reliability during headless renders.
+
+---
+
+## 8. Floating Karaoke Subtitle System
 
 Captions are styled to integrate seamlessly with the editorial paper aesthetic while maintaining 100% readability:
 
@@ -529,69 +620,33 @@ Captions are styled to integrate seamlessly with the editorial paper aesthetic w
 
 ---
 
-## 8. Complete Automated Production Runbook
+## 8. Production Routing and Approval
 
-When the user asks to create or edit a video:
+Use [ai-video-pipeline](../ai-video-pipeline/SKILL.md) and its
+[raw-first workflow](../ai-video-pipeline/references/raw-first-workflow.md) as the production authority.
+Do not run an episode-specific helper on a new raw without checking its actual inputs and defaults.
+Preserve the original recorded voice; use TTS only when authorized. Canonical timing is milliseconds with
+semantic anchors and explicit source/edit mapping; legacy files are compatibility exports under file permissions.
 
-```mermaid
-graph TD
-    A[Input: Video or Voice File] --> B[Step 1: Extract Audio & Transcribe]
-    B --> C[Step 2: Whisper Alignment & Word Timestamps]
-    C --> D[Step 3: Semantic Scene Division 2.5-5s]
-    D --> E[Step 4: Invent Bespoke Visual Metaphors]
-    E --> F[Step 5: Code Modular TSX Scenes in Remotion]
-    F --> G[Step 6: Sequence in PaperVideo with Transitions]
-    G --> H[Step 7: Render Review Grid review.png]
-    H --> I[Step 8: Visual QA & Final Approval]
-```
+Select paper only when suitable. Plan beat lengths from the spoken idea and reading needs, with no fixed 2.5–5s rule.
+Each scene uses only the needed headline, card, evidence, object or speaker. Avoid a required mascot, recoil,
+entrance or exit. Choose cut, carry-over or transition by meaning; account for overlap in total duration.
 
-### Step 1: Ingest Voiceover Audio
-- Place or extract audio at `videos/paper/<slug>/voice.wav`.
-- Copy or link to `public/videos/paper/<slug>/voice.wav` for Remotion `staticFile()` access.
+Before approval, prepare components, static/audio QA and the approval packet. Do not call a renderer to
+create a review grid before the project/version is explicitly approved in chat. After an approved render,
+extract from that output, inspect output/review.png once and check motion around meaningful interactions.
+Do not rerender the full video just to verify output existence. Apply the project gate to any changed version.
 
-### Step 2: Speech Alignment with Faster-Whisper
-- Run `videos/paper/10-26-26/tools/prepare_paper_data.py` (or Python script using Faster-Whisper `medium` model).
-- Produce:
-  - `words.json`: Exact start and end seconds for every spoken word.
-  - `sentences.json`: Sentence boundaries.
-  - `captions.json`: Grouped phrase chunks (2–4 words per card) with start/end frames at 30fps.
+## 9. Creative Review with Evidence
 
-### Step 3: Semantic Scene Segmentation
-- Divide the total video duration into sequential scenes (each $2.5 - 5$ seconds, typically $70 - 150$ frames).
-- Every scene transition **must match a natural pause** between spoken thoughts.
-- Write `scenes.json` documenting scene IDs, start/end frames, and titles.
+- Is the paper direction appropriate and consistent, including any speaker/evidence layers?
+- Does each card, chart, object or character help the spoken idea without an unnecessary metaphor?
+- Do interactions have shared cues, contact points and material-appropriate reactions?
+- Do text and grounded objects settle for reading instead of continuous idle float?
+- Is the focus clear, with sufficient safe margins over the whole moving footprint?
+- Are official marks and Font Awesome utility icons used where appropriate, with valid sources for other assets?
+- Has the design been compared with available history without inventing records or breaking file permissions?
+- Are static checks backed by evidence, and pixel/temporal checks marked pending until an approved render?
+- After approval, was the one review grid inspection recorded, along with contact/settle/playback findings?
 
-### Step 4: Creative Scene TSX Synthesis
-For each scene in `scenes.json`:
-- Create `src/videos/paper/<slug>/scenes/Scene<N><Name>.tsx`.
-- Include:
-  - Top Eyebrow Category Tag & Fraunces Headline.
-  - Bespoke Visual Metaphor (Hero mascot, 3D window, connectors, cards, etc.).
-  - Reactive recoil animations on impacts.
-  - Clean entry and exit animations.
-
-### Step 5: TransitionSeries Assembly in `PaperVideo.tsx`
-- Sequence all scenes using Remotion's `<TransitionSeries>`.
-- Use contrasting cinematic transitions (`fade()`, `slide()`, `wipe()`, `flip()`) with 8-frame duration.
-- Add `<PaperCaptions />` on top at `z-index: 9999`.
-
-### Step 6: Review Grid Inspection (`output/review.png`)
-- Extract representative frames across all scenes and composite into `output/review.png`.
-- Inspect using `view_file` to verify:
-  1. No text overlapping edges or captions.
-  2. Crisp contrast and correct terracotta highlights.
-  3. Proper spacing and margin adherence.
-
----
-
-## 9. Creative Scorecard & Self-Critique Checklist
-
-Before presenting the final video to the user, ensure every question is answered with **YES**:
-
-- [ ] **No Rigid Hardcoding**: Did you design bespoke visual metaphors tailored to the exact narrative, rather than forcing old pre-existing templates?
-- [ ] **Smooth Physical Motion**: Does every card enter with mass, overshoot, and damped spring decay?
-- [ ] **Reactive Physics**: Does the central hero or stage visibly react (recoil, hop, or shockwave) when secondary items interact with it?
-- [ ] **Visual Hierarchy**: Does each scene have one unmistakable focal point?
-- [ ] **Official Assets**: Are official vector logos from `public/icon/` used for brand names?
-- [ ] **Safe Areas Respected**: Are subtitles isolated in Zone 3 with zero background overlap?
-- [ ] **Reviewed via Image**: Has `output/review.png` been rendered and visually inspected?
+See [quality-and-acceptance.md](../ai-video-pipeline/references/quality-and-acceptance.md).

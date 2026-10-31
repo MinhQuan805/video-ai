@@ -5,9 +5,9 @@ import { loadFont as loadInter } from "@remotion/google-fonts/Inter";
 // Nền giấy trắng sáng, chữ mực đen, đúng một màu nhấn cam đất (Terracotta).
 export const theme = {
   colors: {
-    background: "#FAF8F5", // Nền giấy trắng sáng thanh lịch
+    background: "#F4EFE6", // Nền giấy trắng sáng thanh lịch
     paper: "#FFFFFF",      // Mảnh giấy trắng sạch
-    paperMuted: "#F4F0E8", // Giấy tông ngà ấm nhẹ
+    paperMuted: "#ECE5D8", // Giấy tông ngà ấm nhẹ
     ink: "#1A1816",        // Chữ mực đen đậm
     accent: "#C6532A",     // Đúng một màu nhấn cam đất
     subtle: "rgba(26, 24, 22, 0.45)",

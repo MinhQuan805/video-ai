@@ -2,7 +2,7 @@
 name: motion-graphic-design
 description: >-
   Core visual design principles, motion graphics grammar, layout aesthetics, and Remotion implementation
-  recipes for floating editorial motion scenes. Covers clean containerless design, instant 1-second visual
+  recipes for content-led editorial motion scenes. Covers readable cards and open compositions, visual
   metaphors, modular motion primitives, speech-synced physics, and font-awesome icon management.
 ---
 
@@ -10,24 +10,48 @@ description: >-
 
 This skill defines the universal design principles, motion grammar, and reusable **Visual Metaphor Primitives** for programmatic, high-retention short-form videos in Remotion. It is completely genre-agnostic, built to represent abstract concepts, software mechanics, business dynamics, and data storytelling without being tied to any single video topic.
 
+## Motion-led direction and project continuity
+
+For the current requested continuation, read [paper-motion-continuity.md](references/paper-motion-continuity.md).
+Use the previous paper project's tokens and existing mask/slide/flip/radial/stamp/conduit/cursor grammar as
+the starting point. Every graphic beat needs a meaningful primary action tied to the narration; a sequence
+of faded-in static cards does not satisfy this brief. Holds serve reading after or within that action.
+Develop causal contact and material response through
+[physical-dynamics.md](../physical-interaction-direction/references/physical-dynamics.md).
+Actively consider custom characters when a useful action can be designed, using
+[character-and-object-design](../character-and-object-design/SKILL.md). Maintain one coherent visual world;
+novelty comes from the idea, silhouette and choreography, while proven motion mechanisms may recur.
+
 ---
 
 ## 1. Core Visual Foundations
 
-### A. The "1-Second Clarity" Principle (Tối Giản – 1 Giây Là Hiểu Ngay)
-Short-form viewers do not read lengthy paragraphs while watching motion. Every scene must pass the **1-Second Comprehension Test**:
-1. **One Dominant Hero Metaphor**: Exactly one visual action taking place (e.g., an item sinking, a lock snapping shut, a light pulse travelling a wire).
-2. **One Punchy Headline ($\le 4$ words)**: Pure bold takeaway (e.g. `Trôi tin nhắn`, `Chi phí tăng nhanh`, `Tự động 100%`).
-3. **One Crisp Supporting Metric or Badge**: A concrete quantitative anchor (e.g. `+3h / ngày`, `$500+ / tháng`, `99+`).
-4. **Zero Reading Clutter**: Never put explanatory sentences or descriptive paragraphs inside the motion graphic stage. Explanations belong strictly in the spoken voiceover and synchronized subtitles.
+### A. The "Creativity-First" Directive (Ưu Tiên Sáng Tạo & Độc Bản – Chống Rập Khuôn)
+**Sáng tạo nội dung là linh hồn của motion graphics.** Tránh tuyệt đối "AI slop" và bẫy công thức hoá (biến mọi câu thành một card chữ nhật kèm icon rồi fade-in đơn điệu):
+1. **Bespoke Visual Metaphors**: Mỗi beat đồ họa phải xuất phát từ ý nghĩa thực của lời nói để sáng tạo một ẩn dụ thị giác độc đáo, bất ngờ và kích thích thị giác (ví dụ: dòng thác thông tin bị tắc nghẽn, bàn tay cơ khí gắp dữ liệu, chiếc dấu kiểm duyệt dập mạnh xuống, origami mở bung đa chiều, nam châm hút quy trình, cán cân đối trọng bập bênh).
+2. **Dynamic Motion Grammar**: Không để các phần tử đứng yên vô vị sau khi vào khung hình. Sử dụng chuyển động có kịch tính, tiếp xúc nhân quả, ma sát trượt, biến dạng đàn hồi, va chạm truyền lực, nhường chỗ và biến đổi hình thái (morphing/transform).
+3. **Staging & Compositional Variety**: Đa dạng hoá nhịp điệu sân khấu qua từng cảnh — luân phiên giữa bố cục mở (open canvas), không gian 2.5D, sơ đồ liên kết (kinetic conduits), góc nhìn cận cảnh tập trung (spotlight) và toàn cảnh quan hệ (network overview). Tránh lặp lại một khuôn mẫu tỷ lệ hay vị trí qua nhiều scene liên tiếp.
+4. **Expressive Code-Drawn Actors & Props**: Khi cảnh có vai diễn hoặc hành động rõ ràng, chủ động thiết kế nhân vật hoặc vật thể phân lớp bằng code (có khớp, mắt, điểm neo lực) để diễn xuất sống động thay vì nhồi nhét icon phẳng vô tri.
+5. **Rhythm: Dynamic Beat ➔ Reading Settle**: Sáng tạo bùng nổ ở pha hành động chính (primary action beat) ăn khớp với từ khóa thoại, sau đó giữ khoảng lắng tự nhiên (settle hold) để người xem kịp đọc và cảm nhận, tránh chuyển động liên tục gây mỏi mắt.
 
-### B. Containerless Floating Stage (No Clunky Cards)
-- **Anti-Pattern**: Wrapping every graphic inside a white rounded rectangular card with borders and heavy outer shadows. This creates visual claustrophobia and feels like static slide presentations.
-- **The Modern Standard**: Remove bounding boxes, cards, and enclosing background rectangles. Allow icons, badges, SVG paths, counters, and kinetic typography to float directly on the stage background (`#F9F8F6` or dark canvas).
-- **Breathing Room**: Keep elements spacious, light, and elevated with subtle contact shadows or soft drop-shadow filters on vector glyphs.
+### B. The "1-Second Clarity" Principle (Tối Giản – 1 Giây Là Hiểu Ngay)
+Viewers need a clear entry point. Treat quick comprehension as a design test rather than a fixed time guarantee:
+1. **Clear Focus & Visual Scale**: Đồ họa chính phải đủ lớn và nổi bật (chiếm 75%–85% chiều ngang active stage, width 780–880px trên khung 1080px). Tuyệt đối không vẽ đồ họa quá nhỏ làm lọt thỏm giữa màn hình trống, cũng không để đồ họa sát viền (chừa lề an toàn tối thiểu 80px hai bên, 140px lề phải tránh nút TikTok).
+2. **Tuyệt Đối Không Nhồi Nhét Chữ (Zero Text Clutter)**: Motion graphic KHÔNG PHẢI slide thuyết trình. Khán giả đã nghe voiceover và đọc caption phụ đề. Tuyệt đối không đưa cả câu văn, checklist dài hay hướng dẫn vào trong graphic. Nhãn trong đồ họa chỉ được phép chứa **tối đa 1–3 từ khóa định danh** (ví dụ: `QUY TRÌNH`, `BÀI MẪU`, `TÀI LIỆU`, `CHỦ ĐỀ`, `Ý THÔ`). Mọi văn bản dài phải được trừu tượng hóa thành các thanh guide rules / vạch mực hoặc icon trực quan.
+3. **Tối Giản Tinh Tế (Stripped-Down Silhouette)**: Loại bỏ toàn bộ các tem nhãn rác, con dấu phụ giả tạo, hoặc card lồng card dày đặc gây ngột ngạt. Giữ lại duy nhất vật thể cốt lõi tham gia vào câu chuyện và tương tác vật lý.
+4. **Zero-Repetition Directive (Cấm Lặp Lại Component)**: Không lặp lại cùng một định dạng thẻ card hay kiểu animation quá 1-2 lần trong một video. Mỗi scene phải là một cơ chế vật thể vật lý riêng biệt (rương báu, trục in giấy, kéo thả chat box + bút tracking, khe cắm cartridge, bàn mixer fader/dial/switch, phễu nén khí, bánh lái bánh răng, cầu dao công nghiệp).
+5. **Cố Định Layout Phân Cảnh (Scene-Level Stability)**: Cố định tuyệt đối vị trí motion graphic trong suốt thời lượng của scene, không dùng hiệu ứng trượt giữa chừng (`centerShift`). Khi có speaker: speaker hiện diện 100% thời lượng và graphic nằm cố định nửa trên. Khi không có speaker: graphic nằm cố định ngay trung tâm dọc (`justifyContent: 'center'`).
+6. **Tương Tác Vật Lý Sống Động (Mandatory Physics)**: Mọi element luôn có nhịp thở (`continuousFloat`), va chạm có thụt lún (`dropRecoil`), nảy lò xo (`dampedOscillation`), ngòi bút chì bám đầu nét mực theo thời gian thực (`WritingPencil`), và bánh răng ăn khớp quay ngược chiều.
 
-### C. Balanced Color Harmonization
-Every motion piece must use a restrained 3-to-4 color palette:
+### C. Cards or Open Compositions by Meaning
+- Use cards for discrete choices, tasks, documents, evidence, states or comparisons. Use open space for relationships that do not need a container.
+- Give a card a purpose and appropriate action: select, queue, compare, block, expand, merge or hand off. It may hold still for reading.
+- Avoid nested boxes and excessive shadows; keep hierarchy and breathing room in either approach.
+- Apply [physical-interaction-direction](../physical-interaction-direction/SKILL.md) for shared contact/state events, including card interactions.
+- Use [creative-video-direction](../creative-video-direction/SKILL.md) for visual choice, design memory, art direction and anti-slop review.
+
+### D. Balanced Color Harmonization
+Choose a restrained palette for the project and keep semantic roles consistent. The following is an optional paper example:
 - **Canvas Base**: `#FAF8F5` (Editorial warm paper canvas).
 - **Ink / Typography**: `#1A1816` (Deep carbon ink) for headlines; `rgba(26, 24, 22, 0.55)` for secondary labels.
 - **Single Focal Accent**: `#C6532A` (Warm terracotta cam đất) for focal highlights, active states, and active badges.
@@ -37,7 +61,7 @@ Every motion piece must use a restrained 3-to-4 color palette:
   - Attention / Pending: `#D97706` (Amber gold).
   - Neutral Guides / Dividers: `rgba(26, 24, 22, 0.12)`.
 
-### D. Icon Strategy: Official Brand Vectors & Font Awesome
+### E. Icon Strategy: Official Brand Vectors & Font Awesome
 - **Official Brand Logos**: Always check `public/icon/` first for official SVGs (Claude, ChatGPT, Notion, Gmail, Google, GitHub, Apple, etc.). Never draw clumsy approximations when real brand marks exist.
 - **Standard UI Icons**: Always default to Font Awesome vector icons rendered via `<FaIcon icon="..." />` or fetched via `pipeline/assets/fetch_fa_icon.py`.
 - Wrap icons in circular badge pills or let them stand alone with clean SVG transforms (`scale`, `rotate`, `translate`).
@@ -46,7 +70,7 @@ Every motion piece must use a restrained 3-to-4 color palette:
 
 ## 2. Universal Visual Metaphor Primitives
 
-Use these 12 modular primitives as building blocks to visualize any abstract concept, software workflow, business problem, or human behavior:
+These primitives are examples to adapt when appropriate, not an exhaustive grammar or a lookup table for every sentence:
 
 ---
 
@@ -81,6 +105,7 @@ Use these 12 modular primitives as building blocks to visualize any abstract con
 - **Choreography**:
   - Left element: A minimal spreadsheet or form field. A blinking vertical cursor (`opacity: Math.sin(frame * 0.4) > 0 ? 1 : 0`) painstakingly types character by character (`text.slice(0, Math.floor(relFrame / 4))`).
   - Right element: A high-contrast stopwatch / clock icon spinning rapidly (`rotate(${frame * 12}deg)`), paired with an elastic badge popping in: `+3 giờ/ngày` or `Mất thời gian`.
+  - **Cursor Click Accuracy**: Khi có hành vi nhấp chuột vào button/cell, bắt buộc kiểm tra hit-testing bằng `checkCursorClickTarget` (`src/motion/validate.ts`) để đảm bảo tâm chuột và `ClickRipple` trùng khớp 100% với bounding box của nút bấm, không lệch sang hàng/vật thể khác.
 
 ---
 
@@ -209,7 +234,9 @@ Use these 12 modular primitives as building blocks to visualize any abstract con
 ## 3. Remotion Motion Physics & Implementation Recipes
 
 ### A. Core Spring Configurations
-Never animate with linear time or arbitrary ease strings. Use standard Remotion spring configs:
+Drive every animation from frame time. Choose constant speed for steady flow, easing for authored travel,
+spring for elastic response, or a baked track for simulation. The following spring configs are starting points,
+not mandatory physics; keep contact, visibility and deformation channels separate:
 ```typescript
 import { spring } from 'remotion';
 
@@ -227,14 +254,16 @@ export const SPRING_STATELY = { damping: 17, mass: 1.6, stiffness: 70 };
 ```
 
 ### B. Harmonic Floating (Living Motion)
-Static graphics look dead. After entering, elements must breathe subtly using phase-offset sine waves:
+Use subtle floating only when the material or scene calls for it; grounded cards and reading states should settle.
+The following motion is optional and should pause while competing with a primary action:
 ```typescript
 const floatY = Math.sin(frame * 0.08 + phaseOffset) * 6; // ±6px gentle drift
 const floatRotate = Math.cos(frame * 0.05 + phaseOffset) * 1.5; // ±1.5deg tilt
 ```
 
-### C. Standard 8-Frame Exit Transition
-Never vanish abruptly on scene boundary. Always fade and scale out gracefully:
+### C. Optional Exit Transition
+Choose a cut, carry-over, mask, or exit according to the idea. The 8-frame helper below is only an example;
+do not add an exit on every boundary or shorten the reading hold to make room for it:
 ```typescript
 export const getExitTransform = (frame: number, endFrame: number, duration: number = 8) => {
   if (frame < endFrame - duration) return { opacity: 1, scale: 1, translateY: 0 };
@@ -251,7 +280,8 @@ export const getExitTransform = (frame: number, endFrame: number, duration: numb
 
 ## 4. The 3-Step Script-to-Metaphor Translation Workflow
 
-When presented with any new video script line, follow this deterministic selection process:
+Use the examples below as brainstorming prompts only. Select the simplest clear visual via creative-video-direction;
+cards, people and direct evidence remain valid even when an example suggests a metaphor:
 
 1. **Find the Core Tension**: What is the speaker's real point?
    - Is it *friction/slowness*? ➔ Use **Primitive 2 (Manual Labor)** or **Primitive 11 (Gauge Limit)**.
@@ -261,8 +291,8 @@ When presented with any new video script line, follow this deterministic selecti
    - Is it *cohesion/harmony*? ➔ Use **Primitive 5 (Connected Pipeline)**.
    - Is it *contrast/trade-off*? ➔ Use **Primitive 6 (Comparative Split)**.
    - Is it *organic scale/reputation*? ➔ Use **Primitive 9 (Network Blossoming)**.
-2. **Draft the 3-Layer Scene**:
-   - Layer 1: The visual metaphor animation (center stage, floating without cards).
-   - Layer 2: Main headline title ($\le 4$ words, Anton or bold sans-serif).
-   - Layer 3: Supporting key metric badge or tag.
+2. **Draft Only the Needed Layers**:
+   - Main content: speaker, card relationship, evidence, chart or metaphor, grounded or floating as appropriate.
+   - Add headline/label/context only if it helps; no required badge, metric or decorative layer.
+   - Keep type and visual tokens consistent with the chosen project art direction.
 3. **Harmonize Colors**: Pick primary ink + 1 semantic accent matching the emotional tone.

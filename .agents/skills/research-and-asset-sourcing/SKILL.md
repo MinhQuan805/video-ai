@@ -3,19 +3,27 @@ name: research-and-asset-sourcing
 description: >-
   Procedures for deep content fact-checking, visual concept extraction, open-source asset gathering,
   and user asset request specification. Use this skill during Stage 1 and Stage 4 to research facts,
-  verify historical/scientific accuracy, find public domain media, or generate a clear checklist
-  of assets the user must provide (logos, private footage, product mockups).
+  verify historical/scientific accuracy, find licensed/public media, or resolve an essential missing asset
+  after checking local material, official sources and a suitable code-drawn fallback.
 ---
 
 # Pipeline Stage: Content Research & Visual Asset Sourcing
 
 This skill governs the **investigative research** and **visual asset acquisition** phases. Producing high-impact programmatic videos requires verified factual precision and authentic visual evidence.
 
+Follow [autonomous-skill-and-asset-evolution](../autonomous-skill-and-asset-evolution/SKILL.md) for downloads,
+captures, dependencies and cost. Use [creative-video-direction](../creative-video-direction/SKILL.md) to choose
+whether the scene needs an external asset at all; code-drawn actors and card interactions are valid primary visuals.
+Preserve raw voice and render gates through [ai-video-pipeline](../ai-video-pipeline/SKILL.md).
+
 ---
 
 ## 1. Deep Factual Research & The "Hard Fact" Matrix
 
-Before writing a single line of script or code, conduct exhaustive research across primary and high-credibility secondary sources (academic encyclopedias, peer-reviewed journals, verified archival databases, Wikipedia with primary source citations).
+Research factual claims that need evidence, with effort proportional to uncertainty and consequence. Prefer
+primary/official sources; cross-check disputed or changing claims. Personal experience does not need invented
+citations, and an unrelated claim must not block independent motion/layout work. Stop when reliable evidence
+answers the needed question; do not make exhaustive research a prerequisite for every line of code.
 
 ### A. Newsworthiness & Source Selection
 
@@ -102,11 +110,13 @@ Khi phân cảnh hoặc giao diện mô phỏng cần sử dụng icon (biểu t
 
 ---
 
-### Category B: Assets the USER MUST PROVIDE (Checklist & Guidelines)
+### Category B: Essential Assets Requiring User Access or Rights
 
-When a video requires assets that cannot be legally or technologically retrieved from public domain archives, the AI **must compile a clear, formatted request table for the user**.
+First check authorized local assets, `public/icon/`, official public sources and whether a code-drawn visual
+can carry the idea faithfully. Ask only when a specific missing private/proprietary asset is essential and no
+appropriate fallback exists; continue independent work. Do not ask for an entire brand kit by default.
 
-#### What the User Must Provide:
+#### Possible Essential Inputs, Only When the Scene Requires Them:
 1. **Brand & Corporate Identity**:
    * Brand logos, corporate wordmarks, app iconography.
    * Brand color tokens (Hex codes) and typography guidelines.
@@ -145,7 +155,8 @@ When prompting the user for required assets, generate a structured markdown requ
 
 ## 3. The Visual Idea-to-Asset Translation Matrix
 
-For every key assertion in the script, the AI must translate abstract narrative into concrete, sourceable visual artifacts:
+Use these examples when authentic source material helps the claim. They do not require an external artifact
+for every sentence; custom objects, card motion and clean diagrams may express the idea better:
 
 | Sentence / Concept Type | Visual Anchor Goal | Candidate Sourcing Strategy | Processing Recipe |
 | :--- | :--- | :--- | :--- |
@@ -153,7 +164,7 @@ For every key assertion in the script, the AI must translate abstract narrative 
 | **Scientific Observation** | Provide visual proof of discovery (e.g. finches, fossils). | Search Commons for original publication plate or museum specimen. | `pipeline/assets/cutout.py vat` (retain color, paper padding). |
 | **Large Passage of Time** | Physicalize duration and distance. | Equirectangular map crop; vintage marine chronometer. | `videos/vox/darwin/tools/prepare_map.py` & `TimelineRuler.tsx`. |
 | **Key Archival Document** | Anchor the turning point with historical gravity. | Search Commons for title page, diary notebook scan, handwritten letter. | `pipeline/assets/cutout.py xe` (torn parchment edges, paper texture). |
-| **Brand / Product Feature** | Highlight company value proposition. | **Request from user** (Category B). | Clean paper card mounting, floating drop shadow. |
+| **Brand / Product Feature** | Explain the actual product behavior. | Local official mark or public official material first; user-only asset when essential. | Readable UI/card or code-drawn explanation with causal motion. |
 
 ---
 
@@ -176,8 +187,8 @@ When a video uses downloaded image/video assets, maintain `image-sources.md` for
 ## 5. Pre-Production Sourcing Checklist
 
 Before advancing to Remotion animation coding:
-1. [ ] Have all core entities in the script been verified with at least 2 primary/secondary sources?
-2. [ ] Are all dates, numbers, and proper nouns confirmed with exact historical evidence?
+1. [ ] Are claims that require evidence backed by suitable sources, with uncertainty and cross-checks where needed?
+2. [ ] Are relevant dates/numbers/names verified without treating personal experience as an externally proven fact?
 3. [ ] Have downloaded standalone image/video assets been screened for copyright compliance (PD, CC0, CC-BY)? Skip license checks for research screenshots and searched frames.
-4. [ ] Have all proprietary brand assets or exclusive footage been explicitly requested from the user?
+4. [ ] Have local/official/code-drawn fallbacks been tried before asking for a genuinely essential private asset?
 5. [ ] Are downloaded standalone assets documented in `image-sources.md`? Screenshot/frame research does not need logging.

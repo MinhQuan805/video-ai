@@ -3,7 +3,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 episode = Path(__file__).resolve().parent
 output = episode / 'output'
-frames = [60, 145, 220, 360, 465, 530, 620, 715, 790, 880, 930, 1020, 1140, 1220, 1310, 1430, 1530]
+frames = [60, 145, 220, 360, 465, 542, 620, 715, 790, 880, 930, 1020, 1140, 1220, 1310, 1430, 1530]
 labels = [
     '01 / Hook',
     '02 / Step 1 Badge',

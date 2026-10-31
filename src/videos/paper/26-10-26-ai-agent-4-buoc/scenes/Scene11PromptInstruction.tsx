@@ -85,7 +85,7 @@ export const Scene11PromptInstruction: React.FC = () => {
         style={{
           position: 'relative',
           width: '100%',
-          maxWidth: 620,
+          maxWidth: 680,
           marginTop: 30,
           display: 'flex',
           justifyContent: 'center',
@@ -94,7 +94,7 @@ export const Scene11PromptInstruction: React.FC = () => {
         <div
           style={{
             position: 'relative',
-            width: 540,
+            width: 600,
             backgroundColor: '#FFFFFF',
             borderRadius: 24,
             border: '1.5px solid rgba(26,24,22,0.12)',

@@ -1,4 +1,6 @@
-# Video pipeline tự động 90%
+# Video pipeline — mục tiêu giảm thao tác 90%, cần kiểm chứng
+
+Bộ skill đang dùng và bản đồ chọn reference: [motion-skill-system.md](motion-skill-system.md).
 
 ## Mục tiêu
 
@@ -23,7 +25,7 @@ video-ai/
 │   ├── assets/                       # Tìm/tải/cache/attribution nguồn mở
 │   ├── qa/                            # Static checks, image/audio/video QA
 │   ├── packaging/                    # Manifest, subtitles, thumbnail, delivery bundle
-│   └── cli.py                        # Chạy stage; không render khi chưa duyệt
+│   └── cli.py                        # CLI tiền kỳ: capabilities, intake, prepare, qa, status
 ├── src/                               # Component và motion system dùng chung, đã được tuyển chọn
 ├── videos/
 │   ├── _inbox/                        # File raw mới; mỗi lần chỉ nhận một project đang chạy
@@ -198,3 +200,44 @@ trong repo và sinh schema captions cũ mà component hiện tại không đọc
 
 Không để lại bản wrapper cũ chỉ để giữ đường dẫn legacy trừ khi còn consumer ngoài repo đã xác nhận.
 
+
+
+## Quy trình skill đã tích hợp: raw-first và thiết kế motion có chủ đích
+
+Các skill và reference dưới đây đã được tích hợp và đồng bộ với runtime:
+- pipeline/cli.py đã triển khai và kiểm thử các lệnh capabilities, intake, prepare, qa, status.
+- src/motion/ và src/interactions/ đã triển khai bộ tính toán lò xo phân tích, hình học actor bounds, va chạm tiếp xúc và các cơ chế tương tác (press, pull, swallow, card queue/recoil).
+- Pipeline dừng tự động ở READY_FOR_APPROVAL. Cổng render được khóa chặt cho đến khi người dùng duyệt rõ ràng trong chat.
+
+- Workflow raw, source/edit clock, permission và resume:
+  [raw-first-workflow](../.agents/skills/ai-video-pipeline/references/raw-first-workflow.md).
+- Chọn người nói/card/evidence/chart/ẩn dụ, art direction và anti-slop:
+  [editorial-selection](../.agents/skills/creative-video-direction/references/editorial-selection.md).
+- Tương tác card, lực, ăn/đè và state:
+  [physical-interaction-direction](../.agents/skills/physical-interaction-direction/SKILL.md).
+- Vật thể phân lớp có thể diễn khi phù hợp:
+  [character-and-object-design](../.agents/skills/character-and-object-design/SKILL.md).
+- Novelty, history và promotion cơ chế:
+  [design-memory](../.agents/skills/creative-video-direction/references/design-memory.md).
+- QA trước/sau duyệt và đo phần việc thủ công:
+  [quality-and-acceptance](../.agents/skills/ai-video-pipeline/references/quality-and-acceptance.md).
+
+### Mức tự động hóa thực tế
+
+Đếm intervention, thời gian tham gia, lỗi nghĩa/timing và rework trên project thật. Chưa có baseline thì chưa
+báo đã đạt 90–100%. Skill không thay cho runtime hay bằng chứng chất lượng. Quy trình tự động dừng ở
+READY_FOR_APPROVAL trước render, giữ riêng cổng duyệt và quyền media trong AGENTS.md.
+
+Mặc định giữ giọng raw và lập luận; TTS, đổi script/hook/ending không tự chạy vì đã có template. Một video
+được phép chỉ dùng card hoặc người nói khi đó là lựa chọn rõ nhất. Mỗi đồ vật, con vật, headline, chuyển động
+và SFX đều cần vai trò trong câu chuyện. Không có quota visual system hay hiệu ứng.
+
+### Motion-led continuation của hướng paper hiện tại
+
+Theo yêu cầu đang có, mỗi graphic beat cần một primary motion diễn đạt ý và quan hệ, không chỉ fade một
+slide tĩnh. Hold là pha để đọc sau/giữa hành động; các đoạn người nói/evidence vẫn có thể ổn định.
+Dùng [paper-motion-continuity](../.agents/skills/motion-graphic-design/references/paper-motion-continuity.md)
+để kế thừa token/font/material và các motion có trong code dự án trước, đồng thời tạo actor/dàn cảnh mới.
+Nghiên cứu [physical-dynamics](../.agents/skills/physical-interaction-direction/references/physical-dynamics.md)
+trước các cảnh contact/force/hinge/ma sát phức tạp. Chủ động thiết kế nhân vật có thể diễn khi có vai hành động
+phù hợp theo [actor-performance](../.agents/skills/character-and-object-design/references/actor-performance.md).

@@ -52,7 +52,7 @@ export const Scene10Step3Badge: React.FC = () => {
           <div
             style={{
               fontFamily: FONTS.body,
-              fontSize: 26,
+              fontSize: 30,
               fontWeight: 800,
               color: COLORS.accent,
               letterSpacing: '5px',
@@ -68,9 +68,9 @@ export const Scene10Step3Badge: React.FC = () => {
       <StampDropIn progress={cardSpring} dropDistance={-90}>
         <div
           style={{
-            width: 230,
-            height: 230,
-            borderRadius: 58,
+            width: 300,
+            height: 300,
+            borderRadius: 72,
             backgroundColor: '#1E1D1B',
             display: 'flex',
             alignItems: 'center',
@@ -78,7 +78,7 @@ export const Scene10Step3Badge: React.FC = () => {
             boxShadow: '0 24px 56px rgba(26, 24, 22, 0.16)',
           }}
         >
-          <svg width="100" height="100" viewBox="0 0 24 24" fill="none" stroke={COLORS.accent} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+          <svg width="132" height="132" viewBox="0 0 24 24" fill="none" stroke={COLORS.accent} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
             <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
             <rect x="8" y="2" width="8" height="4" rx="1" ry="1" />
             <path d="M9 14l2 2 4-4" />
@@ -91,7 +91,7 @@ export const Scene10Step3Badge: React.FC = () => {
           <div
             style={{
               fontFamily: FONTS.title,
-              fontSize: 76,
+              fontSize: 84,
               fontWeight: 800,
               fontStyle: 'italic',
               color: COLORS.ink,

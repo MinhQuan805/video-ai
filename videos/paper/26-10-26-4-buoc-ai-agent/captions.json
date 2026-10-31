@@ -5,614 +5,631 @@
     {
       "text": "Đây là cách để bạn tạo",
       "start_frame": 0,
-      "end_frame": 48,
+      "end_frame": 39,
       "words": [
         {
           "text": "Đây",
           "start_frame": 0,
-          "end_frame": 8
+          "end_frame": 14
         },
         {
           "text": "là",
-          "start_frame": 8,
-          "end_frame": 16
+          "start_frame": 14,
+          "end_frame": 19
         },
         {
           "text": "cách",
-          "start_frame": 16,
-          "end_frame": 24
+          "start_frame": 19,
+          "end_frame": 23
         },
         {
           "text": "để",
-          "start_frame": 24,
-          "end_frame": 32
+          "start_frame": 23,
+          "end_frame": 28
         },
         {
           "text": "bạn",
-          "start_frame": 32,
-          "end_frame": 40
+          "start_frame": 28,
+          "end_frame": 32
         },
         {
           "text": "tạo",
-          "start_frame": 40,
-          "end_frame": 48
+          "start_frame": 32,
+          "end_frame": 39
         }
       ]
     },
     {
       "text": "một AI Agent",
-      "start_frame": 48,
-      "end_frame": 76,
+      "start_frame": 39,
+      "end_frame": 59,
       "words": [
         {
           "text": "một",
-          "start_frame": 48,
-          "end_frame": 57
+          "start_frame": 39,
+          "end_frame": 43
         },
         {
           "text": "AI",
-          "start_frame": 57,
-          "end_frame": 66
+          "start_frame": 43,
+          "end_frame": 50
         },
         {
           "text": "Agent",
-          "start_frame": 66,
-          "end_frame": 76
+          "start_frame": 50,
+          "end_frame": 59
         }
       ]
     },
     {
       "text": "làm việc thay mình",
-      "start_frame": 76,
-      "end_frame": 96,
+      "start_frame": 59,
+      "end_frame": 77,
       "words": [
         {
           "text": "làm",
-          "start_frame": 76,
-          "end_frame": 81
+          "start_frame": 59,
+          "end_frame": 62
         },
         {
           "text": "việc",
-          "start_frame": 81,
-          "end_frame": 86
+          "start_frame": 62,
+          "end_frame": 68
         },
         {
           "text": "thay",
-          "start_frame": 86,
-          "end_frame": 91
+          "start_frame": 68,
+          "end_frame": 73
         },
         {
           "text": "mình",
-          "start_frame": 91,
-          "end_frame": 96
+          "start_frame": 73,
+          "end_frame": 77
         }
       ]
     },
     {
       "text": "chỉ với bốn bước đơn giản",
-      "start_frame": 96,
-      "end_frame": 121,
+      "start_frame": 77,
+      "end_frame": 109,
       "words": [
         {
           "text": "chỉ",
-          "start_frame": 96,
-          "end_frame": 100
+          "start_frame": 77,
+          "end_frame": 83
         },
         {
           "text": "với",
-          "start_frame": 100,
-          "end_frame": 104
+          "start_frame": 83,
+          "end_frame": 86
         },
         {
           "text": "bốn",
-          "start_frame": 104,
-          "end_frame": 108
+          "start_frame": 86,
+          "end_frame": 92
         },
         {
           "text": "bước",
-          "start_frame": 108,
-          "end_frame": 112
+          "start_frame": 92,
+          "end_frame": 97
         },
         {
           "text": "đơn",
-          "start_frame": 112,
-          "end_frame": 116
+          "start_frame": 97,
+          "end_frame": 101
         },
         {
           "text": "giản",
-          "start_frame": 116,
-          "end_frame": 121
+          "start_frame": 101,
+          "end_frame": 109
         }
       ]
     },
     {
       "text": "Bước 01: Cài đặt AI Agent",
       "start_frame": 121,
-      "end_frame": 170,
+      "end_frame": 169,
       "words": [
         {
           "text": "Bước",
           "start_frame": 121,
-          "end_frame": 129
+          "end_frame": 126
         },
         {
           "text": "01:",
-          "start_frame": 129,
-          "end_frame": 137
+          "start_frame": 126,
+          "end_frame": 132
         },
         {
           "text": "Cài",
-          "start_frame": 137,
-          "end_frame": 145
+          "start_frame": 139,
+          "end_frame": 143
         },
         {
           "text": "đặt",
-          "start_frame": 145,
-          "end_frame": 153
+          "start_frame": 143,
+          "end_frame": 147
         },
         {
           "text": "AI",
-          "start_frame": 153,
-          "end_frame": 161
+          "start_frame": 147,
+          "end_frame": 158
         },
         {
           "text": "Agent",
-          "start_frame": 161,
-          "end_frame": 170
+          "start_frame": 158,
+          "end_frame": 169
         }
       ]
     },
     {
       "text": "Thay vì dùng chatbot",
       "start_frame": 181,
-      "end_frame": 215,
+      "end_frame": 204,
       "words": [
         {
           "text": "Thay",
           "start_frame": 181,
-          "end_frame": 189
+          "end_frame": 182
         },
         {
           "text": "vì",
-          "start_frame": 189,
-          "end_frame": 198
+          "start_frame": 182,
+          "end_frame": 186
         },
         {
           "text": "dùng",
-          "start_frame": 198,
-          "end_frame": 206
+          "start_frame": 186,
+          "end_frame": 193
         },
         {
           "text": "chatbot",
-          "start_frame": 206,
-          "end_frame": 215
+          "start_frame": 193,
+          "end_frame": 204
         }
       ]
     },
     {
       "text": "gõ prompt thông thường",
-      "start_frame": 215,
-      "end_frame": 240,
+      "start_frame": 204,
+      "end_frame": 230,
       "words": [
         {
           "text": "gõ",
-          "start_frame": 215,
-          "end_frame": 221
+          "start_frame": 204,
+          "end_frame": 214
         },
         {
           "text": "prompt",
-          "start_frame": 221,
-          "end_frame": 227
+          "start_frame": 214,
+          "end_frame": 218
         },
         {
           "text": "thông",
-          "start_frame": 227,
-          "end_frame": 233
+          "start_frame": 218,
+          "end_frame": 223
         },
         {
           "text": "thường",
-          "start_frame": 233,
-          "end_frame": 240
+          "start_frame": 223,
+          "end_frame": 230
         }
       ]
     },
     {
       "text": "hãy cài Claude Code",
       "start_frame": 240,
-      "end_frame": 270,
+      "end_frame": 269,
       "words": [
         {
           "text": "hãy",
           "start_frame": 240,
-          "end_frame": 247
+          "end_frame": 241
         },
         {
           "text": "cài",
-          "start_frame": 247,
-          "end_frame": 255
+          "start_frame": 241,
+          "end_frame": 250
         },
         {
           "text": "Claude",
-          "start_frame": 255,
-          "end_frame": 262
+          "start_frame": 256,
+          "end_frame": 261
         },
         {
           "text": "Code",
-          "start_frame": 262,
-          "end_frame": 270
+          "start_frame": 268,
+          "end_frame": 269
         }
       ]
     },
     {
       "text": "hoặc Codex",
-      "start_frame": 270,
-      "end_frame": 295,
+      "start_frame": 277,
+      "end_frame": 292,
       "words": [
         {
           "text": "hoặc",
-          "start_frame": 270,
+          "start_frame": 277,
           "end_frame": 282
         },
         {
           "text": "Codex",
           "start_frame": 282,
-          "end_frame": 295
+          "end_frame": 292
         }
       ]
     },
     {
       "text": "Điểm mạnh ở đây là",
       "start_frame": 302,
-      "end_frame": 334,
+      "end_frame": 328,
       "words": [
         {
           "text": "Điểm",
           "start_frame": 302,
-          "end_frame": 308
+          "end_frame": 304
         },
         {
           "text": "mạnh",
-          "start_frame": 308,
-          "end_frame": 314
+          "start_frame": 304,
+          "end_frame": 307
         },
         {
           "text": "ở",
-          "start_frame": 314,
-          "end_frame": 321
+          "start_frame": 307,
+          "end_frame": 315
         },
         {
           "text": "đây",
-          "start_frame": 321,
-          "end_frame": 327
+          "start_frame": 315,
+          "end_frame": 319
         },
         {
           "text": "là",
-          "start_frame": 327,
-          "end_frame": 334
+          "start_frame": 319,
+          "end_frame": 328
         }
       ]
     },
     {
-      "text": "AI Agent có thể truy cập file",
+      "text": "AI Agent có thể",
       "start_frame": 334,
-      "end_frame": 380,
+      "end_frame": 350,
       "words": [
         {
           "text": "AI",
           "start_frame": 334,
-          "end_frame": 340
+          "end_frame": 338
         },
         {
           "text": "Agent",
-          "start_frame": 340,
-          "end_frame": 347
+          "start_frame": 338,
+          "end_frame": 342
         },
         {
           "text": "có",
-          "start_frame": 347,
-          "end_frame": 353
+          "start_frame": 342,
+          "end_frame": 346
         },
         {
           "text": "thể",
-          "start_frame": 353,
-          "end_frame": 360
-        },
+          "start_frame": 346,
+          "end_frame": 350
+        }
+      ]
+    },
+    {
+      "text": "truy cập file",
+      "start_frame": 350,
+      "end_frame": 368,
+      "words": [
         {
           "text": "truy",
-          "start_frame": 360,
-          "end_frame": 366
+          "start_frame": 350,
+          "end_frame": 358
         },
         {
           "text": "cập",
-          "start_frame": 366,
-          "end_frame": 373
+          "start_frame": 358,
+          "end_frame": 361
         },
         {
           "text": "file",
-          "start_frame": 373,
-          "end_frame": 380
+          "start_frame": 361,
+          "end_frame": 368
         }
       ]
     },
     {
       "text": "và thực thi tác vụ",
-      "start_frame": 380,
-      "end_frame": 405,
+      "start_frame": 368,
+      "end_frame": 394,
       "words": [
         {
           "text": "và",
-          "start_frame": 380,
-          "end_frame": 385
+          "start_frame": 368,
+          "end_frame": 372
         },
         {
           "text": "thực",
-          "start_frame": 385,
-          "end_frame": 390
+          "start_frame": 372,
+          "end_frame": 375
         },
         {
           "text": "thi",
-          "start_frame": 390,
-          "end_frame": 395
+          "start_frame": 375,
+          "end_frame": 381
         },
         {
           "text": "tác",
-          "start_frame": 395,
-          "end_frame": 400
+          "start_frame": 381,
+          "end_frame": 388
         },
         {
           "text": "vụ",
-          "start_frame": 400,
-          "end_frame": 405
+          "start_frame": 388,
+          "end_frame": 394
         }
       ]
     },
     {
-      "text": "trực tiếp trên máy của bạn",
-      "start_frame": 405,
-      "end_frame": 440,
+      "text": "trực tiếp ngay trên máy tính của bạn",
+      "start_frame": 394,
+      "end_frame": 434,
       "words": [
         {
           "text": "trực",
-          "start_frame": 405,
-          "end_frame": 410
+          "start_frame": 394,
+          "end_frame": 401
         },
         {
           "text": "tiếp",
-          "start_frame": 410,
-          "end_frame": 416
+          "start_frame": 401,
+          "end_frame": 406
+        },
+        {
+          "text": "ngay",
+          "start_frame": 406,
+          "end_frame": 412
         },
         {
           "text": "trên",
-          "start_frame": 416,
-          "end_frame": 422
+          "start_frame": 412,
+          "end_frame": 416
         },
         {
           "text": "máy",
-          "start_frame": 422,
-          "end_frame": 428
+          "start_frame": 416,
+          "end_frame": 420
+        },
+        {
+          "text": "tính",
+          "start_frame": 420,
+          "end_frame": 425
         },
         {
           "text": "của",
-          "start_frame": 428,
-          "end_frame": 434
+          "start_frame": 425,
+          "end_frame": 430
         },
         {
           "text": "bạn",
-          "start_frame": 434,
-          "end_frame": 440
+          "start_frame": 430,
+          "end_frame": 434
         }
       ]
     },
     {
       "text": "Bước 02: Kết nối công cụ",
       "start_frame": 446,
-      "end_frame": 490,
+      "end_frame": 479,
       "words": [
         {
           "text": "Bước",
           "start_frame": 446,
-          "end_frame": 453
+          "end_frame": 449
         },
         {
           "text": "02:",
-          "start_frame": 453,
-          "end_frame": 460
+          "start_frame": 449,
+          "end_frame": 455
         },
         {
           "text": "Kết",
           "start_frame": 460,
-          "end_frame": 468
+          "end_frame": 463
         },
         {
           "text": "nối",
-          "start_frame": 468,
-          "end_frame": 475
+          "start_frame": 463,
+          "end_frame": 467
         },
         {
           "text": "công",
-          "start_frame": 475,
-          "end_frame": 482
+          "start_frame": 467,
+          "end_frame": 471
         },
         {
           "text": "cụ",
-          "start_frame": 482,
-          "end_frame": 490
+          "start_frame": 471,
+          "end_frame": 479
         }
       ]
     },
     {
       "text": "Vào mục Connectors",
-      "start_frame": 490,
-      "end_frame": 520,
+      "start_frame": 488,
+      "end_frame": 512,
       "words": [
         {
           "text": "Vào",
-          "start_frame": 490,
-          "end_frame": 500
+          "start_frame": 488,
+          "end_frame": 490
         },
         {
           "text": "mục",
-          "start_frame": 500,
-          "end_frame": 510
+          "start_frame": 490,
+          "end_frame": 495
         },
         {
           "text": "Connectors",
-          "start_frame": 510,
-          "end_frame": 520
+          "start_frame": 500,
+          "end_frame": 512
         }
       ]
     },
     {
       "text": "để liên kết các ứng dụng",
-      "start_frame": 520,
-      "end_frame": 545,
+      "start_frame": 512,
+      "end_frame": 544,
       "words": [
         {
           "text": "để",
-          "start_frame": 520,
-          "end_frame": 524
+          "start_frame": 512,
+          "end_frame": 517
         },
         {
           "text": "liên",
-          "start_frame": 524,
-          "end_frame": 528
+          "start_frame": 517,
+          "end_frame": 524
         },
         {
           "text": "kết",
-          "start_frame": 528,
-          "end_frame": 532
+          "start_frame": 524,
+          "end_frame": 529
         },
         {
           "text": "các",
-          "start_frame": 532,
-          "end_frame": 536
+          "start_frame": 529,
+          "end_frame": 533
         },
         {
           "text": "ứng",
-          "start_frame": 536,
-          "end_frame": 540
+          "start_frame": 533,
+          "end_frame": 541
         },
         {
           "text": "dụng",
-          "start_frame": 540,
-          "end_frame": 545
+          "start_frame": 541,
+          "end_frame": 544
         }
       ]
     },
     {
       "text": "bạn dùng hàng ngày",
-      "start_frame": 545,
+      "start_frame": 544,
       "end_frame": 565,
       "words": [
         {
           "text": "bạn",
-          "start_frame": 545,
-          "end_frame": 550
+          "start_frame": 544,
+          "end_frame": 548
         },
         {
           "text": "dùng",
-          "start_frame": 550,
-          "end_frame": 555
+          "start_frame": 548,
+          "end_frame": 554
         },
         {
           "text": "hàng",
-          "start_frame": 555,
-          "end_frame": 560
+          "start_frame": 554,
+          "end_frame": 559
         },
         {
           "text": "ngày",
-          "start_frame": 560,
+          "start_frame": 559,
           "end_frame": 565
         }
       ]
     },
     {
-      "text": "Ví dụ như Gmail",
+      "text": "ví dụ như Gmail",
       "start_frame": 577,
-      "end_frame": 610,
+      "end_frame": 603,
       "words": [
         {
-          "text": "Ví",
+          "text": "ví",
           "start_frame": 577,
-          "end_frame": 585
+          "end_frame": 578
         },
         {
           "text": "dụ",
-          "start_frame": 585,
-          "end_frame": 593
+          "start_frame": 578,
+          "end_frame": 585
         },
         {
           "text": "như",
-          "start_frame": 593,
-          "end_frame": 601
+          "start_frame": 585,
+          "end_frame": 587
         },
         {
           "text": "Gmail",
-          "start_frame": 601,
-          "end_frame": 610
+          "start_frame": 587,
+          "end_frame": 603
         }
       ]
     },
     {
-      "text": "bước này cấp quyền cho AI",
-      "start_frame": 610,
-      "end_frame": 650,
+      "text": "Bước này cấp quyền cho AI",
+      "start_frame": 611,
+      "end_frame": 658,
       "words": [
         {
-          "text": "bước",
-          "start_frame": 610,
+          "text": "Bước",
+          "start_frame": 611,
           "end_frame": 616
         },
         {
           "text": "này",
           "start_frame": 616,
-          "end_frame": 623
+          "end_frame": 621
         },
         {
           "text": "cấp",
-          "start_frame": 623,
-          "end_frame": 630
+          "start_frame": 629,
+          "end_frame": 634
         },
         {
           "text": "quyền",
-          "start_frame": 630,
-          "end_frame": 636
+          "start_frame": 634,
+          "end_frame": 641
         },
         {
           "text": "cho",
-          "start_frame": 636,
-          "end_frame": 643
+          "start_frame": 641,
+          "end_frame": 649
         },
         {
           "text": "AI",
-          "start_frame": 643,
-          "end_frame": 650
+          "start_frame": 649,
+          "end_frame": 658
         }
       ]
     },
     {
       "text": "tự động đọc thư mới",
-      "start_frame": 650,
+      "start_frame": 658,
       "end_frame": 688,
       "words": [
         {
           "text": "tự",
-          "start_frame": 650,
-          "end_frame": 657
+          "start_frame": 658,
+          "end_frame": 663
         },
         {
           "text": "động",
-          "start_frame": 657,
-          "end_frame": 665
+          "start_frame": 663,
+          "end_frame": 671
         },
         {
           "text": "đọc",
-          "start_frame": 665,
-          "end_frame": 672
+          "start_frame": 671,
+          "end_frame": 676
         },
         {
           "text": "thư",
-          "start_frame": 672,
+          "start_frame": 676,
           "end_frame": 680
         },
         {
@@ -630,499 +647,521 @@
         {
           "text": "và",
           "start_frame": 688,
-          "end_frame": 694
+          "end_frame": 697
         },
         {
           "text": "nhận",
-          "start_frame": 694,
-          "end_frame": 701
+          "start_frame": 697,
+          "end_frame": 703
         },
         {
           "text": "diện",
-          "start_frame": 701,
-          "end_frame": 708
+          "start_frame": 703,
+          "end_frame": 712
         },
         {
           "text": "vấn",
-          "start_frame": 708,
-          "end_frame": 715
+          "start_frame": 712,
+          "end_frame": 720
         },
         {
           "text": "đề",
-          "start_frame": 715,
-          "end_frame": 721
+          "start_frame": 720,
+          "end_frame": 725
         },
         {
           "text": "cần",
-          "start_frame": 721,
-          "end_frame": 728
+          "start_frame": 725,
+          "end_frame": 730
         },
         {
           "text": "xử",
-          "start_frame": 728,
-          "end_frame": 735
+          "start_frame": 730,
+          "end_frame": 736
         },
         {
           "text": "lý",
-          "start_frame": 735,
+          "start_frame": 736,
           "end_frame": 742
         }
       ]
     },
     {
       "text": "Muốn xem video hướng dẫn",
-      "start_frame": 750,
-      "end_frame": 785,
+      "start_frame": 751,
+      "end_frame": 779,
       "words": [
         {
           "text": "Muốn",
-          "start_frame": 750,
-          "end_frame": 757
+          "start_frame": 751,
+          "end_frame": 754
         },
         {
           "text": "xem",
-          "start_frame": 757,
-          "end_frame": 764
+          "start_frame": 754,
+          "end_frame": 758
         },
         {
           "text": "video",
-          "start_frame": 764,
-          "end_frame": 771
+          "start_frame": 758,
+          "end_frame": 767
         },
         {
           "text": "hướng",
-          "start_frame": 771,
-          "end_frame": 778
+          "start_frame": 767,
+          "end_frame": 774
         },
         {
           "text": "dẫn",
-          "start_frame": 778,
-          "end_frame": 785
+          "start_frame": 774,
+          "end_frame": 779
         }
       ]
     },
     {
       "text": "cài đặt thực tế từng bước",
-      "start_frame": 785,
+      "start_frame": 779,
       "end_frame": 810,
       "words": [
         {
           "text": "cài",
-          "start_frame": 785,
-          "end_frame": 789
+          "start_frame": 779,
+          "end_frame": 784
         },
         {
           "text": "đặt",
-          "start_frame": 789,
-          "end_frame": 793
+          "start_frame": 784,
+          "end_frame": 788
         },
         {
           "text": "thực",
-          "start_frame": 793,
-          "end_frame": 797
+          "start_frame": 788,
+          "end_frame": 792
         },
         {
           "text": "tế",
-          "start_frame": 797,
-          "end_frame": 801
+          "start_frame": 792,
+          "end_frame": 798
         },
         {
           "text": "từng",
-          "start_frame": 801,
-          "end_frame": 805
+          "start_frame": 798,
+          "end_frame": 803
         },
         {
           "text": "bước",
-          "start_frame": 805,
+          "start_frame": 803,
           "end_frame": 810
         }
       ]
     },
     {
-      "text": "bình luận AI Agent nhé!",
-      "start_frame": 810,
-      "end_frame": 850,
+      "text": "hãy bình luận",
+      "start_frame": 806,
+      "end_frame": 828,
       "words": [
+        {
+          "text": "hãy",
+          "start_frame": 806,
+          "end_frame": 810
+        },
         {
           "text": "bình",
           "start_frame": 810,
-          "end_frame": 818
+          "end_frame": 822
         },
         {
           "text": "luận",
-          "start_frame": 818,
-          "end_frame": 826
-        },
+          "start_frame": 822,
+          "end_frame": 828
+        }
+      ]
+    },
+    {
+      "text": "AI Agent nhé",
+      "start_frame": 828,
+      "end_frame": 847,
+      "words": [
         {
           "text": "AI",
-          "start_frame": 826,
-          "end_frame": 834
+          "start_frame": 828,
+          "end_frame": 832
         },
         {
           "text": "Agent",
-          "start_frame": 834,
-          "end_frame": 842
+          "start_frame": 832,
+          "end_frame": 838
         },
         {
-          "text": "nhé!",
-          "start_frame": 842,
-          "end_frame": 850
+          "text": "nhé",
+          "start_frame": 838,
+          "end_frame": 847
         }
       ]
     },
     {
       "text": "Bước 03: Giao việc rõ ràng",
-      "start_frame": 858,
-      "end_frame": 905,
+      "start_frame": 859,
+      "end_frame": 904,
       "words": [
         {
           "text": "Bước",
-          "start_frame": 858,
-          "end_frame": 865
+          "start_frame": 859,
+          "end_frame": 868
         },
         {
           "text": "03:",
-          "start_frame": 865,
-          "end_frame": 873
+          "start_frame": 868,
+          "end_frame": 875
         },
         {
           "text": "Giao",
-          "start_frame": 873,
-          "end_frame": 881
+          "start_frame": 883,
+          "end_frame": 884
         },
         {
           "text": "việc",
-          "start_frame": 881,
+          "start_frame": 884,
           "end_frame": 889
         },
         {
           "text": "rõ",
           "start_frame": 889,
-          "end_frame": 897
+          "end_frame": 896
         },
         {
           "text": "ràng",
-          "start_frame": 897,
-          "end_frame": 905
+          "start_frame": 896,
+          "end_frame": 904
         }
       ]
     },
     {
       "text": "Đưa ra yêu cầu thật chính xác",
-      "start_frame": 905,
-      "end_frame": 955,
+      "start_frame": 911,
+      "end_frame": 946,
       "words": [
         {
           "text": "Đưa",
-          "start_frame": 905,
-          "end_frame": 912
+          "start_frame": 911,
+          "end_frame": 914
         },
         {
           "text": "ra",
-          "start_frame": 912,
-          "end_frame": 919
+          "start_frame": 914,
+          "end_frame": 917
         },
         {
           "text": "yêu",
-          "start_frame": 919,
-          "end_frame": 926
+          "start_frame": 917,
+          "end_frame": 922
         },
         {
           "text": "cầu",
-          "start_frame": 926,
-          "end_frame": 933
+          "start_frame": 922,
+          "end_frame": 927
         },
         {
           "text": "thật",
-          "start_frame": 933,
-          "end_frame": 940
+          "start_frame": 927,
+          "end_frame": 931
         },
         {
           "text": "chính",
-          "start_frame": 940,
-          "end_frame": 947
+          "start_frame": 931,
+          "end_frame": 937
         },
         {
           "text": "xác",
-          "start_frame": 947,
-          "end_frame": 955
+          "start_frame": 937,
+          "end_frame": 946
         }
       ]
     },
     {
-      "text": "Đọc email hỗ trợ",
-      "start_frame": 955,
-      "end_frame": 990,
+      "text": "đọc email hỗ trợ",
+      "start_frame": 952,
+      "end_frame": 982,
       "words": [
         {
-          "text": "Đọc",
-          "start_frame": 955,
-          "end_frame": 963
+          "text": "đọc",
+          "start_frame": 952,
+          "end_frame": 958
         },
         {
           "text": "email",
-          "start_frame": 963,
-          "end_frame": 972
+          "start_frame": 958,
+          "end_frame": 969
         },
         {
           "text": "hỗ",
-          "start_frame": 972,
-          "end_frame": 981
+          "start_frame": 969,
+          "end_frame": 975
         },
         {
           "text": "trợ",
-          "start_frame": 981,
-          "end_frame": 990
+          "start_frame": 975,
+          "end_frame": 982
         }
       ]
     },
     {
       "text": "phân nhóm vấn đề",
-      "start_frame": 990,
-      "end_frame": 1020,
+      "start_frame": 991,
+      "end_frame": 1007,
       "words": [
         {
           "text": "phân",
-          "start_frame": 990,
-          "end_frame": 997
+          "start_frame": 991,
+          "end_frame": 992
         },
         {
           "text": "nhóm",
-          "start_frame": 997,
-          "end_frame": 1005
+          "start_frame": 992,
+          "end_frame": 997
         },
         {
           "text": "vấn",
-          "start_frame": 1005,
-          "end_frame": 1012
+          "start_frame": 997,
+          "end_frame": 1003
         },
         {
           "text": "đề",
-          "start_frame": 1012,
-          "end_frame": 1020
+          "start_frame": 1003,
+          "end_frame": 1007
         }
       ]
     },
     {
-      "text": "và soạn sẵn bản nháp câu trả lời",
-      "start_frame": 1020,
-      "end_frame": 1055,
+      "text": "và soạn sẵn bản nháp",
+      "start_frame": 1007,
+      "end_frame": 1039,
       "words": [
         {
           "text": "và",
-          "start_frame": 1020,
-          "end_frame": 1024
+          "start_frame": 1007,
+          "end_frame": 1012
         },
         {
           "text": "soạn",
-          "start_frame": 1024,
-          "end_frame": 1028
+          "start_frame": 1012,
+          "end_frame": 1019
         },
         {
           "text": "sẵn",
-          "start_frame": 1028,
-          "end_frame": 1033
+          "start_frame": 1019,
+          "end_frame": 1026
         },
         {
           "text": "bản",
-          "start_frame": 1033,
-          "end_frame": 1037
+          "start_frame": 1026,
+          "end_frame": 1034
         },
         {
           "text": "nháp",
-          "start_frame": 1037,
-          "end_frame": 1041
-        },
-        {
-          "text": "câu",
-          "start_frame": 1041,
-          "end_frame": 1046
-        },
-        {
-          "text": "trả",
-          "start_frame": 1046,
-          "end_frame": 1050
-        },
-        {
-          "text": "lời",
-          "start_frame": 1050,
-          "end_frame": 1055
+          "start_frame": 1034,
+          "end_frame": 1039
         }
       ]
     },
     {
-      "text": "để tôi duyệt",
-      "start_frame": 1055,
-      "end_frame": 1080,
+      "text": "câu trả lời để tôi duyệt",
+      "start_frame": 1039,
+      "end_frame": 1074,
       "words": [
         {
+          "text": "câu",
+          "start_frame": 1039,
+          "end_frame": 1048
+        },
+        {
+          "text": "trả",
+          "start_frame": 1048,
+          "end_frame": 1051
+        },
+        {
+          "text": "lời",
+          "start_frame": 1051,
+          "end_frame": 1057
+        },
+        {
           "text": "để",
-          "start_frame": 1055,
-          "end_frame": 1063
+          "start_frame": 1057,
+          "end_frame": 1060
         },
         {
           "text": "tôi",
-          "start_frame": 1063,
-          "end_frame": 1071
+          "start_frame": 1060,
+          "end_frame": 1066
         },
         {
           "text": "duyệt",
-          "start_frame": 1071,
-          "end_frame": 1080
+          "start_frame": 1066,
+          "end_frame": 1074
         }
       ]
     },
     {
       "text": "Kết quả chưa ưng ý",
       "start_frame": 1090,
-      "end_frame": 1120,
+      "end_frame": 1109,
       "words": [
         {
           "text": "Kết",
           "start_frame": 1090,
-          "end_frame": 1096
+          "end_frame": 1092
         },
         {
           "text": "quả",
-          "start_frame": 1096,
-          "end_frame": 1102
+          "start_frame": 1092,
+          "end_frame": 1097
         },
         {
           "text": "chưa",
-          "start_frame": 1102,
-          "end_frame": 1108
+          "start_frame": 1097,
+          "end_frame": 1102
         },
         {
           "text": "ưng",
-          "start_frame": 1108,
-          "end_frame": 1114
+          "start_frame": 1102,
+          "end_frame": 1106
         },
         {
           "text": "ý",
-          "start_frame": 1114,
-          "end_frame": 1120
+          "start_frame": 1106,
+          "end_frame": 1109
         }
       ]
     },
     {
       "text": "thì bổ sung chỉ dẫn vài lần",
-      "start_frame": 1120,
-      "end_frame": 1155,
+      "start_frame": 1118,
+      "end_frame": 1151,
       "words": [
         {
           "text": "thì",
-          "start_frame": 1120,
-          "end_frame": 1125
+          "start_frame": 1118,
+          "end_frame": 1120
         },
         {
           "text": "bổ",
-          "start_frame": 1125,
-          "end_frame": 1130
+          "start_frame": 1120,
+          "end_frame": 1124
         },
         {
           "text": "sung",
-          "start_frame": 1130,
-          "end_frame": 1135
+          "start_frame": 1124,
+          "end_frame": 1130
         },
         {
           "text": "chỉ",
-          "start_frame": 1135,
-          "end_frame": 1140
+          "start_frame": 1130,
+          "end_frame": 1136
         },
         {
           "text": "dẫn",
-          "start_frame": 1140,
-          "end_frame": 1145
+          "start_frame": 1136,
+          "end_frame": 1142
         },
         {
           "text": "vài",
-          "start_frame": 1145,
+          "start_frame": 1142,
           "end_frame": 1150
         },
         {
           "text": "lần",
           "start_frame": 1150,
-          "end_frame": 1155
+          "end_frame": 1151
         }
       ]
     },
     {
-      "text": "cho đến khi chạy mượt",
-      "start_frame": 1155,
-      "end_frame": 1195,
+      "text": "cho đến khi quy trình chạy mượt",
+      "start_frame": 1151,
+      "end_frame": 1187,
       "words": [
         {
           "text": "cho",
-          "start_frame": 1155,
-          "end_frame": 1163
+          "start_frame": 1151,
+          "end_frame": 1157
         },
         {
           "text": "đến",
-          "start_frame": 1163,
-          "end_frame": 1171
+          "start_frame": 1157,
+          "end_frame": 1160
         },
         {
           "text": "khi",
+          "start_frame": 1160,
+          "end_frame": 1165
+        },
+        {
+          "text": "quy",
+          "start_frame": 1165,
+          "end_frame": 1171
+        },
+        {
+          "text": "trình",
           "start_frame": 1171,
-          "end_frame": 1179
+          "end_frame": 1177
         },
         {
           "text": "chạy",
-          "start_frame": 1179,
-          "end_frame": 1187
+          "start_frame": 1177,
+          "end_frame": 1184
         },
         {
           "text": "mượt",
-          "start_frame": 1187,
-          "end_frame": 1195
+          "start_frame": 1184,
+          "end_frame": 1187
         }
       ]
     },
     {
       "text": "Bước 04: Đóng gói thành Skill",
       "start_frame": 1195,
-      "end_frame": 1245,
+      "end_frame": 1241,
       "words": [
         {
           "text": "Bước",
           "start_frame": 1195,
-          "end_frame": 1203
+          "end_frame": 1200
         },
         {
           "text": "04:",
-          "start_frame": 1203,
-          "end_frame": 1211
+          "start_frame": 1200,
+          "end_frame": 1207
         },
         {
           "text": "Đóng",
-          "start_frame": 1211,
-          "end_frame": 1220
+          "start_frame": 1214,
+          "end_frame": 1217
         },
         {
           "text": "gói",
-          "start_frame": 1220,
-          "end_frame": 1228
+          "start_frame": 1217,
+          "end_frame": 1221
         },
         {
           "text": "thành",
-          "start_frame": 1228,
-          "end_frame": 1236
+          "start_frame": 1221,
+          "end_frame": 1226
         },
         {
           "text": "Skill",
-          "start_frame": 1236,
-          "end_frame": 1245
+          "start_frame": 1226,
+          "end_frame": 1241
         }
       ]
     },
     {
-      "text": "Yêu cầu AI lưu toàn bộ quy trình",
-      "start_frame": 1245,
-      "end_frame": 1300,
+      "text": "Yêu cầu AI lưu toàn bộ quy trình vừa tạo",
+      "start_frame": 1250,
+      "end_frame": 1316,
       "words": [
         {
           "text": "Yêu",
-          "start_frame": 1245,
+          "start_frame": 1250,
           "end_frame": 1251
         },
         {
@@ -1133,90 +1172,100 @@
         {
           "text": "AI",
           "start_frame": 1258,
-          "end_frame": 1265
+          "end_frame": 1268
         },
         {
           "text": "lưu",
-          "start_frame": 1265,
-          "end_frame": 1272
+          "start_frame": 1281,
+          "end_frame": 1285
         },
         {
           "text": "toàn",
-          "start_frame": 1272,
-          "end_frame": 1279
+          "start_frame": 1285,
+          "end_frame": 1289
         },
         {
           "text": "bộ",
-          "start_frame": 1279,
-          "end_frame": 1286
-        },
-        {
-          "text": "quy",
-          "start_frame": 1286,
+          "start_frame": 1289,
           "end_frame": 1293
         },
         {
-          "text": "trình",
+          "text": "quy",
           "start_frame": 1293,
-          "end_frame": 1300
+          "end_frame": 1299
+        },
+        {
+          "text": "trình",
+          "start_frame": 1299,
+          "end_frame": 1304
+        },
+        {
+          "text": "vừa",
+          "start_frame": 1304,
+          "end_frame": 1311
+        },
+        {
+          "text": "tạo",
+          "start_frame": 1311,
+          "end_frame": 1316
         }
       ]
     },
     {
       "text": "thành một Skill tái sử dụng",
-      "start_frame": 1300,
-      "end_frame": 1340,
+      "start_frame": 1316,
+      "end_frame": 1356,
       "words": [
         {
           "text": "thành",
-          "start_frame": 1300,
-          "end_frame": 1306
+          "start_frame": 1316,
+          "end_frame": 1321
         },
         {
           "text": "một",
-          "start_frame": 1306,
-          "end_frame": 1313
+          "start_frame": 1321,
+          "end_frame": 1325
         },
         {
           "text": "Skill",
-          "start_frame": 1313,
-          "end_frame": 1320
+          "start_frame": 1325,
+          "end_frame": 1339
         },
         {
           "text": "tái",
-          "start_frame": 1320,
-          "end_frame": 1326
+          "start_frame": 1339,
+          "end_frame": 1344
         },
         {
           "text": "sử",
-          "start_frame": 1326,
-          "end_frame": 1333
+          "start_frame": 1344,
+          "end_frame": 1349
         },
         {
           "text": "dụng",
-          "start_frame": 1333,
-          "end_frame": 1340
+          "start_frame": 1349,
+          "end_frame": 1356
         }
       ]
     },
     {
       "text": "từ ngày mai",
-      "start_frame": 1340,
+      "start_frame": 1356,
       "end_frame": 1374,
       "words": [
         {
           "text": "từ",
-          "start_frame": 1340,
-          "end_frame": 1351
+          "start_frame": 1356,
+          "end_frame": 1363
         },
         {
           "text": "ngày",
-          "start_frame": 1351,
-          "end_frame": 1362
+          "start_frame": 1363,
+          "end_frame": 1367
         },
         {
           "text": "mai",
-          "start_frame": 1362,
+          "start_frame": 1367,
           "end_frame": 1374
         }
       ]
@@ -1224,163 +1273,168 @@
     {
       "text": "Bạn chỉ cần gọi đúng một lệnh",
       "start_frame": 1374,
-      "end_frame": 1420,
+      "end_frame": 1421,
       "words": [
         {
           "text": "Bạn",
           "start_frame": 1374,
-          "end_frame": 1380
+          "end_frame": 1383
         },
         {
           "text": "chỉ",
-          "start_frame": 1380,
-          "end_frame": 1387
+          "start_frame": 1383,
+          "end_frame": 1388
         },
         {
           "text": "cần",
-          "start_frame": 1387,
+          "start_frame": 1388,
           "end_frame": 1393
         },
         {
           "text": "gọi",
           "start_frame": 1393,
-          "end_frame": 1400
+          "end_frame": 1399
         },
         {
           "text": "đúng",
-          "start_frame": 1400,
-          "end_frame": 1406
+          "start_frame": 1399,
+          "end_frame": 1405
         },
         {
           "text": "một",
-          "start_frame": 1406,
-          "end_frame": 1413
+          "start_frame": 1405,
+          "end_frame": 1409
         },
         {
           "text": "lệnh",
-          "start_frame": 1413,
-          "end_frame": 1420
+          "start_frame": 1409,
+          "end_frame": 1421
         }
       ]
     },
     {
       "text": "gạch chéo hoặc hẹn giờ mỗi sáng",
-      "start_frame": 1420,
-      "end_frame": 1465,
+      "start_frame": 1421,
+      "end_frame": 1475,
       "words": [
         {
           "text": "gạch",
-          "start_frame": 1420,
-          "end_frame": 1426
+          "start_frame": 1421,
+          "end_frame": 1430
         },
         {
           "text": "chéo",
-          "start_frame": 1426,
-          "end_frame": 1432
-        },
-        {
-          "text": "hoặc",
-          "start_frame": 1432,
+          "start_frame": 1430,
           "end_frame": 1439
         },
         {
-          "text": "hẹn",
+          "text": "hoặc",
           "start_frame": 1439,
           "end_frame": 1445
         },
         {
-          "text": "giờ",
+          "text": "hẹn",
           "start_frame": 1445,
-          "end_frame": 1452
+          "end_frame": 1453
         },
         {
-          "text": "mỗi",
-          "start_frame": 1452,
+          "text": "giờ",
+          "start_frame": 1453,
           "end_frame": 1458
         },
         {
-          "text": "sáng",
+          "text": "mỗi",
           "start_frame": 1458,
-          "end_frame": 1465
+          "end_frame": 1468
+        },
+        {
+          "text": "sáng",
+          "start_frame": 1468,
+          "end_frame": 1475
         }
       ]
     },
     {
       "text": "AI sẽ tự động xử lý",
-      "start_frame": 1465,
-      "end_frame": 1500,
+      "start_frame": 1475,
+      "end_frame": 1510,
       "words": [
         {
           "text": "AI",
-          "start_frame": 1465,
-          "end_frame": 1470
+          "start_frame": 1475,
+          "end_frame": 1484
         },
         {
           "text": "sẽ",
-          "start_frame": 1470,
-          "end_frame": 1476
+          "start_frame": 1484,
+          "end_frame": 1491
         },
         {
           "text": "tự",
-          "start_frame": 1476,
-          "end_frame": 1482
+          "start_frame": 1491,
+          "end_frame": 1495
         },
         {
           "text": "động",
-          "start_frame": 1482,
-          "end_frame": 1488
+          "start_frame": 1495,
+          "end_frame": 1500
         },
         {
           "text": "xử",
-          "start_frame": 1488,
-          "end_frame": 1494
+          "start_frame": 1500,
+          "end_frame": 1505
         },
         {
           "text": "lý",
-          "start_frame": 1494,
-          "end_frame": 1500
+          "start_frame": 1505,
+          "end_frame": 1510
         }
       ]
     },
     {
-      "text": "xong xuôi trước khi bạn mở máy",
-      "start_frame": 1500,
-      "end_frame": 1565,
+      "text": "xong xuôi trước khi bạn kịp mở máy",
+      "start_frame": 1510,
+      "end_frame": 1559,
       "words": [
         {
           "text": "xong",
-          "start_frame": 1500,
-          "end_frame": 1509
+          "start_frame": 1510,
+          "end_frame": 1517
         },
         {
           "text": "xuôi",
-          "start_frame": 1509,
-          "end_frame": 1518
+          "start_frame": 1517,
+          "end_frame": 1526
         },
         {
           "text": "trước",
-          "start_frame": 1518,
-          "end_frame": 1527
+          "start_frame": 1526,
+          "end_frame": 1531
         },
         {
           "text": "khi",
-          "start_frame": 1527,
-          "end_frame": 1537
+          "start_frame": 1531,
+          "end_frame": 1535
         },
         {
           "text": "bạn",
-          "start_frame": 1537,
-          "end_frame": 1546
+          "start_frame": 1535,
+          "end_frame": 1541
+        },
+        {
+          "text": "kịp",
+          "start_frame": 1541,
+          "end_frame": 1550
         },
         {
           "text": "mở",
-          "start_frame": 1546,
-          "end_frame": 1555
+          "start_frame": 1550,
+          "end_frame": 1553
         },
         {
           "text": "máy",
-          "start_frame": 1555,
-          "end_frame": 1565
+          "start_frame": 1553,
+          "end_frame": 1559
         }
       ]
     }

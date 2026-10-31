@@ -11,14 +11,89 @@ description: >-
 
 This skill elevates the AI assistant from a mechanical code generator into an **Art Director and Creative Motion Designer**. Instead of blindly copy-pasting static templates or hardcoding rigid coordinates, use this framework to conceive, choreograph, and execute compelling, bespoke video scenes.
 
+## Content-led decisions: Prioritizing Creative Motion
+
+**Ưu tiên sáng tạo độc bản theo nội dung**: Motion graphics không phải là việc áp một template card có sẵn vào mọi cảnh. Mỗi ý tưởng cần một hướng thể hiện thị giác riêng biệt, giàu tính biểu đạt và cảm xúc thị giác.
+- Luôn tìm kiếm giải pháp chuyển động độc đáo thay vì bố cục hình chữ nhật lặp đi lặp lại.
+- Dùng card, typography, diagram, hình vẽ vector code, ảnh thật hoặc nhân vật tùy theo câu chuyện đòi hỏi.
+- Khi cần đối tượng hành động, chủ động dựng nhân vật hoặc cơ chế vật lý (mở gập, kéo trượt, nuốt che, va đập nén).
+- **Quy chuẩn Tự động hóa Sáng tạo & Cân đối Bố cục**: Đọc và áp dụng triệt để [automated-creativity-engine.md](references/automated-creativity-engine.md) để tự động hóa việc chuyển khái niệm thành ẩn dụ cơ học, áp dụng công thức không gian vàng 3 tầng, và thẩm định chất lượng trước khi trình.
+
+Read [editorial-selection.md](references/editorial-selection.md) for visual choice, consistent art direction,
+truthful hooks/payoffs, restrained motion and simplification. A card, a still speaker, evidence or a clean chart
+can be the best visual. Do not invent an animal/object when it adds interpretation work or distracts from the point.
+Read [design-memory.md](references/design-memory.md) when checking prior designs or promoting reusable mechanisms.
+For causal motion use [physical-interaction-direction](../physical-interaction-direction/SKILL.md);
+for custom layered objects use [character-and-object-design](../character-and-object-design/SKILL.md).
+The recipes below are examples, not a scene quota or a deterministic script-to-template lookup.
+
+For this user's motion-led continuation, graphic beats require a primary action with a cue and legible result.
+Use [paper-motion-continuity.md](../motion-graphic-design/references/paper-motion-continuity.md) to preserve the
+previous project's design and motion language. A character should be actively considered and designed when
+its action helps; do not reduce the brief to static slides in the name of simplicity. Reading holds and
+uncovered speaker beats remain intentional parts of the rhythm.
+
 ---
 
-## 1. The Anti-Hardcoding Heuristics
+## 0. The Anti-Pattern Manifesto: 5 Lỗi Chí Mạng Cần Tuyệt Đối Tránh
 
-Hardcoding exact pixel offsets, rigid arrays, and static delays produces repetitive, fragile videos that break whenever text lengths or aspect ratios change. Follow these dynamic design principles:
+Khi lên ý tưởng và thiết kế motion graphic, trợ lý AI thường mắc 5 lỗi lớn khiến video trông nghiệp dư, nhàm chán hoặc giống "slide bài giảng Powerpoint":
+
+### Lỗi 1: Thiết Kế Xấu, Thô Thiển & Tỷ Lệ Lệch Lạc (Ugly & Disproportional Layout)
+- **Biểu hiện**: Card quá nhỏ lọt thỏm giữa khoảng trống bao la, hoặc phóng quá to chèn sát mép màn hình; viền nét dày cộp thô kệch; màu sắc lòe loẹt không theo bảng màu chủ đạo; icon bị bóp méo tỷ lệ.
+- **Quy chuẩn sửa lỗi**:
+  - Tỷ lệ stage chuẩn: Đồ họa chính chiếm 75%–85% chiều rộng active canvas (780–880px trên khung 1080px).
+  - Giữ khoảng thở an toàn: Tối thiểu 80px lề hai bên, 140px lề phải (tránh icon TikTok), và lề dưới an toàn cách caption tối thiểu 120px.
+  - Tinh tế trong đường nét: Viền nét chỉ 1.5–2.5px, bo góc tự nhiên (radius 18–26px), bóng đổ 2 lớp khuếch tán mềm (`0 24px 50px rgba(0,0,0,0.12)`).
+
+### Lỗi 2: Quá Nhiều Chữ – Bệnh Nhồi Nhét Văn Bản (Slide Presentation Syndrome)
+- **Biểu hiện**: Bê nguyên câu thoại, đoạn văn dài, hoặc danh sách checklist 3–4 dòng chữ vào card.
+- **Quy chuẩn sửa lỗi**:
+  - **Motion Graphics là nghệ thuật biểu đạt bằng hình ảnh và cơ chế chuyển động, KHÔNG PHẢI để đọc chữ**. Người xem đã có giọng nói (voiceover) và phụ đề (caption).
+  - **Luật 1–3 từ định danh**: Nhãn chữ trong đồ họa chỉ được phép chứa **tối đa 1 đến 3 từ** (ví dụ: `QUY TRÌNH`, `BÀI MẪU`, `TÀI LIỆU`, `CHỦ ĐỀ`, `Ý THÔ`, `PROMPT`, `SKILL`).
+  - Mọi văn bản dài phải được chuyển hóa thành:
+    - Các thanh guide rules / vạch mực biểu trưng (`<div style={{ height: 12, width: '80%', backgroundColor: '#333' }} />`).
+    - Icon Font Awesome trực quan đồng bộ màu cam đất (`COLORS.accent`).
+    - Huy hiệu, con dấu, hoặc token tối giản.
+
+### Lỗi 3: Không Tối Giản – Tham Lam Chi Tiết Rác (Over-Decorating Clutter)
+- **Biểu hiện**: Nhồi nhét tem dán giả tạo ("BÍ TRUYỀN", "HOT", "PROMPT VIP"), card lồng card 3-4 tầng, các đường kẻ trang trí vô nghĩa không có công năng thị giác.
+- **Quy chuẩn sửa lỗi**:
+  - Áp dụng nguyên tắc "Trừ dần đến cốt lõi" (Subtractive Design): Nếu một chi tiết không trực tiếp giải thích cơ chế câu chuyện và không tham gia vào chuyển động vật lý, **XÓA BỎ NGAY LẬP TỨC**.
+  - Ví dụ: Một tờ giấy chỉ cần nền trắng, kẹp bướm và các dòng mực viết ra. Một khung chat chỉ cần ô nhập liệu, thumbnail file và nút gửi. Càng tinh gọn, video càng sang trọng và dễ hiểu trong 1 giây.
+
+### Lỗi 4: Lạm Dụng Component – Lười Biếng Lặp Lại Template (Template Laziness)
+- **Biểu hiện**: Scene 1 dùng card bo góc, Scene 2 lại dùng card bo góc, Scene 3 lại 3 cột card... Khán giả sẽ cảm thấy lặp đi lặp lại như xem slide trình chiếu.
+- **Quy chuẩn sửa lỗi**:
+  - **Zero Repetition Directive**: KHÔNG BAO GIỜ lặp lại cùng một cấu trúc hình học hay cơ chế vật thể quá 1-2 lần trong cùng một video.
+  - Mỗi scene phải có một **hình thái vật lý (Physical Metaphor Engine) hoàn toàn riêng biệt**:
+    - Scene A: Rương báu mở nắp nảy lò xo & nuốt trọn bão tài liệu.
+    - Scene B: Trục in cơ khí tuôn giấy dài từ dưới lên kèm thước đo vạch trượt.
+    - Scene C: Thao tác chuột gắp file thả vào khung chat thực tế + bút chì cơ học tracking từng nét chữ theo thời gian thực.
+    - Scene D: Khung cắm module với thanh ray thủy lực dập khóa.
+    - Scene E: Bàn mixer âm thanh với núm xoay, fader trượt, công tắc gạt.
+    - Scene F: Phễu nén khí dập dứt khoát 2 nguyên liệu thành thành phẩm.
+    - Scene G: Bánh lái tàu truyền động sang cụm bánh răng ăn khớp.
+    - Scene H: Cầu dao công nghiệp dập tay đỏ phát xung lực.
+
+### Lỗi 5: Thiếu Motion & Tương Tác Vật Lý – Phần Tử "Chết" Đứng Im (Lifeless Elements)
+- **Biểu hiện**: Phần tử sau khi fade-in vào khung hình thì đứng im hoàn toàn như một ảnh chụp màn hình tĩnh. Không có sự va đập, không có đàn hồi, không có liên kết nhân quả.
+- **Quy chuẩn sửa lỗi**:
+  - Mọi element phải luôn có trạng thái "sống" (`continuousFloat`, rung động cơ khí nhẹ, hoặc kim quay).
+  - Mọi hành động tiếp xúc phải tuân theo vật lý nhân quả (Action-Reaction Physics):
+    - Khi thả vật thể vào khay chứa: Khay chứa phải thụt lún (`dropRecoil`) và nảy đàn hồi tắt dần (`dampedOscillation`).
+    - Khi vẽ viết: Ngòi bút phải chạy bám sát từng pixel theo đầu dòng mực đang xuất hiện, có độ rung tay `writingJitter`.
+    - Khi đóng nắp/dập cần: Phải có chấn động tắt dần và vòng sóng xung kích (`shockwave`) bung ra.
+    - Khi hai bánh răng kết hợp: Bánh răng thứ nhất xoay theo chiều kim đồng hồ thì bánh răng thứ hai phải xoay ngược chiều kim đồng hồ với tốc độ ăn khớp.
+
+---
+
+Unscoped pixel offsets and independent delays can break when text or timing changes. Explicit key poses and
+coordinates are valid when scoped to a composition, its bounds, and shared interaction anchors. Follow these design principles:
 
 ### A. Dynamic Font Scaling Based on String Length
-Never assign a fixed font size to dynamic titles. Compute font scale adaptively:
+Use a typography scale and measure text with loaded fonts; character-count scaling below is only a fallback
+estimate, not proof of fit or Vietnamese glyph correctness. Reflow or shorten optional labels before shrinking below readability:
 ```typescript
 export const getAdaptiveFontSize = (
   text: string,
@@ -35,12 +110,23 @@ export const getAdaptiveFontSize = (
 
 ### B. Viewport Safe Zone Grid (1080x1920 Canvas)
 Divide the vertical frame into 4 dedicated spatial zones to prevent visual collisions:
-* **Zone 1: Eyebrow & Category Ceiling ($y: 100 - 300\text{px}$)**: Reserved for tags, dates, case numbers, and headlines.
-* **Zone 2: Visual Hero Stage ($y: 320 - 1340\text{px}$)**: The main theater for illustrations, diagrams, 3D pop-ups, numbers, and comparisons.
+* **Zone 1: Top UI Buffer + Header ($y: 220 - 420\text{px}$)**: Reserve the first 220px for platform UI; place tags and headlines below it.
+* **Zone 2: Visual Hero Stage ($y: 440 - 1340\text{px}$)**: The main theater for illustrations, diagrams, 3D pop-ups, numbers, and comparisons.
 * **Zone 3: Lower-Third Caption Safe Zone ($y: 1380 - 1600\text{px}$)**: High-contrast subtitles. **Zero graphic clutter may enter this zone.**
 * **Zone 4: Ground Horizon / Footer ($y: 1600 - 1920\text{px}$)**: Anchor floor, source citations, progress bars, or decorative margins.
 
 ---
+
+### C. Scale Components to the Space They Have
+- Evaluate the usable composition area in every scene after reserving room for headlines, speaker footage, captions, and platform UI. If the hero group appears small while that area still has clear unused space, enlarge and recenter the group; a modest 10–25% increase is a useful starting point, not a fixed rule.
+- Scale related cards, icons, labels, and gaps together. Keep the visual hierarchy, text legibility, and relationships between connected elements intact; do not enlarge one component in isolation until it crowds another.
+- Keep at least 64px of side clearance on a 1080px-wide frame and aim for 80–110px around the main composition. Check the entire moving footprint, including shadows, rotation, overshoot, paths, and trails, at its widest point.
+- Apply this scene by scene across the video. Already well-filled compositions should keep their scale; open space is a cue to improve balance, not a demand to fill every corner.
+
+### D. Keep Essential Content Clear of Short-Platform UI
+- For 9:16 Shorts, Reels, and TikTok layouts, keep essential content within a conservative starting area of **x: 80–900px** and **y: 220–1600px** on a 1080 × 1920 frame. Reserve the bottom 320px for captions and platform controls, and keep important content at least 180px from the right edge where action buttons commonly sit.
+- Recalculate the safe area for each composition after speaker footage, captions, crops, and scene-specific overlays are placed. In split layouts, the usable graphic area may end above the speaker panel; honor that boundary rather than the full canvas height.
+- Check headlines and motion graphics at their highest and lowest animated positions, including shadows, travel, and overshoot. Keep the top UI buffer clear even during entrances and transitions; verify against the target platform preview when available.
 
 ## 2. Visual Metaphor Generation Engine
 
@@ -71,7 +157,8 @@ Translate the conceptual tension into a tangible object, physical movement, or m
 | **Weight of Data / Volume** | Massive digital counter, scale tipping, giant headline block. | Anton display numeral $\ge 260\text{px}$, spring bounce with contact shadow. |
 
 ### Step 3: Establish Visual Hierarchy (Focal Point Rule)
-Every frame must have exactly **one dominant focal point** (the Hero), **one secondary supporting element** (the Context), and **subtle ambient texture** (the Atmosphere).
+Aim for one clear primary reading/action focus. Add context or ambient texture only when useful; a speaker,
+one number or two equally weighted comparison cards need no extra decorative layer.
 
 ---
 
@@ -119,7 +206,8 @@ while each state earns its place through clarity, emotion, or novelty.
 ## 4. Cinematic Motion Choreography & Rhythm
 
 ### A. The Principle of Motion Contrast Across Scenes
-Never repeat the identical motion archetype two scenes in a row. Maintain cinematic momentum through contrasting physics:
+Vary motion when the idea benefits, while allowing repeated mechanisms and held layouts for continuity.
+The following sequence is an illustration, not a required alternation of physics or transitions:
 
 ```text
 Scene 1: Rapid Lateral Punch (Horizontal slide with backward lean & overshoot)
@@ -220,9 +308,9 @@ Combine an SVG circle mask with scale magnification ($1.3\times$) and a paper dr
 ## 7. Self-Critique & Creative Checklist Before Rendering
 
 Before approving any scene, evaluate it against this creative scorecard:
-- [ ] **Metaphor Check**: Does this scene show a meaningful visual metaphor, or is it just words floating in a box?
+- [ ] **Visual Choice**: Does the chosen speaker/card/evidence/chart/metaphor make this idea clear with appropriate complexity?
 - [ ] **Weight & Physics**: Does the entrance feel grounded with physical mass, or floaty and robotic?
 - [ ] **Spatial Breathing Room**: Are elements crowded? Is there ample padding around headings and illustrations?
-- [ ] **Contrast Variety**: Does this scene feel visually distinct from the scene preceding it?
+- [ ] **Continuity & Novelty**: Is reuse purposeful, identity consistent, and any new design checked against available history?
 - [ ] **Shot Grammar**: If there is a speaker, do full-frame, split, and graphic beats appear only where they improve the story, with transitions linked by speech, gesture, shape, or color?
 - [ ] **Emotional Alignment**: Does the typography and accent color match the gravity of the spoken narrative?

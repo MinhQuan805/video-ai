@@ -31,7 +31,7 @@ const composition = await selectComposition({
 });
 
 if (mode !== 'final') {
-  const frames = [60, 145, 220, 360, 465, 530, 620, 715, 790, 880, 930, 1020, 1140, 1220, 1310, 1430, 1530];
+  const frames = [60, 145, 220, 360, 465, 542, 620, 715, 790, 880, 930, 1020, 1140, 1220, 1310, 1430, 1530];
   const frameDir = path.join(output, 'review-frames');
   fs.mkdirSync(frameDir, { recursive: true });
 

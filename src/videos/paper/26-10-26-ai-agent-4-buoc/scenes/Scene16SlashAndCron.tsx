@@ -258,8 +258,8 @@ export const Scene16SlashAndCron: React.FC = () => {
             }}
           >
             {/* Analog Clock Dial */}
-            <div style={{ position: 'relative', width: 84, height: 84, flexShrink: 0 }}>
-              <svg width="84" height="84" viewBox="0 0 80 80">
+            <div style={{ position: 'relative', width: 104, height: 104, flexShrink: 0 }}>
+              <svg width="104" height="104" viewBox="0 0 80 80">
                 {/* Clock Outer Face */}
                 <circle cx="40" cy="40" r="37" fill="#FFFFFF" stroke={COLORS.ink} strokeWidth="3" />
 
@@ -319,10 +319,10 @@ export const Scene16SlashAndCron: React.FC = () => {
 
             {/* Time: 08:00 AM */}
             <div style={{ display: 'flex', alignItems: 'baseline', gap: 6 }}>
-              <span style={{ fontFamily: FONTS.title, fontSize: 50, fontWeight: 800, color: COLORS.ink, lineHeight: 1 }}>
+              <span style={{ fontFamily: FONTS.title, fontSize: 58, fontWeight: 800, color: COLORS.ink, lineHeight: 1 }}>
                 08:00
               </span>
-              <span style={{ fontFamily: FONTS.body, fontSize: 22, fontWeight: 700, color: COLORS.subtle }}>
+              <span style={{ fontFamily: FONTS.body, fontSize: 25, fontWeight: 700, color: COLORS.subtle }}>
                 AM
               </span>
             </div>

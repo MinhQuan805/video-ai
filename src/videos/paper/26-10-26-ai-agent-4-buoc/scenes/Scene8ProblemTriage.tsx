@@ -2,6 +2,34 @@ import React from 'react';
 import { AbsoluteFill, Easing, interpolate, spring, useCurrentFrame, useVideoConfig } from 'remotion';
 import { COLORS, EyebrowHeader, FONTS, MaskReveal, RobotHero } from './common';
 
+const EnvelopeFlight: React.FC<{
+  progress: number;
+  startTop: number;
+  endTop: number;
+  arcHeight: number;
+  sealColor: string;
+  icon: string;
+}> = ({ progress, startTop, endTop, arcHeight, sealColor, icon }) => {
+  if (progress <= 0 || progress >= 1) return null;
+  const arcY = Math.sin(progress * Math.PI) * -arcHeight;
+  return (
+    <div style={{
+      position: 'absolute', left: interpolate(progress, [0, 1], [220, 500]),
+      top: interpolate(progress, [0, 1], [startTop, endTop]) + arcY,
+      transform: `rotate(${interpolate(progress, [0, 0.5, 1], [-16, 12, 0])}deg) scale(${interpolate(progress, [0, 0.5, 1], [0.85, 1.12, 0.9])})`,
+      zIndex: 35, width: 100, height: 64, borderRadius: 12, backgroundColor: '#FFFFFF',
+      boxShadow: '0 14px 32px rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.06)',
+      display: 'flex', alignItems: 'center', justifyContent: 'center',
+    }}>
+      <svg width="100" height="64" style={{ position: 'absolute', top: 0, left: 0 }}>
+        <path d="M 0 0 L 50 32 L 100 0" fill="none" stroke="#E5E1D8" strokeWidth="2.5" />
+        <circle cx="50" cy="32" r="7" fill={sealColor} />
+      </svg>
+      <span style={{ position: 'absolute', bottom: 7, right: 9, fontSize: 15 }}>{icon}</span>
+    </div>
+  );
+};
+
 export const Scene8ProblemTriage: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
@@ -19,51 +47,46 @@ export const Scene8ProblemTriage: React.FC = () => {
     config: { mass: 0.6, damping: 13, stiffness: 180 },
   });
 
-  // The agent glides across the three categories and pulls each card into itself.
-  const consume1 = interpolate(frame, [10, 22], [0, 1], {
+  // Three letters arc from the agent into their matching categories.
+  const throw1Progress = interpolate(frame, [6, 24], [0, 1], {
     extrapolateLeft: 'clamp',
     extrapolateRight: 'clamp',
     easing: Easing.bezier(0.16, 1, 0.3, 1),
   });
-  const consume2 = interpolate(frame, [25, 37], [0, 1], {
+  const throw2Progress = interpolate(frame, [22, 38], [0, 1], {
     extrapolateLeft: 'clamp',
     extrapolateRight: 'clamp',
     easing: Easing.bezier(0.16, 1, 0.3, 1),
   });
-  const consume3 = interpolate(frame, [40, 52], [0, 1], {
+  const throw3Progress = interpolate(frame, [36, 48], [0, 1], {
     extrapolateLeft: 'clamp',
     extrapolateRight: 'clamp',
     easing: Easing.bezier(0.16, 1, 0.3, 1),
   });
-  const aiTravelX = interpolate(frame, [0, 50], [0, 210], {
-    extrapolateLeft: 'clamp', extrapolateRight: 'clamp',
-    easing: Easing.bezier(0.22, 1, 0.36, 1),
-  });
-
   // ==========================================
-  // The robot recoils lightly as each category is consumed.
+  // The robot hops as it throws each letter.
   // ==========================================
   let aiOffsetY = 0;
   let aiScaleX = 1;
   let aiScaleY = 1;
 
-  // First bite (frame 12 to 22)
-  if (frame >= 12 && frame < 23) {
-    const p = Math.sin((frame - 12) * (Math.PI / 11));
+  // First throw (frame 5 to 17)
+  if (frame >= 5 && frame < 17) {
+    const p = Math.sin((frame - 5) * (Math.PI / 12));
     aiOffsetY = -p * 22;
     aiScaleY = 1 + p * 0.18;
     aiScaleX = 1 - p * 0.09;
   }
-  // Second bite (frame 27 to 37)
-  else if (frame >= 27 && frame < 38) {
-    const p = Math.sin((frame - 27) * (Math.PI / 11));
+  // Second throw (frame 21 to 32)
+  else if (frame >= 21 && frame < 32) {
+    const p = Math.sin((frame - 21) * (Math.PI / 11));
     aiOffsetY = -p * 18;
     aiScaleY = 1 + p * 0.15;
     aiScaleX = 1 - p * 0.08;
   }
-  // Third bite (frame 42 to 52)
-  else if (frame >= 42 && frame < 53) {
-    const p = Math.sin((frame - 42) * (Math.PI / 11));
+  // Third throw (frame 35 to 45)
+  else if (frame >= 35 && frame < 45) {
+    const p = Math.sin((frame - 35) * (Math.PI / 10));
     aiOffsetY = -p * 16;
     aiScaleY = 1 + p * 0.13;
     aiScaleX = 1 - p * 0.07;
@@ -171,7 +194,7 @@ export const Scene8ProblemTriage: React.FC = () => {
           boxSizing: 'border-box',
         }}
       >
-        {/* AI glides right through the category cards and eats them in sequence. */}
+        {/* AI stays on the left and tosses each letter toward its category. */}
         <div
           style={{
             position: 'relative',
@@ -186,14 +209,14 @@ export const Scene8ProblemTriage: React.FC = () => {
         >
           <div
             style={{
-              transform: `translate(${aiTravelX}px, ${aiOffsetY}px) scaleX(${aiScaleX}) scaleY(${aiScaleY})`,
+              transform: `translateY(${aiOffsetY}px) scaleX(${aiScaleX}) scaleY(${aiScaleY})`,
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
             }}
           >
             <RobotHero
-              size={210}
+              size={230}
               blink={isBlinking}
               eyeOffsetX={eyeOffsetX}
             />
@@ -212,17 +235,21 @@ export const Scene8ProblemTriage: React.FC = () => {
               }}
             >
               <span style={{ fontSize: 15 }}>🎯</span>
-              <span style={{ fontFamily: FONTS.body, fontSize: 14, fontWeight: 700, color: COLORS.ink }}>
+              <span style={{ fontFamily: FONTS.body, fontSize: 16, fontWeight: 700, color: COLORS.ink }}>
                 Tự động phân luồng
               </span>
             </div>
           </div>
         </div>
 
+        <EnvelopeFlight progress={throw1Progress} startTop={200} endTop={65} arcHeight={65} sealColor={COLORS.accent} icon="🚨" />
+        <EnvelopeFlight progress={throw2Progress} startTop={210} endTop={185} arcHeight={50} sealColor="#2B2D42" icon="💳" />
+        <EnvelopeFlight progress={throw3Progress} startTop={220} endTop={305} arcHeight={40} sealColor="#8D99AE" icon="💬" />
+
         {/* Right: 3 Category Trays (Wider, larger font, readable) */}
         <div
           style={{
-            width: 440,
+            width: 460,
             display: 'flex',
             flexDirection: 'column',
             gap: 16,
@@ -236,14 +263,12 @@ export const Scene8ProblemTriage: React.FC = () => {
               width: '100%',
               backgroundColor: '#FFFFFF',
               borderRadius: 20,
-              padding: '16px 22px',
+              padding: '18px 24px',
               boxShadow:
                 frame >= 22
                   ? '0 18px 40px rgba(235,94,40,0.18), 0 0 0 2px #EB5E28'
                   : '0 10px 24px rgba(0,0,0,0.06), 0 0 0 1px rgba(0,0,0,0.04)',
-              transform: `translateX(${-consume1 * 300}px) translateY(${impactLoi}px) scale(${1 - consume1 * 0.58})`,
-              opacity: 1 - consume1,
-              transition: 'transform 0.15s ease',
+              transform: `translateY(${impactLoi}px) scale(${frame >= 22 && frame <= 28 ? 1.04 : 1})`,
               boxSizing: 'border-box',
             }}
           >
@@ -251,19 +276,19 @@ export const Scene8ProblemTriage: React.FC = () => {
               <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
                 <div
                   style={{
-                    width: 36,
-                    height: 36,
+                    width: 42,
+                    height: 42,
                     borderRadius: 10,
                     backgroundColor: 'rgba(235, 94, 40, 0.12)',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    fontSize: 18,
+                    fontSize: 20,
                   }}
                 >
                   🚨
                 </div>
-                <span style={{ fontFamily: FONTS.title, fontSize: 24, fontWeight: 800, color: COLORS.ink }}>
+                <span style={{ fontFamily: FONTS.title, fontSize: 26, fontWeight: 800, color: COLORS.ink }}>
                   Lỗi hệ thống
                 </span>
               </div>
@@ -311,13 +336,12 @@ export const Scene8ProblemTriage: React.FC = () => {
               width: '100%',
               backgroundColor: '#FFFFFF',
               borderRadius: 20,
-              padding: '16px 22px',
+              padding: '18px 24px',
               boxShadow:
                 frame >= 36
                   ? '0 18px 40px rgba(0,0,0,0.14), 0 0 0 2px #2B2D42'
                   : '0 10px 24px rgba(0,0,0,0.06), 0 0 0 1px rgba(0,0,0,0.04)',
-              transform: `translateX(${-consume2 * 300}px) scale(${1 - consume2 * 0.58})`,
-              opacity: 1 - consume2,
+              transform: `scale(${frame >= 36 && frame <= 42 ? 1.04 : 1})`,
               boxSizing: 'border-box',
             }}
           >
@@ -325,19 +349,19 @@ export const Scene8ProblemTriage: React.FC = () => {
               <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
                 <div
                   style={{
-                    width: 36,
-                    height: 36,
+                    width: 42,
+                    height: 42,
                     borderRadius: 10,
                     backgroundColor: 'rgba(43, 45, 66, 0.08)',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    fontSize: 18,
+                    fontSize: 20,
                   }}
                 >
                   💳
                 </div>
-                <span style={{ fontFamily: FONTS.title, fontSize: 24, fontWeight: 800, color: COLORS.ink }}>
+                <span style={{ fontFamily: FONTS.title, fontSize: 26, fontWeight: 800, color: COLORS.ink }}>
                   Thanh toán
                 </span>
               </div>
@@ -365,13 +389,12 @@ export const Scene8ProblemTriage: React.FC = () => {
               width: '100%',
               backgroundColor: '#FFFFFF',
               borderRadius: 20,
-              padding: '16px 22px',
+              padding: '18px 24px',
               boxShadow:
                 frame >= 46
                   ? '0 18px 40px rgba(0,0,0,0.14), 0 0 0 2px #8D99AE'
                   : '0 10px 24px rgba(0,0,0,0.06), 0 0 0 1px rgba(0,0,0,0.04)',
-              transform: `translateX(${-consume3 * 300}px) scale(${1 - consume3 * 0.58})`,
-              opacity: 1 - consume3,
+              transform: `scale(${frame >= 46 && frame <= 52 ? 1.04 : 1})`,
               boxSizing: 'border-box',
             }}
           >
@@ -379,19 +402,19 @@ export const Scene8ProblemTriage: React.FC = () => {
               <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
                 <div
                   style={{
-                    width: 36,
-                    height: 36,
+                    width: 42,
+                    height: 42,
                     borderRadius: 10,
                     backgroundColor: 'rgba(141, 153, 174, 0.12)',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    fontSize: 18,
+                    fontSize: 20,
                   }}
                 >
                   💬
                 </div>
-                <span style={{ fontFamily: FONTS.title, fontSize: 24, fontWeight: 800, color: COLORS.ink }}>
+                <span style={{ fontFamily: FONTS.title, fontSize: 26, fontWeight: 800, color: COLORS.ink }}>
                   Góp ý & hỏi đáp
                 </span>
               </div>

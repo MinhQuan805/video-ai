@@ -25,7 +25,7 @@ for (const phrase of captionsData.phrases) {
   if (words.length <= 4) {
     captionChunks.push({
       start_frame: words[0].start_frame,
-      end_frame: words[words.length - 1].end_frame,
+      end_frame: words[words.length - 1].end_frame + 6,
       words,
     });
   } else if (words.length <= 8) {
@@ -34,12 +34,12 @@ for (const phrase of captionsData.phrases) {
     const chunk2 = words.slice(mid);
     captionChunks.push({
       start_frame: chunk1[0].start_frame,
-      end_frame: chunk1[chunk1.length - 1].end_frame,
+      end_frame: chunk2[0].start_frame,
       words: chunk1,
     });
     captionChunks.push({
       start_frame: chunk2[0].start_frame,
-      end_frame: chunk2[chunk2.length - 1].end_frame,
+      end_frame: chunk2[chunk2.length - 1].end_frame + 6,
       words: chunk2,
     });
   } else {
@@ -47,9 +47,13 @@ for (const phrase of captionsData.phrases) {
     const step = Math.ceil(words.length / 3);
     for (let j = 0; j < words.length; j += step) {
       const sub = words.slice(j, j + step);
+      const nextSub = words.slice(j + step, j + 2 * step);
       captionChunks.push({
         start_frame: sub[0].start_frame,
-        end_frame: sub[sub.length - 1].end_frame,
+        end_frame:
+          nextSub.length > 0
+            ? nextSub[0].start_frame
+            : sub[sub.length - 1].end_frame + 6,
         words: sub,
       });
     }
@@ -100,7 +104,9 @@ export const PaperCaptions: React.FC = () => {
         }}
       >
         {activeChunk.words.map((word, idx) => {
-          const isActive = frame >= word.start_frame && frame < word.end_frame;
+          const nextWord = activeChunk.words[idx + 1];
+          const wordEnd = nextWord ? nextWord.start_frame : word.end_frame + 4;
+          const isActive = frame >= word.start_frame && frame < wordEnd;
           return (
             <span
               key={`${activeChunk.start_frame}-${idx}`}

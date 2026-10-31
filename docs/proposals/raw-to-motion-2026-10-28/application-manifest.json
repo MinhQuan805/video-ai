@@ -1,0 +1,201 @@
+{
+  "proposalVersion": "V2",
+  "status": "SKILLS_APPLIED",
+  "date": "2026-10-28",
+  "scope": "skills-and-documentation",
+  "validation": {
+    "skills": [
+      {
+        "skill": "ai-video-pipeline",
+        "valid": true,
+        "message": "Skill is valid!"
+      },
+      {
+        "skill": "audio-speech-alignment",
+        "valid": true,
+        "message": "Skill is valid!"
+      },
+      {
+        "skill": "autonomous-skill-and-asset-evolution",
+        "valid": true,
+        "message": "Skill is valid!"
+      },
+      {
+        "skill": "character-and-object-design",
+        "valid": true,
+        "message": "Skill is valid!"
+      },
+      {
+        "skill": "creative-video-direction",
+        "valid": true,
+        "message": "Skill is valid!"
+      },
+      {
+        "skill": "cutout-image-processing",
+        "valid": true,
+        "message": "Skill is valid!"
+      },
+      {
+        "skill": "motion-graphic-design",
+        "valid": true,
+        "message": "Skill is valid!"
+      },
+      {
+        "skill": "physical-interaction-direction",
+        "valid": true,
+        "message": "Skill is valid!"
+      },
+      {
+        "skill": "research-and-asset-sourcing",
+        "valid": true,
+        "message": "Skill is valid!"
+      },
+      {
+        "skill": "screen-recording-motion",
+        "valid": true,
+        "message": "Skill is valid!"
+      },
+      {
+        "skill": "tier-list-ranking-video",
+        "valid": true,
+        "message": "Skill is valid!"
+      },
+      {
+        "skill": "visual-paper-editorial",
+        "valid": true,
+        "message": "Skill is valid!"
+      },
+      {
+        "skill": "visual-vox-collage",
+        "valid": true,
+        "message": "Skill is valid!"
+      }
+    ],
+    "skillCount": 13,
+    "localLinks": 121,
+    "fences": "pass",
+    "errors": [],
+    "gitDiffCheck": "pass",
+    "unrelatedSceneAndPackageChangesPreserved": true
+  },
+  "runtimePilot": "not-run",
+  "render": "not-run",
+  "files": [
+    {
+      "path": ".agents/skills/ai-video-pipeline/references/quality-and-acceptance.md",
+      "sha256": "c5ab70d31c16d2fb29904322494355237785a6f2b912ae7029809c0b4cf8a4bc"
+    },
+    {
+      "path": ".agents/skills/ai-video-pipeline/references/raw-first-workflow.md",
+      "sha256": "2c135b3a762b49f466e0c0a32f6707e06a68e6b8e680decbca139abdc798da2a"
+    },
+    {
+      "path": ".agents/skills/ai-video-pipeline/SKILL.md",
+      "sha256": "bc214fb367297162acd8fab6f8fc19ef601d6b8aa8cac04b38d41e20501832ec"
+    },
+    {
+      "path": ".agents/skills/audio-speech-alignment/SKILL.md",
+      "sha256": "ea8bfb2641e7d38436ccd6e5fa04f75da4dcf6d487bf5ed2509b6c02a2ab9964"
+    },
+    {
+      "path": ".agents/skills/autonomous-skill-and-asset-evolution/references/automation-playbook.md",
+      "sha256": "0075aae5b8755cf8be77f45ef39ad11cbfa7b2ef7ec85a22248573d14c35e1bb"
+    },
+    {
+      "path": ".agents/skills/autonomous-skill-and-asset-evolution/references/safety-and-cost.md",
+      "sha256": "b96106eec2457d763970fa437c46e0cc3c2b683ff87557b22308663aa8217b6a"
+    },
+    {
+      "path": ".agents/skills/autonomous-skill-and-asset-evolution/SKILL.md",
+      "sha256": "40c9d836e95fafb01327088da78a877ae20359cba6853aca79bc32e710b2bee4"
+    },
+    {
+      "path": ".agents/skills/character-and-object-design/references/actor-performance.md",
+      "sha256": "0dbd4458ca7f489763bddc59bcffd39173e4edaa4c7745fc98f93efb68d49f2f"
+    },
+    {
+      "path": ".agents/skills/character-and-object-design/references/rig-and-material.md",
+      "sha256": "468384379bc4887de9171ca838d7d96f3e731a5cc1506e2454eb69303e71efd5"
+    },
+    {
+      "path": ".agents/skills/character-and-object-design/SKILL.md",
+      "sha256": "b6f44241e8b7d90a240b130b2c1a8c3ea008c854f3bc93dbb85f7d749c8bc2e6"
+    },
+    {
+      "path": ".agents/skills/creative-video-direction/references/design-memory.md",
+      "sha256": "704ab236cdfa7a570a64bf3a1efa82309c1a654da20405a96e13737d1022b620"
+    },
+    {
+      "path": ".agents/skills/creative-video-direction/references/editorial-selection.md",
+      "sha256": "c546cc1445706faf79ab7bcc455e924ce30f037205d90f8c801b1e52ea244a03"
+    },
+    {
+      "path": ".agents/skills/creative-video-direction/SKILL.md",
+      "sha256": "961c0eb1ebb44f4087945a7c585ffa91e3dfb74b1ee8ba98e9c50d25d2c8c491"
+    },
+    {
+      "path": ".agents/skills/cutout-image-processing/SKILL.md",
+      "sha256": "9f3c94e9a3c435ed3aa08dba6db12ff051306b096eef1fd5a6d44088707f21f6"
+    },
+    {
+      "path": ".agents/skills/motion-graphic-design/references/paper-motion-continuity.md",
+      "sha256": "41739f069dc864cff9d4784726d7bc486b5cafe7bd13c5783357e9f6cc45bd5e"
+    },
+    {
+      "path": ".agents/skills/motion-graphic-design/SKILL.md",
+      "sha256": "4a558896901b33c65e7a8fb48f452c292f39197fd496538508be392dc9485108"
+    },
+    {
+      "path": ".agents/skills/physical-interaction-direction/references/frame-driven-motion.md",
+      "sha256": "4e3f3738526edfd324de255a9766270e584355db840a5ecb9aae3b50d7942d8f"
+    },
+    {
+      "path": ".agents/skills/physical-interaction-direction/references/interaction-recipes.md",
+      "sha256": "af8c8544af6199ad3d7a19ebc45e35e77e57e8008860d0660927c0a640cc5c19"
+    },
+    {
+      "path": ".agents/skills/physical-interaction-direction/references/physical-dynamics.md",
+      "sha256": "5b89bdbde8616df61265d72e676eeec0bfa08657f344e5db6bec17e2f9e79b8d"
+    },
+    {
+      "path": ".agents/skills/physical-interaction-direction/SKILL.md",
+      "sha256": "b19da89cbb1b34dce4dddcc6c9e7597a3309cb18ff8a1934ebecd248a75a982f"
+    },
+    {
+      "path": ".agents/skills/research-and-asset-sourcing/SKILL.md",
+      "sha256": "181f9f11b12e12e419fa6c17d87eacd13abbbbaac1ec6f94c0e3f8384396c911"
+    },
+    {
+      "path": ".agents/skills/screen-recording-motion/SKILL.md",
+      "sha256": "57300307ad25410b9c4338c34f0124fdec005d4927f9f4f3fc040ffd258750d4"
+    },
+    {
+      "path": ".agents/skills/tier-list-ranking-video/SKILL.md",
+      "sha256": "d9dbcf2d532e9bcd87d6418a96dfbe030a092ca2fb396169fffa9a1996d22210"
+    },
+    {
+      "path": ".agents/skills/visual-paper-editorial/SKILL.md",
+      "sha256": "0467c98efee9273643633e60493f0f5ff8f21f387077e1e789a872f1781d24e9"
+    },
+    {
+      "path": ".agents/skills/visual-vox-collage/SKILL.md",
+      "sha256": "d9fde394f6f95f4200b7880bddd903dc44dd40995af20a6dfca4a7c8723b0fa4"
+    },
+    {
+      "path": "docs/auto-production-system.md",
+      "sha256": "f6fc9c1a2d859af50acf9883e35ff935a6acfc4432c852e2608b018a06118012"
+    },
+    {
+      "path": "docs/motion-skill-system.md",
+      "sha256": "ca797df64832696db44980cc8ccd0f0ee1b8ad0b4bf93e9ce4da16eef3e00d56"
+    },
+    {
+      "path": "docs/proposals/raw-to-motion-2026-10-28/application-report.md",
+      "sha256": "8a4d8987243c52cb2d9e76892d93186fb2d6a1bf4e5e0cda6d7e08c49547675f"
+    },
+    {
+      "path": "docs/proposals/raw-to-motion-2026-10-28/proposal.md",
+      "sha256": "aaad28bc7591dfd73138baa135ce5cc9bd94a404a27c94abef77e25d3db0be5a"
+    }
+  ]
+}

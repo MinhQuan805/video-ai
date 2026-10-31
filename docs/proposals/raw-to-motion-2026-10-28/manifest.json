@@ -1,0 +1,140 @@
+{
+  "proposalVersion": "V2",
+  "status": "SKILLS_APPLIED",
+  "entries": [
+    {
+      "target": ".agents/skills/ai-video-pipeline/references/quality-and-acceptance.md",
+      "draft": "draft/.agents/skills/ai-video-pipeline/references/quality-and-acceptance.md",
+      "action": "add",
+      "baseSha256": null,
+      "draftSha256": "5c2eacda3d51d001fe8e33ea3400d0605034b6a464a4c48fd8766ef3101d7766"
+    },
+    {
+      "target": ".agents/skills/ai-video-pipeline/references/raw-first-workflow.md",
+      "draft": "draft/.agents/skills/ai-video-pipeline/references/raw-first-workflow.md",
+      "action": "add",
+      "baseSha256": null,
+      "draftSha256": "d10ac941be4b6275cdba24d94046817ab1d425ebfee42190323749d75a3e96c3"
+    },
+    {
+      "target": ".agents/skills/ai-video-pipeline/SKILL.md",
+      "draft": "draft/.agents/skills/ai-video-pipeline/SKILL.md",
+      "action": "update",
+      "baseSha256": "abd631e9781f746842181b486aa48c418128fedf8e1a44f892ac706a7984ab20",
+      "draftSha256": "35f86389400fcf68de9a55e98492984e994f534dec64e050c2c866a7de9e5171"
+    },
+    {
+      "target": ".agents/skills/audio-speech-alignment/SKILL.md",
+      "draft": "draft/.agents/skills/audio-speech-alignment/SKILL.md",
+      "action": "update",
+      "baseSha256": "9916388c00b7ff820c339ee1c6e2151f663cb49371a9e2d114edd5e5881e6eef",
+      "draftSha256": "6d2716ecb94c7fc4c3a12b5fbdbf156905ebcd7ccd64eb390f0d4c19a41a19c0"
+    },
+    {
+      "target": ".agents/skills/autonomous-skill-and-asset-evolution/SKILL.md",
+      "draft": "draft/.agents/skills/autonomous-skill-and-asset-evolution/SKILL.md",
+      "action": "update",
+      "baseSha256": "028c1d83257b3fc6f76a382af9a69c695eb4bae0773e01b26119728359cc85ec",
+      "draftSha256": "87206f43e7fb700f2684f69e3680bed3b3cd6c280146496615d6090fc7dc057e"
+    },
+    {
+      "target": ".agents/skills/character-and-object-design/references/actor-performance.md",
+      "draft": "draft/.agents/skills/character-and-object-design/references/actor-performance.md",
+      "action": "add",
+      "baseSha256": null,
+      "draftSha256": "96f023dd1874c4c5b250c344056a798cacaa054d64dae9906ed100e713e0b10f"
+    },
+    {
+      "target": ".agents/skills/character-and-object-design/references/rig-and-material.md",
+      "draft": "draft/.agents/skills/character-and-object-design/references/rig-and-material.md",
+      "action": "add",
+      "baseSha256": null,
+      "draftSha256": "e8d4f1fc6bd42c338a491d3ffa16d6d2bb8d1f891b7db578d2b7e33aa3f16d98"
+    },
+    {
+      "target": ".agents/skills/character-and-object-design/SKILL.md",
+      "draft": "draft/.agents/skills/character-and-object-design/SKILL.md",
+      "action": "add",
+      "baseSha256": null,
+      "draftSha256": "7b3a60ed748366f6fa06e8ad97df9576671b724ec1d5271343b530e24589fece"
+    },
+    {
+      "target": ".agents/skills/creative-video-direction/references/design-memory.md",
+      "draft": "draft/.agents/skills/creative-video-direction/references/design-memory.md",
+      "action": "add",
+      "baseSha256": null,
+      "draftSha256": "1c43e81b99a764bdea13bd4397f6d296db0d9f329a874102795f185b11138e1e"
+    },
+    {
+      "target": ".agents/skills/creative-video-direction/references/editorial-selection.md",
+      "draft": "draft/.agents/skills/creative-video-direction/references/editorial-selection.md",
+      "action": "add",
+      "baseSha256": null,
+      "draftSha256": "5b82962e808ee962dab0906838aa22feb36061bd6094811f679c78b7f8fbbf48"
+    },
+    {
+      "target": ".agents/skills/creative-video-direction/SKILL.md",
+      "draft": "draft/.agents/skills/creative-video-direction/SKILL.md",
+      "action": "update",
+      "baseSha256": "ddff65f6f23bc0e666561ee3ee8a3e5ac420d03674ef6e490f990ef8ffb02857",
+      "draftSha256": "42da7c1394b8aaa6b96c497b0cc803d2b141ed1446ad689555d6739f4dd00b8a"
+    },
+    {
+      "target": ".agents/skills/motion-graphic-design/references/paper-motion-continuity.md",
+      "draft": "draft/.agents/skills/motion-graphic-design/references/paper-motion-continuity.md",
+      "action": "add",
+      "baseSha256": null,
+      "draftSha256": "edd6aaf07cd9d4fa6c91154274bd5aee491359f89305dae30aff8bfa2d71c544"
+    },
+    {
+      "target": ".agents/skills/motion-graphic-design/SKILL.md",
+      "draft": "draft/.agents/skills/motion-graphic-design/SKILL.md",
+      "action": "update",
+      "baseSha256": "9d82daa583a608c70bbd96dc779a28d8c67e37649b13d3abdc0e6bbe70b83d3a",
+      "draftSha256": "1d9dab6bb115cf360c85131c9a915a8f1ba4d2e7003839e1091a40bac6788ba5"
+    },
+    {
+      "target": ".agents/skills/physical-interaction-direction/references/frame-driven-motion.md",
+      "draft": "draft/.agents/skills/physical-interaction-direction/references/frame-driven-motion.md",
+      "action": "add",
+      "baseSha256": null,
+      "draftSha256": "23e49665b427cf0d6d8f11fe0479c2a3284cdd62e1008756c69074f360f9fd31"
+    },
+    {
+      "target": ".agents/skills/physical-interaction-direction/references/interaction-recipes.md",
+      "draft": "draft/.agents/skills/physical-interaction-direction/references/interaction-recipes.md",
+      "action": "add",
+      "baseSha256": null,
+      "draftSha256": "767d6b65ffcedd8b1dacf15e9836ee75e15fda9193074fa5fd0745cac812dd7d"
+    },
+    {
+      "target": ".agents/skills/physical-interaction-direction/references/physical-dynamics.md",
+      "draft": "draft/.agents/skills/physical-interaction-direction/references/physical-dynamics.md",
+      "action": "add",
+      "baseSha256": null,
+      "draftSha256": "a76811769f1051ba45e0cf0c3d38518160140c11069a5f791a4a8e8052b0ae37"
+    },
+    {
+      "target": ".agents/skills/physical-interaction-direction/SKILL.md",
+      "draft": "draft/.agents/skills/physical-interaction-direction/SKILL.md",
+      "action": "add",
+      "baseSha256": null,
+      "draftSha256": "1067cfcf9bdff7f08292a757edeaea5a654f8d927422f18bf2c97f80a0564bc9"
+    },
+    {
+      "target": ".agents/skills/visual-paper-editorial/SKILL.md",
+      "draft": "draft/.agents/skills/visual-paper-editorial/SKILL.md",
+      "action": "update",
+      "baseSha256": "b7cf666947715b75258f47257a1ed70bb3330fb50677b78066591018c8280894",
+      "draftSha256": "eac4e53b0d2efbc71cc9057f0fbfeddf3b78114edf9e1306cd79b48ddb891b14"
+    },
+    {
+      "target": "docs/auto-production-system.md",
+      "draft": "draft/docs/auto-production-system.md",
+      "action": "update",
+      "baseSha256": "0311bebc292ca13db169ca921c713954f0c6667eceb0c12de890701e9f819cf6",
+      "draftSha256": "7a3046bce2ab002fc267e76792d58084d054c2ab85eefb3e6e1862459bd328c4"
+    }
+  ],
+  "applicationReport": "application-report.md"
+}

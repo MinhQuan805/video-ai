@@ -52,7 +52,7 @@ export const Scene14Step4Badge: React.FC = () => {
           <div
             style={{
               fontFamily: FONTS.body,
-              fontSize: 26,
+              fontSize: 30,
               fontWeight: 800,
               color: COLORS.accent,
               letterSpacing: '5px',
@@ -68,9 +68,9 @@ export const Scene14Step4Badge: React.FC = () => {
       <StampDropIn progress={cardSpring} dropDistance={-90}>
         <div
           style={{
-            width: 230,
-            height: 230,
-            borderRadius: 58,
+            width: 300,
+            height: 300,
+            borderRadius: 72,
             backgroundColor: '#1E1D1B',
             display: 'flex',
             alignItems: 'center',
@@ -78,7 +78,7 @@ export const Scene14Step4Badge: React.FC = () => {
             boxShadow: '0 24px 56px rgba(26, 24, 22, 0.16)',
           }}
         >
-          <svg width="100" height="100" viewBox="0 0 24 24" fill="none" stroke={COLORS.accent} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+          <svg width="132" height="132" viewBox="0 0 24 24" fill="none" stroke={COLORS.accent} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
             <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
             <polyline points="3.27 6.96 12 12.01 20.73 6.96" />
             <line x1="12" y1="22.08" x2="12" y2="12" />
@@ -91,7 +91,7 @@ export const Scene14Step4Badge: React.FC = () => {
           <div
             style={{
               fontFamily: FONTS.title,
-              fontSize: 76,
+              fontSize: 84,
               fontWeight: 800,
               fontStyle: 'italic',
               color: COLORS.ink,

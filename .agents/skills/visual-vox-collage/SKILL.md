@@ -11,6 +11,15 @@ description: >-
 
 This skill outlines the aesthetic principles, color tokens, physics calculations, and component patterns for the **Vox Cutout Collage** visual system.
 
+## Scope and production routing
+
+Use this system when the user or creative brief selects collage. Do not replace the requested paper-continuation
+profile with vintage jitter/halftone by default. Follow [ai-video-pipeline](../ai-video-pipeline/SKILL.md) for
+raw voice, timing and render approval; examples below are material/motion options, not a sequence to repeat.
+For contact, load, grip and material response use
+[physical-interaction-direction](../physical-interaction-direction/SKILL.md). For a custom actor use
+[character-and-object-design](../character-and-object-design/SKILL.md), adapting to the chosen collage material.
+
 ---
 
 ## 1. Palette & Material Tokens
@@ -39,7 +48,8 @@ export const theme = {
 ```
 
 ### SVG Paper Grain & Fibers
-Every paper piece must be layered with an SVG `feTurbulence` grain filter to simulate tactile pulp:
+Use subtle grain only when it supports the selected collage material and legibility. The example filter ID
+must be unique per mounted instance; do not layer heavy noise onto every asset automatically:
 ```tsx
 <svg style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", pointerEvents: "none", opacity: 0.35 }}>
   <filter id="paper-texture">
@@ -56,7 +66,9 @@ $$\text{Contact Shadow} = 0\text{px } 1\text{px } 2\text{px } \text{rgba}(27, 24
 $$\text{Distant Shadow} = (0.75n)\text{px } (1.15n)\text{px } (1.4n + 4)\text{px } \text{rgba}(27, 24, 21, \min(0.38, 0.12 + 0.007n))$$
 
 ### 12fps Paper Jitter vs 30fps Camera/Captions
-Cutout elements should update their transform jitter at 12 fps to evoke traditional stop-motion, while captions and camera sweeps remain at a smooth 30 fps:
+For an explicitly chosen stop-motion collage look, optional decorative jitter can use a lower sample rate.
+Keep contact/root action, readable text and camera continuous at the composition's fps. Do not quantize jaw/grip
+or collision anchors independently, which can break physical contact. This helper illustrates only a stylized layer:
 ```typescript
 export const useCollageFrame = (targetFps: number = 12) => {
   const frame = useCurrentFrame();

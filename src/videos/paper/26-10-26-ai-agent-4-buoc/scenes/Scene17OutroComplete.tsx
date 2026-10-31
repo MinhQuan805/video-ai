@@ -107,8 +107,8 @@ export const Scene17OutroComplete: React.FC = () => {
           {/* Big Green Success Badge */}
           <div
             style={{
-              width: 84,
-              height: 84,
+            width: 104,
+            height: 104,
               borderRadius: '50%',
               backgroundColor: '#10B981',
               display: 'flex',
@@ -118,16 +118,16 @@ export const Scene17OutroComplete: React.FC = () => {
               transform: `scale(${checkSpring})`,
             }}
           >
-            <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" strokeWidth="3">
+            <svg width="54" height="54" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" strokeWidth="3">
               <polyline points="20 6 9 17 4 12" />
             </svg>
           </div>
 
           <div style={{ textAlign: 'center' }}>
-            <div style={{ fontFamily: FONTS.title, fontSize: 34, fontWeight: 800, color: COLORS.ink }}>
+            <div style={{ fontFamily: FONTS.title, fontSize: 38, fontWeight: 800, color: COLORS.ink }}>
               {emailCount} Email Đã Xử Lý Xong
             </div>
-            <div style={{ fontFamily: FONTS.body, fontSize: 18, color: COLORS.subtle, marginTop: 6 }}>
+            <div style={{ fontFamily: FONTS.body, fontSize: 20, color: COLORS.subtle, marginTop: 6 }}>
               Bản nháp đã sẵn sàng để bạn duyệt và gửi
             </div>
           </div>
@@ -157,9 +157,9 @@ export const Scene17OutroComplete: React.FC = () => {
                 <div
                   key={step.num}
                   style={{
-                    backgroundColor: '#FAF8F5',
+                    backgroundColor: '#F4EFE6',
                     borderRadius: 14,
-                    padding: '8px 14px',
+                    padding: '10px 18px',
                     display: 'flex',
                     alignItems: 'center',
                     gap: 8,
@@ -167,8 +167,8 @@ export const Scene17OutroComplete: React.FC = () => {
                     transform: `scale(${stepSpring})`,
                   }}
                 >
-                  <span style={{ color: '#10B981', fontWeight: 900, fontSize: 13 }}>✓</span>
-                  <span style={{ fontFamily: FONTS.body, fontSize: 13, fontWeight: 700, color: COLORS.ink }}>
+                  <span style={{ color: '#10B981', fontWeight: 900, fontSize: 15 }}>✓</span>
+                  <span style={{ fontFamily: FONTS.body, fontSize: 15, fontWeight: 700, color: COLORS.ink }}>
                     {step.num} {step.label}
                   </span>
                 </div>

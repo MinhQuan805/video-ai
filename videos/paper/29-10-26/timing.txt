@@ -1,0 +1,64 @@
+   8 -   37: Có một thời
+  37 -   60: ai dùng AI
+  60 -   75: cũng đi sang
+  75 -  102: Chrome, thấy câu
+ 102 -  120: này hay là
+ 120 -  142: lưu lại như
+ 142 -  160: nhặt được bí
+ 160 -  181: kíp, chắc bạn
+ 181 -  194: cũng được thấy
+ 194 -  210: những câu lệnh
+ 210 -  234: dài cả trang,
+ 238 -  260: mở đầu bằng,
+ 265 -  279: hãy đóng vai
+ 279 -  296: một chuyên gia
+ 296 -  315: có 20 năm
+ 315 -  342: kinh nghiệm, rồi
+ 342 -  359: thêm đủ thứ
+ 359 -  374: yêu cầu phía
+ 374 -  384: sau.
+ 390 -  404: Mỗi lần dùng
+ 404 -  428: lại thì tìm,
+ 432 -  456: sửa vài chỗ,
+ 461 -  478: rồi copy và
+ 478 -  502: khung check mới.
+ 506 -  528: Giờ với skill,
+ 532 -  544: bạn có thể
+ 544 -  566: lưu sẵn cách
+ 566 -  590: làm để AI
+ 590 -  612: dùng lại từ
+ 612 -  638: hướng chẩn, bài
+ 638 -  656: mẫu cho đến
+ 656 -  669: những tài liệu
+ 669 -  691: cần tham khảo.
+ 691 -  713: Ví dụ, nếu
+ 713 -  729: bạn thường nhờ
+ 729 -  752: AI viết content,
+ 759 -  770: bạn có thể
+ 770 -  789: gom dòng mang
+ 789 -  818: mình muốn vài
+ 818 -  845: bài mẫu và
+ 845 -  863: những điểm cần
+ 863 -  882: kiểm tra và
+ 882 -  907: một skill. Lần
+ 907 -  928: sau, bạn chỉ
+ 928 -  950: cần đưa chủ
+ 950 -  972: đề và nguyên
+ 972 -  987: liệu cho bài
+ 987 -  996: mới.
+ 999 - 1015: Bạn vẫn dùng
+1015 - 1045: Chrome để nói,
+1050 - 1062: hôm nay cần
+1062 - 1088: làm gì, còn
+1088 - 1116: skill thì dự
+1116 - 1136: sẵn cách làm
+1136 - 1154: để bạn đỡ
+1154 - 1167: phải nhắc đi
+1167 - 1188: nhắc lại. Nên
+1188 - 1206: nếu ngày nào
+1206 - 1223: bạn cũng phải
+1223 - 1240: dạng AI cùng
+1240 - 1268: một thứ, thử
+1268 - 1285: gom những lời
+1285 - 1299: dạng đó thành
+1299 - 1318: một skill xem.

@@ -2,12 +2,24 @@
 name: audio-speech-alignment
 description: >-
   Procedures for text-to-speech voiceover generation, Faster-Whisper forced alignment, word-level
-  timestamp extraction, natural phrase chunking, and 30fps frame synchronization for programmatic video editing.
+  timestamp extraction, natural phrase chunking, source/edit clock mapping, and configured-fps synchronization
+  for raw video editing or optional synthesized voiceovers.
 ---
 
 # Pipeline Stage: Audio Speech & Forced Alignment
 
 This skill details the exact procedures for generating high-fidelity voiceovers, extracting word-level timestamps, and preparing time-synchronized subtitle data.
+
+## Raw voice routing
+
+For user-provided raw footage, preserve the recorded voice and follow
+[raw-first-workflow.md](../ai-video-pipeline/references/raw-first-workflow.md). TTS below applies only when requested.
+Keep source and edit clocks with an explicit cut map; derive caption and motion timing from the same timeline.
+Respect media/file permissions in AGENTS.md; do not open unrelated raw, words/sentences or audio files.
+ASR word timestamps and text reconciliation are estimates, not proof of exact forced alignment. Record source,
+tool/model and uncertain spans; do not invent confidence values. Script text is not a license to replace what the
+speaker actually said: reconcile discrepancies and flag missing or extra speech without silently rewriting raw voice.
+Use a verified forced aligner only if required, available and permitted; keep interpolated spans marked approximate.
 
 ---
 
@@ -31,17 +43,17 @@ This skill details the exact procedures for generating high-fidelity voiceovers,
 
 ---
 
-## 2. Word-Level Timestamp Extraction with Faster-Whisper
+## 2. ASR Word Timestamps and Script Reconciliation
 
 1. **Model Selection**:
    - Use `faster-whisper` with the `medium` model (`device="cpu"`, `compute_type="int8"` or `float32`).
-   - The medium model provides the optimal balance of word boundary accuracy and processing speed for Vietnamese and English.
-2. **Forced Alignment Algorithm**:
+   - Select among available local models by language, hardware and prior measured accuracy. `medium` is an example, not a proven optimum for every raw.
+2. **Timestamp Reconciliation for the Authorized TTS Route**:
    - Transcribe `voice.wav` with word timestamps enabled (`word_timestamps=True`).
    - Gióng hàng (align) the detected words against the canonical text in `script.md`.
-   - **Ground-Truth Principle**: The words in the output must **always match the script's exact spelling**. Whisper's output is used solely to anchor start (`s`) and end (`e`) seconds.
+   - **Ground-Truth Principle for TTS**: Preserve script spelling when it matches the generated speech. Missing/extra speech needs a discrepancy report; do not fabricate word times for unspoken text.
    - **Handling Discrepancies**:
-     - When Whisper mistranscribes proper nouns, numbers, or foreign names, assign the time window between the preceding and succeeding recognized words and distribute time proportionally.
+     - For small uncertain spans with reliable surrounding anchors, proportional interpolation is a fallback estimate, not a measured timestamp. Mark approximate spans and verify consequential words before using them as exact animation cues.
      - Constrain words strictly within their respective sentence boundaries from `sentences.json` to prevent drift across pauses.
 3. **Output Format (`words.json`)**:
    ```json
@@ -60,9 +72,9 @@ This skill details the exact procedures for generating high-fidelity voiceovers,
    - Chunk sequential words into short phrases of **2 to 4 words** each.
    - Break phrases at natural syntactic pauses (commas, conjunctions, prepositional phrases).
    - Ensure no phrase straddles a sentence boundary.
-2. **30fps Frame Calculation**:
+2. **Configured-fps Frame Calculation**:
    - Calculate the integer starting frame for each phrase using:
-     $$\text{startFrame} = \lfloor \text{startSecond} \times 30 \rfloor$$
+     $$\text{startFrame} = \lfloor (\text{startMs} / 1000) \times fps \rfloor$$
 3. **Output File Format (`timing.txt`)**:
    - Line 1: Total frames of the video (e.g., `855` for 28.5 seconds at 30 fps).
    - Subsequent lines: `<frame_number> <phrase text>`.
@@ -76,9 +88,10 @@ This skill details the exact procedures for generating high-fidelity voiceovers,
 
 ---
 
-## 4. Subtitle Data Model for Remotion (`darwinCaptions.json`)
+## 4. Legacy Subtitle Adapter Example
 
-To power real-time word highlighting in Remotion captions, bundle phrase groups with internal word timing:
+Derive caption timing from the canonical edit timeline. The following legacy `phrases` shape is an adapter example;
+inspect the actual consumer instead of adopting an episode-specific filename as the shared schema:
 
 ```json
 {

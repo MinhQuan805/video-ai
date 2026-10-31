@@ -10,6 +10,15 @@ description: >-
 
 This skill defines the complete architectural standard, layout geometry, animation choreography, and production runbook for high-retention **Tier List / Ranking short-form videos** in Remotion. It is universally applicable to any ranking topic (software tools, productivity apps, marketing channels, business models, hardware, skills, or books).
 
+## Production and motion routing
+
+Use this layout only when the content is actually a ranking. Follow
+[ai-video-pipeline](../ai-video-pipeline/SKILL.md) for raw voice, canonical timing, file permissions and render approval.
+Use [physical-interaction-direction](../physical-interaction-direction/SKILL.md) when items move into rows,
+displace another card, snap, stack or react to a shared event. Preserve the selected project's tokens and identity;
+for the user's paper continuation use [paper-motion-continuity.md](../motion-graphic-design/references/paper-motion-continuity.md).
+Row placement must preserve the spoken ranking; animation must not imply an unsupported score/order.
+
 ---
 
 ## 1. Core Architecture & Vertical Stage Zones (1080x1920)
@@ -185,7 +194,9 @@ src/
 
 ## 6. QA Review & Verification Protocol
 
-Always generate the multi-scene review grid (`output/review.png`):
+Before render approval, perform static timeline/geometry/contact/audio checks and leave pixel/playback QA pending.
+Only after an explicitly approved project/version has been rendered, extract the multi-scene review grid from
+that output and inspect `output/review.png` once. Do not invoke a renderer from this QA step or rerender to verify:
 1. **Key Visual Checkpoints**:
    - Frame A: Title Header visibility and opening hook item spawn.
    - Frame B: Mid-flight card interpolation entering the tier row.
@@ -193,7 +204,7 @@ Always generate the multi-scene review grid (`output/review.png`):
    - Frame D: Active spoken word highlight in Zone 3 (no overlap with face card).
    - Frame E: Outro summary showing completed tier board and call-to-action.
 2. **Quality Checklist**:
-   - [ ] Are all elements floating cleanly without arbitrary card bounding boxes?
-   - [ ] Does the motion graphic convey its message in $\le 1$ second?
+   - [ ] Are cards/containers or open compositions chosen by meaning, with one clear action and enough reading hold?
+   - [ ] Are placement/contact/state changes synchronized to the spoken claim and readable at the actual display size?
    - [ ] Is there $\ge 100\text{px}$ horizontal padding and $\ge 240\text{px}$ bottom safe zone?
    - [ ] Are all icons sourced as crisp Font Awesome vectors?

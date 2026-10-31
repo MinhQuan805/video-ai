@@ -9,6 +9,16 @@ description: >-
 
 Screen recordings of software, websites, or code demos look flat and hard to follow on mobile screens without intentional framing and dynamic zoom. This skill provides the standards and recipes for turning raw captures into high-production Screen Studio-style presentations.
 
+## Integration with the video direction
+
+Use real capture when the audience needs to see real behavior; label illustrative mockups so they are not
+mistaken for evidence. For the requested paper continuation, match its palette, framing, type and motion grammar
+via [paper-motion-continuity.md](../motion-graphic-design/references/paper-motion-continuity.md). Keep focus/zoom,
+cursor and UI response on shared semantic cues from [ai-video-pipeline](../ai-video-pipeline/SKILL.md).
+Follow [autonomous-skill-and-asset-evolution](../autonomous-skill-and-asset-evolution/SKILL.md) for public capture,
+permissions and dependencies. Source web capture is not permission to render a composition: the project's
+render approval gate still applies. Do not record local private apps or upload raw without appropriate authorization.
+
 ---
 
 ## 0. Autonomous Screen Video Recording (Zero-Touch Recording)
@@ -16,23 +26,19 @@ Screen recordings of software, websites, or code demos look flat and hard to fol
 Khi kịch bản video yêu cầu đoạn demo màn hình tương tác, cuộn trang web hoặc duyệt tài liệu/sản phẩm mà **người dùng không cần phải quay bằng tay**:
 
 ### Lệnh tự động ghi hình màn hình web sang MP4 chuẩn 30fps:
-```bash
-.\.venv\Scripts\python.exe pipeline/research/web_capture.py record \
-  --url "https://example.com" \
-  --output videos/<video-name>/assets/screen_demo.mp4 \
-  --duration 6.0 \
-  --scroll \
-  --scroll-speed 350 \
-  --fps 30 \
-  --allow-install
+```powershell
+.\.venv\Scripts\python.exe pipeline/research/web_capture.py record --url "https://example.com" --output "videos/<video-name>/assets/screen_demo.mp4" --duration 6 --scroll --scroll-speed 350 --fps 30
 ```
+
+Check local prerequisites first; add `--allow-install` only when the project-local dependency policy allows
+installation into the active `.venv`. Existing captures should be reused, not rerecorded to check completion.
 
 * **Cơ chế hoạt động**:
   1. Tự động khởi tạo Chromium headless; lần đầu chỉ cài bản Playwright đã ghim trong `.venv` khi có `--allow-install`.
   2. Mở URL, ẩn cookie popups, mô phỏng cuộn trang mượt mà hoặc thực hiện chuỗi hành động click / gõ phím theo kịch bản.
-  3. Tự động dùng `ffmpeg` chuyển mã sang định dạng `H.264 / yuv420p / 30fps` tương thích 100% với Remotion Video Player.
-  4. Chi phí: **$0 hoàn toàn** (không dùng dịch vụ quay màn hình đám mây trả phí).
-  5. File MP4 xuất ra lập tức được nạp vào component `<ScreenMockup videoSrc="assets/screen_demo.mp4" />`.
+  3. Dùng `ffmpeg` nếu có để chuyển mã H.264/yuv420p với fps cấu hình; kiểm compatibility và metadata thực tế, không khẳng định luôn tương thích.
+  4. Chạy local không cần dịch vụ capture trả phí; không tự dùng tài khoản/quota bên ngoài hoặc bỏ qua nguồn lực local.
+  5. Đăng ký output vào asset manifest và nạp đúng public path/props của `ScreenMockup` hiện có; component không tự nhận file chỉ vì file vừa được tạo.
 
 ---
 
@@ -50,9 +56,9 @@ Khi kịch bản video yêu cầu đoạn demo màn hình tương tác, cuộn t
    - **Mid-Range Focus ($1.5\times - 1.8\times$)**: Interacting with a form, reading a paragraph, or navigating a sidebar.
    - **Macro Detail ($2.0\times - 2.8\times$)**: Clicking a small toggle, reading code snippets, or typing in a narrow input.
 3. **Camera Dynamics (Snappy Ease-Out)**:
-   - Camera motion must be snappy and decisive, not sluggish.
-   - Ideal transition duration: **14 to 18 frames** (0.45s - 0.6s at 30fps).
-   - Easing curve: `Easing.bezier(0.22, 1, 0.36, 1)` or Remotion `spring({ damping: 200, stiffness: 120 })`. Avoid linear interpolation.
+   - Move focus decisively to the region being explained, then hold long enough to read. Do not pan continuously for decoration.
+   - 14–18 frames at 30fps is a starting example; use configured fps and actual reading/cue needs.
+   - Use frame-driven easing or spring for camera travel. Constant speed is valid for steady scrolling; synchronize cursor/action with the source capture and avoid invented click results.
 4. **Attention Guidance**:
    - When zoomed into a specific UI element, enable `spotlight` mode to subtly darken peripheral areas.
    - Add click ripple animations on interactive moments to visually confirm user input.
@@ -131,6 +137,20 @@ The script automatically generates:
 ## 4. Vertical (9:16) Mobile Format Adaptation
 
 When fitting desktop recordings (16:9) into vertical short-form videos (1080x1920):
-1. **Dynamic Follow-Pan**: Zoom scale should default to **$1.8\times - 2.4\times$** so desktop UI text is large enough to read on smartphones.
+1. **Dynamic Follow-Pan**: Choose zoom by actual text size, capture resolution and safe bounds; $1.8\times - 2.4\times$ is a starting example, not a mandatory scale that may crop the target.
 2. **Auto Horizontal Tracking**: Shift `originX` to follow the active region (left sidebar $\rightarrow$ center workspace $\rightarrow$ right inspector).
 3. **Vertical Centering**: Keep the active interaction point within the vertical range `0.30` to `0.65` of the screen to stay clear of TikTok/Reels UI overlay buttons (captions, like button, profile icons).
+
+---
+
+## 5. Quy Tắc Bắt Buộc: Kiểm Tra Hit-Testing Con Chuột (Cursor Click Accuracy QA)
+
+Khi mô phỏng con chuột di chuyển và nhấp chuột (`SimulatedCursor`, `ClickRipple`, hover, drag):
+1. **Không ước lượng tọa độ**: Tọa độ đích `(x, y)` tại frame nhấp chuột BẮT BUỘC phải được tính toán chính xác từ bounding box của phần tử đích:
+   - `targetX = containerLeft + elementRelativeLeft + elementWidth / 2`
+   - `targetY = containerTop + elementRelativeTop + elementHeight / 2`
+2. **Đồng bộ Ripple và Mũi tên**: `ClickRipple` phải dùng chính xác tọa độ `(x, y)` của `SimulatedCursor` tại frame click. Mũi tên chuột trỏ vào đâu, vòng sóng tỏa ra từ đúng điểm đó.
+3. **Hit-Testing QA Check (`src/motion/validate.ts`)**: Sử dụng hàm `checkCursorClickTarget`:
+   - Kiểm tra `cursorPos` tại frame click phải nằm trọn trong `targetBounds`.
+   - Nếu lệch khỏi phần tử đích (`CURSOR_MISS`), pipeline QA sẽ báo lỗi tọa độ kèm số pixel bị trượt (`gapPx`).
+4. **Kiểm tra trực quan trên Review Frame**: Khi xuất khung hình review, luôn chọn frame tại thời điểm click (`isClicking == true` hoặc frame bắt đầu sóng tỏa) để xác minh trực tiếp con chuột đã đáp đúng tâm button/link.

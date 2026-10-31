@@ -57,7 +57,7 @@ export const Scene2Step1Badge: React.FC = () => {
           <div
             style={{
               fontFamily: FONTS.body,
-              fontSize: 26,
+              fontSize: 30,
               fontWeight: 800,
               color: COLORS.accent,
               letterSpacing: '5px',
@@ -73,9 +73,9 @@ export const Scene2Step1Badge: React.FC = () => {
       <Flip3DIn progress={cardSpring} axis="Y" initialAngle={-80}>
         <div
           style={{
-            width: 230,
-            height: 230,
-            borderRadius: 58,
+            width: 300,
+            height: 300,
+            borderRadius: 72,
             backgroundColor: '#FFFFFF',
             display: 'flex',
             alignItems: 'center',
@@ -84,7 +84,7 @@ export const Scene2Step1Badge: React.FC = () => {
             border: `1px solid ${COLORS.line}`,
           }}
         >
-          <BrandLogo name="claude-code" size={130} />
+          <BrandLogo name="claude-code" size={160} />
         </div>
       </Flip3DIn>
 
@@ -94,7 +94,7 @@ export const Scene2Step1Badge: React.FC = () => {
           <div
             style={{
               fontFamily: FONTS.title,
-              fontSize: 76,
+              fontSize: 84,
               fontWeight: 800,
               fontStyle: 'italic',
               color: COLORS.ink,

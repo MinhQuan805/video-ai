@@ -231,7 +231,7 @@ export const Scene7GmailAutoRead: React.FC = () => {
                 style={{
                   flex: 1,
                   width: '100%',
-                  backgroundColor: '#FAF8F5',
+                  backgroundColor: '#F4EFE6',
                   borderRadius: 30,
                   padding: '18px 14px',
                   display: 'flex',
@@ -421,7 +421,7 @@ export const Scene7GmailAutoRead: React.FC = () => {
         <div
           style={{
             position: 'relative',
-            width: 320,
+          width: 350,
             height: 380,
             display: 'flex',
             flexDirection: 'column',
@@ -431,7 +431,7 @@ export const Scene7GmailAutoRead: React.FC = () => {
           {/* Mailbox slot */}
           <div
             style={{
-              width: 260,
+              width: 290,
               height: 12,
               borderRadius: 6,
               backgroundColor: '#E5E1D8',
@@ -441,15 +441,15 @@ export const Scene7GmailAutoRead: React.FC = () => {
           />
 
           {/* Mail stack dropping from TOP down - 4 Envelopes */}
-          <div style={{ position: 'relative', width: 250, height: 280 }}>
+          <div style={{ position: 'relative', width: 280, height: 280 }}>
             {/* Envelope 4 (Bottom-most, gold seal) */}
             <div
               style={{
                 position: 'absolute',
                 top: 102,
                 left: 14,
-                width: 230,
-                height: 140,
+                width: 250,
+                height: 154,
                 borderRadius: 16,
                 backgroundColor: '#FFFFFF',
                 boxShadow: '0 12px 28px rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.05)',
@@ -461,9 +461,9 @@ export const Scene7GmailAutoRead: React.FC = () => {
                 transition: 'opacity 0.05s ease',
               }}
             >
-              <svg width="230" height="140" style={{ position: 'absolute', top: 0, left: 0 }}>
-                <path d="M 0 0 L 115 75 L 230 0" fill="none" stroke="#E5E1D8" strokeWidth="2.5" />
-                <circle cx="115" cy="75" r="8" fill="#DDA15E" />
+              <svg width="250" height="154" style={{ position: 'absolute', top: 0, left: 0 }}>
+                <path d="M 0 0 L 125 82 L 250 0" fill="none" stroke="#E5E1D8" strokeWidth="2.5" />
+                <circle cx="125" cy="82" r="9" fill="#DDA15E" />
               </svg>
             </div>
 
@@ -473,8 +473,8 @@ export const Scene7GmailAutoRead: React.FC = () => {
                 position: 'absolute',
                 top: 68,
                 left: 10,
-                width: 230,
-                height: 140,
+                width: 250,
+                height: 154,
                 borderRadius: 16,
                 backgroundColor: '#FFFFFF',
                 boxShadow: '0 14px 30px rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.05)',
@@ -486,9 +486,9 @@ export const Scene7GmailAutoRead: React.FC = () => {
                 transition: 'opacity 0.05s ease',
               }}
             >
-              <svg width="230" height="140" style={{ position: 'absolute', top: 0, left: 0 }}>
-                <path d="M 0 0 L 115 75 L 230 0" fill="none" stroke="#E5E1D8" strokeWidth="2.5" />
-                <circle cx="115" cy="75" r="8" fill="#8D99AE" />
+              <svg width="250" height="154" style={{ position: 'absolute', top: 0, left: 0 }}>
+                <path d="M 0 0 L 125 82 L 250 0" fill="none" stroke="#E5E1D8" strokeWidth="2.5" />
+                <circle cx="125" cy="82" r="9" fill="#8D99AE" />
               </svg>
             </div>
 
@@ -498,8 +498,8 @@ export const Scene7GmailAutoRead: React.FC = () => {
                 position: 'absolute',
                 top: 34,
                 left: 5,
-                width: 230,
-                height: 140,
+                width: 250,
+                height: 154,
                 borderRadius: 16,
                 backgroundColor: '#FFFFFF',
                 boxShadow: '0 16px 36px rgba(0,0,0,0.09), 0 0 0 1px rgba(0,0,0,0.05)',
@@ -511,9 +511,9 @@ export const Scene7GmailAutoRead: React.FC = () => {
                 transition: 'opacity 0.05s ease',
               }}
             >
-              <svg width="230" height="140" style={{ position: 'absolute', top: 0, left: 0 }}>
-                <path d="M 0 0 L 115 75 L 230 0" fill="none" stroke="#E5E1D8" strokeWidth="2.5" />
-                <circle cx="115" cy="75" r="8" fill="#2B2D42" />
+              <svg width="250" height="154" style={{ position: 'absolute', top: 0, left: 0 }}>
+                <path d="M 0 0 L 125 82 L 250 0" fill="none" stroke="#E5E1D8" strokeWidth="2.5" />
+                <circle cx="125" cy="82" r="9" fill="#2B2D42" />
               </svg>
             </div>
 
@@ -523,8 +523,8 @@ export const Scene7GmailAutoRead: React.FC = () => {
                 position: 'absolute',
                 top: 0,
                 left: 0,
-                width: 230,
-                height: 140,
+                width: 250,
+                height: 154,
                 borderRadius: 16,
                 backgroundColor: '#FFFFFF',
                 boxShadow: '0 20px 42px rgba(0,0,0,0.12), 0 0 0 1px rgba(0,0,0,0.05)',
@@ -536,9 +536,9 @@ export const Scene7GmailAutoRead: React.FC = () => {
                 transition: 'opacity 0.05s ease',
               }}
             >
-              <svg width="230" height="140" style={{ position: 'absolute', top: 0, left: 0 }}>
-                <path d="M 0 0 L 115 75 L 230 0" fill="none" stroke="#E5E1D8" strokeWidth="2.5" />
-                <circle cx="115" cy="75" r="8" fill={COLORS.accent} />
+              <svg width="250" height="154" style={{ position: 'absolute', top: 0, left: 0 }}>
+                <path d="M 0 0 L 125 82 L 250 0" fill="none" stroke="#E5E1D8" strokeWidth="2.5" />
+                <circle cx="125" cy="82" r="9" fill={COLORS.accent} />
               </svg>
             </div>
           </div>

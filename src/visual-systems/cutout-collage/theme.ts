@@ -16,8 +16,8 @@ export const theme = {
   },
   fonts: {
     anton: loadAnton().fontFamily,
-    fraunces: loadFraunces().fontFamily,
-    beVietnamPro: loadBeVietnamPro().fontFamily,
+    fraunces: loadFraunces('normal', { weights: ['400', '700', '800'], subsets: ['latin', 'vietnamese'], ignoreTooManyRequestsWarning: true }).fontFamily,
+    beVietnamPro: loadBeVietnamPro('normal', { weights: ['400', '600', '700'], subsets: ['latin', 'vietnamese'], ignoreTooManyRequestsWarning: true }).fontFamily,
   },
 } as const;
 

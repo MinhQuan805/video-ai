@@ -39,7 +39,9 @@
     "dev": "remotion studio",
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
-    "lint": "eslint src && tsc"
+    "lint": "eslint src && tsc",
+    "test:motion": "node --test pipeline/qa/test_motion.mjs",
+    "test:pipeline": "python -m unittest pipeline.qa.test_pipeline -v"
   },
   "allowScripts": {
     "esbuild": false

@@ -17,6 +17,20 @@ export const Scene15PackageSkill: React.FC = () => {
   const card2 = spring({ frame: Math.max(0, frame - 16), fps, config: { mass: 0.5, damping: 10, stiffness: 200 } });
   const card3 = spring({ frame: Math.max(0, frame - 22), fps, config: { mass: 0.5, damping: 10, stiffness: 200 } });
 
+  // Let the checkmarked cards settle, then have the agent glide through and consume them.
+  const consume1 = interpolate(frame, [70, 82], [0, 1], {
+    extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.bezier(0.16, 1, 0.3, 1),
+  });
+  const consume2 = interpolate(frame, [82, 94], [0, 1], {
+    extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.bezier(0.16, 1, 0.3, 1),
+  });
+  const consume3 = interpolate(frame, [94, 106], [0, 1], {
+    extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.bezier(0.16, 1, 0.3, 1),
+  });
+  const agentTravelX = interpolate(frame, [70, 106], [0, 272], {
+    extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.bezier(0.22, 1, 0.36, 1),
+  });
+
   // Orange chat bubble pops below at frame 32
   const bubbleSpring = spring({
     frame: Math.max(0, frame - 32),
@@ -94,10 +108,10 @@ export const Scene15PackageSkill: React.FC = () => {
         }}
       >
         {/* Top Row: Robot connected to 3 checkmarked category cards */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: 24, position: 'relative' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 20, position: 'relative' }}>
           {/* Robot with Checkmark on Head */}
-          <div style={{ position: 'relative' }}>
-            <RobotHero size={170} blink={frame >= 50 && frame <= 56} />
+          <div style={{ position: 'relative', transform: `translateX(${agentTravelX}px)` }}>
+            <RobotHero size={184} blink={frame >= 50 && frame <= 56} />
             {/* Terracotta Checkmark circle on head */}
             <div
               style={{
@@ -122,17 +136,17 @@ export const Scene15PackageSkill: React.FC = () => {
           </div>
 
           {/* Orange connector line */}
-          <div style={{ width: 80, height: 4, backgroundColor: COLORS.accent, borderRadius: 2 }} />
+          <div style={{ width: 60, height: 4, backgroundColor: COLORS.accent, borderRadius: 2, opacity: 1 - interpolate(frame, [70, 82], [0, 1], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' }) }} />
 
           {/* 3 Checkmarked Category Cards Row */}
-          <div style={{ display: 'flex', gap: 16 }}>
+          <div style={{ display: 'flex', gap: 12 }}>
             {/* Card 1: Lỗi */}
             <div
               style={{
-                width: 120,
-                height: 120,
+                width: 140,
+                height: 140,
                 backgroundColor: '#FFFFFF',
-                borderRadius: 20,
+                borderRadius: 22,
                 border: '1.5px solid rgba(26,24,22,0.12)',
                 boxShadow: '0 12px 28px rgba(26,24,22,0.08)',
                 display: 'flex',
@@ -140,14 +154,14 @@ export const Scene15PackageSkill: React.FC = () => {
                 alignItems: 'center',
                 justifyContent: 'center',
                 gap: 12,
-                transform: `scale(${card1})`,
-                opacity: card1,
+                transform: `translateX(${-consume1 * 250}px) scale(${card1 * (1 - consume1 * 0.55)})`,
+                opacity: card1 * (1 - consume1),
               }}
             >
-              <span style={{ fontFamily: FONTS.body, fontSize: 16, fontWeight: 700, color: COLORS.ink }}>
+              <span style={{ fontFamily: FONTS.body, fontSize: 18, fontWeight: 700, color: COLORS.ink }}>
                 Lỗi
               </span>
-              <div style={{ width: 34, height: 34, borderRadius: '50%', backgroundColor: COLORS.accent, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+              <div style={{ width: 40, height: 40, borderRadius: '50%', backgroundColor: COLORS.accent, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" strokeWidth="3">
                   <polyline points="20 6 9 17 4 12" />
                 </svg>
@@ -157,10 +171,10 @@ export const Scene15PackageSkill: React.FC = () => {
             {/* Card 2: Thanh toán */}
             <div
               style={{
-                width: 120,
-                height: 120,
+                width: 140,
+                height: 140,
                 backgroundColor: '#FFFFFF',
-                borderRadius: 20,
+                borderRadius: 22,
                 border: '1.5px solid rgba(26,24,22,0.12)',
                 boxShadow: '0 12px 28px rgba(26,24,22,0.08)',
                 display: 'flex',
@@ -168,14 +182,14 @@ export const Scene15PackageSkill: React.FC = () => {
                 alignItems: 'center',
                 justifyContent: 'center',
                 gap: 12,
-                transform: `scale(${card2})`,
-                opacity: card2,
+                transform: `translateX(${-consume2 * 250}px) scale(${card2 * (1 - consume2 * 0.55)})`,
+                opacity: card2 * (1 - consume2),
               }}
             >
-              <span style={{ fontFamily: FONTS.body, fontSize: 15, fontWeight: 700, color: COLORS.ink }}>
+              <span style={{ fontFamily: FONTS.body, fontSize: 17, fontWeight: 700, color: COLORS.ink }}>
                 Thanh toán
               </span>
-              <div style={{ width: 34, height: 34, borderRadius: '50%', backgroundColor: COLORS.accent, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+              <div style={{ width: 40, height: 40, borderRadius: '50%', backgroundColor: COLORS.accent, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" strokeWidth="3">
                   <polyline points="20 6 9 17 4 12" />
                 </svg>
@@ -185,10 +199,10 @@ export const Scene15PackageSkill: React.FC = () => {
             {/* Card 3: Góp ý */}
             <div
               style={{
-                width: 120,
-                height: 120,
+                width: 140,
+                height: 140,
                 backgroundColor: '#FFFFFF',
-                borderRadius: 20,
+                borderRadius: 22,
                 border: '1.5px solid rgba(26,24,22,0.12)',
                 boxShadow: '0 12px 28px rgba(26,24,22,0.08)',
                 display: 'flex',
@@ -196,14 +210,14 @@ export const Scene15PackageSkill: React.FC = () => {
                 alignItems: 'center',
                 justifyContent: 'center',
                 gap: 12,
-                transform: `scale(${card3})`,
-                opacity: card3,
+                transform: `translateX(${-consume3 * 250}px) scale(${card3 * (1 - consume3 * 0.55)})`,
+                opacity: card3 * (1 - consume3),
               }}
             >
-              <span style={{ fontFamily: FONTS.body, fontSize: 16, fontWeight: 700, color: COLORS.ink }}>
+              <span style={{ fontFamily: FONTS.body, fontSize: 18, fontWeight: 700, color: COLORS.ink }}>
                 Góp ý
               </span>
-              <div style={{ width: 34, height: 34, borderRadius: '50%', backgroundColor: COLORS.accent, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+              <div style={{ width: 40, height: 40, borderRadius: '50%', backgroundColor: COLORS.accent, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" strokeWidth="3">
                   <polyline points="20 6 9 17 4 12" />
                 </svg>
@@ -212,11 +226,14 @@ export const Scene15PackageSkill: React.FC = () => {
           </div>
         </div>
 
-        {/* Bottom: Orange Speech Bubble popping below (matching frame 41) */}
+        {/* Three-dot bubble stays attached beneath the agent as it travels. */}
         <div
           style={{
-            marginTop: 36,
-            transform: `scale(${bubbleSpring})`,
+            position: 'absolute',
+            left: 67,
+            top: 270,
+            zIndex: 30,
+            transform: `translateX(${agentTravelX}px) scale(${bubbleSpring})`,
             opacity: bubbleSpring,
             display: 'flex',
             alignItems: 'center',

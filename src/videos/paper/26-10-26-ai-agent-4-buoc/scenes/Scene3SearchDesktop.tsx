@@ -119,7 +119,7 @@ export const Scene3SearchDesktop: React.FC = () => {
             <div
               style={{
                 fontFamily: FONTS.title,
-                fontSize: 68,
+                fontSize: 72,
                 fontWeight: 800,
                 color: COLORS.ink,
                 lineHeight: 1.2,
@@ -133,7 +133,7 @@ export const Scene3SearchDesktop: React.FC = () => {
             <div
               style={{
                 fontFamily: FONTS.title,
-                fontSize: 68,
+                fontSize: 72,
                 fontWeight: 800,
                 color: COLORS.ink,
                 lineHeight: 1.2,
@@ -186,9 +186,9 @@ export const Scene3SearchDesktop: React.FC = () => {
               >
                 <div
                   style={{
-                    width: 150,
-                    height: 150,
-                    borderRadius: 38,
+                    width: 180,
+                    height: 180,
+                    borderRadius: 42,
                     backgroundColor: '#FFFFFF',
                     display: 'flex',
                     alignItems: 'center',
@@ -197,13 +197,13 @@ export const Scene3SearchDesktop: React.FC = () => {
                     border: `1px solid ${COLORS.line}`,
                   }}
                 >
-                  <BrandLogo name="claude-code" size={96} />
+                  <BrandLogo name="claude-code" size={118} />
                 </div>
                 <span
                   style={{
                     marginTop: 18,
                     fontFamily: FONTS.title,
-                    fontSize: 28,
+                    fontSize: 30,
                     fontWeight: 700,
                     color: COLORS.ink,
                   }}
@@ -214,8 +214,8 @@ export const Scene3SearchDesktop: React.FC = () => {
                 <div
                   style={{
                     marginTop: 12,
-                    width: 28,
-                    height: 28,
+                    width: 32,
+                    height: 32,
                     borderRadius: '50%',
                     backgroundColor: COLORS.accent,
                     display: 'flex',
@@ -225,7 +225,7 @@ export const Scene3SearchDesktop: React.FC = () => {
                     transform: `scale(${checkSpring})`,
                   }}
                 >
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFF" strokeWidth="3">
+                  <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#FFF" strokeWidth="3">
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
                 </div>
@@ -260,9 +260,9 @@ export const Scene3SearchDesktop: React.FC = () => {
               >
                 <div
                   style={{
-                    width: 150,
-                    height: 150,
-                    borderRadius: 38,
+                    width: 180,
+                    height: 180,
+                    borderRadius: 42,
                     backgroundColor: '#FFFFFF',
                     display: 'flex',
                     alignItems: 'center',
@@ -271,13 +271,13 @@ export const Scene3SearchDesktop: React.FC = () => {
                     border: `1px solid ${COLORS.line}`,
                   }}
                 >
-                  <BrandLogo name="codex" size={96} />
+                  <BrandLogo name="codex" size={118} />
                 </div>
                 <span
                   style={{
                     marginTop: 18,
                     fontFamily: FONTS.title,
-                    fontSize: 28,
+                    fontSize: 30,
                     fontWeight: 700,
                     color: COLORS.ink,
                   }}
@@ -288,8 +288,8 @@ export const Scene3SearchDesktop: React.FC = () => {
                 <div
                   style={{
                     marginTop: 12,
-                    width: 28,
-                    height: 28,
+                    width: 32,
+                    height: 32,
                     borderRadius: '50%',
                     backgroundColor: COLORS.accent,
                     display: 'flex',
@@ -299,7 +299,7 @@ export const Scene3SearchDesktop: React.FC = () => {
                     transform: `scale(${checkSpring})`,
                   }}
                 >
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#FFF" strokeWidth="3">
+                  <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#FFF" strokeWidth="3">
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
                 </div>
@@ -320,8 +320,8 @@ export const Scene3SearchDesktop: React.FC = () => {
             <Flip3DIn progress={beat2Entrance} axis="Y" initialAngle={-70}>
               <div
                 style={{
-                  width: 96,
-                  height: 96,
+                  width: 112,
+                  height: 112,
                   borderRadius: 26,
                   backgroundColor: '#FFFFFF',
                   display: 'flex',
@@ -332,15 +332,15 @@ export const Scene3SearchDesktop: React.FC = () => {
                   marginBottom: 28,
                 }}
               >
-                <BrandLogo name="google" size={62} />
+                <BrandLogo name="google" size={72} />
               </div>
             </Flip3DIn>
 
             {/* Search Pill Input with expanding width */}
             <div
               style={{
-                width: interpolate(beat2Entrance, [0, 1], [220, 580], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' }),
-                height: 74,
+                width: interpolate(beat2Entrance, [0, 1], [240, 640], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' }),
+                height: 82,
                 borderRadius: 40,
                 backgroundColor: '#FFFFFF',
                 boxShadow: '0 16px 40px rgba(26, 24, 22, 0.09), 0 2px 6px rgba(26,24,22,0.04)',
@@ -362,7 +362,7 @@ export const Scene3SearchDesktop: React.FC = () => {
               <div
                 style={{
                   fontFamily: FONTS.body,
-                  fontSize: 28,
+                  fontSize: 30,
                   fontWeight: 600,
                   color: COLORS.ink,
                   display: 'flex',
@@ -376,7 +376,7 @@ export const Scene3SearchDesktop: React.FC = () => {
                     style={{
                       display: 'inline-block',
                       width: 2.5,
-                      height: 28,
+                      height: 30,
                       backgroundColor: COLORS.accent,
                       marginLeft: 2,
                     }}
@@ -389,15 +389,15 @@ export const Scene3SearchDesktop: React.FC = () => {
             <div
               style={{
                 display: 'flex',
-                gap: 24,
-                marginTop: 32,
+                gap: 32,
+                marginTop: 36,
               }}
             >
               <SplitSlideIn progress={claudeIconSpring} from="bottom" distance={40}>
                 <div
                   style={{
-                    width: 84,
-                    height: 84,
+                    width: 100,
+                    height: 100,
                     borderRadius: 22,
                     backgroundColor: '#FFFFFF',
                     display: 'flex',
@@ -407,15 +407,15 @@ export const Scene3SearchDesktop: React.FC = () => {
                     border: `1px solid ${COLORS.line}`,
                   }}
                 >
-                  <BrandLogo name="claude" size={52} />
+                  <BrandLogo name="claude" size={64} />
                 </div>
               </SplitSlideIn>
 
               <SplitSlideIn progress={gptIconSpring} from="bottom" distance={40}>
                 <div
                   style={{
-                    width: 84,
-                    height: 84,
+                    width: 100,
+                    height: 100,
                     borderRadius: 22,
                     backgroundColor: '#FFFFFF',
                     display: 'flex',
@@ -425,7 +425,7 @@ export const Scene3SearchDesktop: React.FC = () => {
                     border: `1px solid ${COLORS.line}`,
                   }}
                 >
-                  <BrandLogo name="chatgpt" size={52} />
+                  <BrandLogo name="chatgpt" size={64} />
                 </div>
               </SplitSlideIn>
             </div>
@@ -488,7 +488,7 @@ export const Scene3SearchDesktop: React.FC = () => {
                   width: '100%',
                   height: 380,
                   overflow: 'hidden',
-                  backgroundColor: '#FAF8F5',
+                  backgroundColor: '#F4EFE6',
                 }}
               >
                 <div

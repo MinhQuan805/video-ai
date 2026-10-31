@@ -46,7 +46,7 @@ export const Scene5Step2Connect: React.FC = () => {
           <div
             style={{
               fontFamily: FONTS.body,
-              fontSize: 26,
+              fontSize: 30,
               fontWeight: 800,
               color: COLORS.accent,
               letterSpacing: '5px',
@@ -61,9 +61,9 @@ export const Scene5Step2Connect: React.FC = () => {
       <StampDropIn progress={badgeSpring} dropDistance={-100}>
         <div
           style={{
-            width: 230,
-            height: 230,
-            borderRadius: 58,
+            width: 300,
+            height: 300,
+            borderRadius: 72,
             backgroundColor: '#1E1D1B',
             display: 'flex',
             alignItems: 'center',
@@ -71,7 +71,7 @@ export const Scene5Step2Connect: React.FC = () => {
             boxShadow: '0 24px 56px rgba(26, 24, 22, 0.16)',
           }}
         >
-          <svg width="96" height="96" viewBox="0 0 24 24" fill="none" stroke={COLORS.accent} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+          <svg width="126" height="126" viewBox="0 0 24 24" fill="none" stroke={COLORS.accent} strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
             <path d="M12 2v6" />
             <path d="M7 8h10v4a5 5 0 0 1-10 0V8z" />
             <path d="M12 17v5" />
@@ -84,7 +84,7 @@ export const Scene5Step2Connect: React.FC = () => {
           <div
             style={{
               fontFamily: FONTS.title,
-              fontSize: 76,
+              fontSize: 84,
               fontWeight: 800,
               fontStyle: 'italic',
               color: COLORS.ink,

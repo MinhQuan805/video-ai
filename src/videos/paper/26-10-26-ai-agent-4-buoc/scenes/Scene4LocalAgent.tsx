@@ -400,7 +400,7 @@ export const Scene4LocalAgent: React.FC = () => {
                   margin: '0 28px 24px 28px',
                   padding: '12px 20px',
                   borderRadius: 14,
-                  backgroundColor: '#FAF8F5',
+                  backgroundColor: '#F4EFE6',
                   border: `1.5px solid ${frame >= 112 ? COLORS.accent : COLORS.line}`,
                   display: 'flex',
                   alignItems: 'center',

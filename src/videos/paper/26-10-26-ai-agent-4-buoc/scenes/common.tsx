@@ -3,9 +3,9 @@ import { Img, staticFile } from 'remotion';
 import { theme } from '../../../../visual-systems/paper/theme';
 
 export const COLORS = {
-  bg: '#FAF8F5',
+  bg: '#F4EFE6',
   card: '#FFFFFF',
-  cardMuted: '#F4F0E8',
+  cardMuted: '#ECE5D8',
   ink: '#1A1816',
   accent: '#C6532A',
   subtle: 'rgba(26, 24, 22, 0.45)',

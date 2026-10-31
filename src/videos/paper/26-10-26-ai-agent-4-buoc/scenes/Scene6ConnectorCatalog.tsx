@@ -18,12 +18,12 @@ export const Scene6ConnectorCatalog: React.FC = () => {
   const currentSearch = frame >= 12 ? searchText.slice(0, charsTyped) : '';
 
   // Cursor gliding to the + Add button
-  const cursorX = interpolate(frame, [25, 48], [420, 680], {
+  const cursorX = interpolate(frame, [25, 48], [520, 815], {
     extrapolateLeft: 'clamp',
     extrapolateRight: 'clamp',
     easing: Easing.bezier(0.22, 1, 0.36, 1),
   });
-  const cursorY = interpolate(frame, [25, 48], [140, 248], {
+  const cursorY = interpolate(frame, [25, 48], [140, 173], {
     extrapolateLeft: 'clamp',
     extrapolateRight: 'clamp',
     easing: Easing.bezier(0.22, 1, 0.36, 1),
@@ -89,10 +89,11 @@ export const Scene6ConnectorCatalog: React.FC = () => {
 
       {/* Claude Connectors Dark Mode UI Window (matching frame 26-27) */}
       <div style={{ width: '100%', position: 'relative' }}>
-        <Flip3DIn progress={enterSpring} axis="X" initialAngle={-15}>
+        <Flip3DIn progress={enterSpring} axis="X" initialAngle={-15} style={{ width: "100%", display: "block" }}>
           <div
             style={{
               position: 'relative',
+              width: '100%',
               backgroundColor: '#FFFFFF',
               borderRadius: 24,
               border: `1px solid ${COLORS.line}`,
@@ -116,7 +117,7 @@ export const Scene6ConnectorCatalog: React.FC = () => {
                 <span style={{ fontFamily: FONTS.body, fontSize: 24, fontWeight: 700, color: COLORS.ink }}>
                   Connectors
                 </span>
-                <div style={{ display: 'flex', gap: 6, backgroundColor: '#F4F0E8', padding: 4, borderRadius: 10 }}>
+                <div style={{ display: 'flex', gap: 6, backgroundColor: '#ECE5D8', padding: 4, borderRadius: 10 }}>
                   <span style={{ padding: '4px 12px', fontSize: 14, fontWeight: 600, color: COLORS.subtle, borderRadius: 7 }}>
                     Yours
                   </span>
@@ -132,11 +133,11 @@ export const Scene6ConnectorCatalog: React.FC = () => {
                   display: 'flex',
                   alignItems: 'center',
                   gap: 8,
-                  backgroundColor: '#FAF8F5',
+                  backgroundColor: '#F4EFE6',
                   border: `1px solid ${COLORS.line}`,
                   borderRadius: 10,
                   padding: '8px 16px',
-                  width: 220,
+                  width: 260,
                 }}
               >
                 <span style={{ fontSize: 16, color: COLORS.subtle }}>🔍</span>
@@ -152,7 +153,7 @@ export const Scene6ConnectorCatalog: React.FC = () => {
               <span style={{ fontFamily: FONTS.body, fontSize: 14, fontWeight: 700, color: COLORS.subtle, textTransform: 'uppercase', letterSpacing: 0.5 }}>
                 Top Connectors
               </span>
-              <span style={{ fontSize: 12, fontWeight: 600, color: COLORS.subtle, backgroundColor: '#F4F0E8', padding: '2px 8px', borderRadius: 6 }}>
+              <span style={{ fontSize: 12, fontWeight: 600, color: COLORS.subtle, backgroundColor: '#ECE5D8', padding: '2px 8px', borderRadius: 6 }}>
                 50+
               </span>
             </div>
@@ -165,7 +166,7 @@ export const Scene6ConnectorCatalog: React.FC = () => {
                 justifyContent: 'space-between',
                 padding: '18px 20px',
                 borderRadius: 16,
-                backgroundColor: isConnected ? 'rgba(198, 83, 42, 0.10)' : '#FAF8F5',
+                backgroundColor: isConnected ? 'rgba(198, 83, 42, 0.10)' : '#F4EFE6',
                 border: isConnected ? `1.5px solid ${COLORS.accent}` : `1px solid ${COLORS.line}`,
                 marginBottom: 12,
                 transition: 'all 0.15s ease',
@@ -213,7 +214,7 @@ export const Scene6ConnectorCatalog: React.FC = () => {
                     width: 36,
                     height: 36,
                     borderRadius: 10,
-                    backgroundColor: '#F4F0E8',
+                    backgroundColor: '#ECE5D8',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
@@ -235,7 +236,7 @@ export const Scene6ConnectorCatalog: React.FC = () => {
                 justifyContent: 'space-between',
                 padding: '16px 20px',
                 borderRadius: 16,
-                backgroundColor: '#FAF8F5',
+                backgroundColor: '#F4EFE6',
                 border: `1px solid ${COLORS.line}`,
                 marginBottom: 12,
                 opacity: 0.7,
@@ -252,7 +253,7 @@ export const Scene6ConnectorCatalog: React.FC = () => {
                   </div>
                 </div>
               </div>
-              <div style={{ width: 32, height: 32, borderRadius: 8, backgroundColor: '#F4F0E8', display: 'flex', alignItems: 'center', justifyContent: 'center', color: COLORS.ink, fontSize: 18 }}>
+              <div style={{ width: 32, height: 32, borderRadius: 8, backgroundColor: '#ECE5D8', display: 'flex', alignItems: 'center', justifyContent: 'center', color: COLORS.ink, fontSize: 18 }}>
                 +
               </div>
             </div>
@@ -265,7 +266,7 @@ export const Scene6ConnectorCatalog: React.FC = () => {
                 justifyContent: 'space-between',
                 padding: '16px 20px',
                 borderRadius: 16,
-                backgroundColor: '#FAF8F5',
+                backgroundColor: '#F4EFE6',
                 border: `1px solid ${COLORS.line}`,
                 opacity: 0.5,
               }}
@@ -281,7 +282,7 @@ export const Scene6ConnectorCatalog: React.FC = () => {
                   </div>
                 </div>
               </div>
-              <div style={{ width: 32, height: 32, borderRadius: 8, backgroundColor: '#F4F0E8', display: 'flex', alignItems: 'center', justifyContent: 'center', color: COLORS.ink, fontSize: 18 }}>
+              <div style={{ width: 32, height: 32, borderRadius: 8, backgroundColor: '#ECE5D8', display: 'flex', alignItems: 'center', justifyContent: 'center', color: COLORS.ink, fontSize: 18 }}>
                 +
               </div>
             </div>
@@ -290,8 +291,8 @@ export const Scene6ConnectorCatalog: React.FC = () => {
             <SimulatedCursor x={cursorX} y={cursorY} isClicking={isClicking} />
             {frame >= 50 && (
               <ClickRipple
-                x={695}
-                y={248}
+                x={815}
+                y={173}
                 progress={interpolate(frame, [50, 64], [0, 1], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' })}
                 color={COLORS.accent}
               />

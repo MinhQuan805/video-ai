@@ -14,12 +14,21 @@ import { NotionScene } from "./videos/ranking/10-25-26/scenes/NotionScene";
 import { OdooScene } from "./videos/ranking/10-25-26/scenes/OdooScene";
 import { OutroScene } from "./videos/ranking/10-25-26/scenes/OutroScene";
 import { PaperVideo1026 } from "./videos/paper/26-10-26-ai-agent-4-buoc";
+import { PaperVideo1029 } from "./videos/paper/29-10-26";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
       {/* Video chính theo cấu hình active hiện tại */}
       <VideoComposition />
+      <Composition
+        id="paper-2026-10-29"
+        component={PaperVideo1029}
+        durationInFrames={1319}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
       <Composition
         id="paper-10-26-26"
         component={PaperVideo1026}

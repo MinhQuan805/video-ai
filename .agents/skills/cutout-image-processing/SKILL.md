@@ -10,13 +10,23 @@ description: >-
 
 This skill governs the acquisition, licensing verification, and algorithmic transformation of photographic assets into tactile, paper-cutout graphics.
 
+## Choose processing by the scene
+
+Apply cutout/halftone/torn edges only when the chosen material calls for them. Preserve clean product evidence,
+brand marks and readable details when distortion would reduce clarity. A self-designed rigged actor belongs to
+[character-and-object-design](../character-and-object-design/SKILL.md), not necessarily a downloaded photo.
+Follow [autonomous-skill-and-asset-evolution](../autonomous-skill-and-asset-evolution/SKILL.md) for sourcing,
+cost and permissions, and [ai-video-pipeline](../ai-video-pipeline/SKILL.md) for render approval. Source asset
+inspection is distinct from a rendered composition preview; do not create preview video as part of asset QA.
+
 ---
 
 ## 1. Asset Sourcing & License Verification
 
 1. **Permitted Licenses**:
-   - Only source media under **Public Domain (PD)**, **Creative Commons Zero (CC0)**, or **Creative Commons Attribution (CC-BY)**.
+   - For autonomously downloaded stock, prefer **Public Domain (PD)**, **CC0**, or **CC-BY**. Other licenses require compatible verified terms; do not silently accept obligations the intended delivery cannot satisfy.
    - Strictly prohibit non-commercial (CC-NC), no-derivatives (CC-ND), or unverified copyright assets.
+   - User-supplied/owned/expressly licensed artwork follows its authorized use and provenance; it need not be public-domain stock. Do not infer rights from availability alone. Research captures follow the existing sourcing policy.
 2. **Automated Wikimedia Commons Verification**:
    - Query the Wikimedia Commons Action API for `extmetadata`:
      ```text
