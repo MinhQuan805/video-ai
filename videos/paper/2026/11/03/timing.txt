@@ -1,0 +1,62 @@
+   0 -   25: Bạn mới nghỉ
+  25 -   40: có một ngày
+  40 -   59: mà điện thoại
+  59 -   73: đã báo tin
+  73 -   90: nhắn liên tục:
+  99 -  115: “File ở đâu
+ 115 -  142: anh?”, “Khách chốt
+ 142 -  172: chưa chị?”, “Việc
+ 172 -  184: này ai đang
+ 184 -  191: làm?”
+ 200 -  214: Công ty có
+ 214 -  235: đủ phần mềm,
+ 239 -  251: nhưng muốn biết
+ 251 -  265: chuyện gì đang
+ 265 -  289: diễn ra thì
+ 289 -  305: mọi người vẫn
+ 305 -  322: phải hỏi bạn.
+ 332 -  353: Vì khách nhắn
+ 353 -  383: trong Zalo, báo
+ 383 -  400: giá gửi qua
+ 400 -  422: email, còn
+ 422 -  439: tiến độ lại
+ 439 -  452: nằm ở một
+ 452 -  466: bảng khác,
+ 472 -  487: bạn theo từ
+ 487 -  512: đầu nên nhớ
+ 512 -  538: hết. Người khác
+ 538 -  555: mở ra thì
+ 555 -  574: không biết tìm
+ 574 -  589: từ đâu.
+ 598 -  611: Thử bắt đầu
+ 611 -  624: với một khách
+ 624 -  652: hàng thôi, gom
+ 652 -  667: những gì cần
+ 667 -  688: biết vào cùng
+ 688 -  708: một hồ sơ,
+ 716 -  730: hai bên đã
+ 730 -  748: thống nhất gì,
+ 758 -  774: ai phụ trách,
+ 782 -  796: tiếp theo cần
+ 796 -  808: làm gì.
+ 808 -  832: Đến lúc triển
+ 832 -  860: khai, đội dự án
+ 860 -  877: tiếp tục cập
+ 877 -  893: nhật ngay trong
+ 893 -  910: hồ sơ đó
+ 910 -  927: để người vào
+ 927 -  950: sau cũng theo
+ 950 -  955: được.
+ 965 -  985: Lần tới, có
+ 985 - 1001: người hỏi khách
+1001 - 1016: chốt tới đâu,
+1025 - 1040: họ có chỗ
+1040 - 1056: để tự xem.
+1069 - 1080: Bạn đi vắng
+1080 - 1103: một ngày, công
+1103 - 1118: việc vẫn có
+1118 - 1133: thể tiếp tục
+1133 - 1150: mà không cần
+1150 - 1169: chờ bạn trả
+1169 - 1187: lời từng tin
+1187 - 1193: nhắn.

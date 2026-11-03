@@ -19,12 +19,13 @@ __pycache__/
 *.py[cod]
 *$py.class
 .pytest_cache/
+*.webm
 
 # Environment & Secrets
 .env
 .env.*
 !.env.example
-
+*.webm
 # OS & Editor generated files
 .DS_Store
 Thumbs.db

@@ -62,6 +62,26 @@ import {
   faKey,
   faStamp,
   faSliders,
+  faChair,
+  faMagnet,
+  faScissors,
+  faUserPlus,
+  faGem,
+  faReceipt,
+  faFileInvoiceDollar,
+  faPiggyBank,
+  faAppleWhole,
+  faBarcode,
+  faChartSimple,
+  faUserTie,
+  faNetworkWired,
+  faArrowPointer,
+  faGavel,
+  faMicrochip,
+  faCodeBranch,
+  faServer,
+  faGaugeHigh,
+  faRocket,
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faGithub,
@@ -70,6 +90,7 @@ import {
   faFacebook,
   faTiktok,
   faInstagram,
+  faGoogle,
 } from '@fortawesome/free-brands-svg-icons';
 
 // Lookup dictionary for convenient string-based icon usage
@@ -84,6 +105,7 @@ const ICON_MAP: Record<string, IconDefinition> = {
   play: faPlay,
   pause: faPause,
   search: faMagnifyingGlass,
+  'magnifying-glass': faMagnifyingGlass,
   settings: faGear,
   gear: faGear,
   bell: faBell,
@@ -159,6 +181,32 @@ const ICON_MAP: Record<string, IconDefinition> = {
   key: faKey,
   stamp: faStamp,
   sliders: faSliders,
+  chair: faChair,
+  magnet: faMagnet,
+  scissors: faScissors,
+  'user-plus': faUserPlus,
+  gem: faGem,
+  receipt: faReceipt,
+  'file-invoice-dollar': faFileInvoiceDollar,
+  'piggy-bank': faPiggyBank,
+  'apple-whole': faAppleWhole,
+  apple: faAppleWhole,
+  barcode: faBarcode,
+  'chart-simple': faChartSimple,
+  'user-tie': faUserTie,
+  'network-wired': faNetworkWired,
+  'arrow-pointer': faArrowPointer,
+  cursor: faArrowPointer,
+
+  gavel: faGavel,
+  microchip: faMicrochip,
+  chip: faMicrochip,
+  'code-branch': faCodeBranch,
+  branch: faCodeBranch,
+  server: faServer,
+  'gauge-high': faGaugeHigh,
+  gauge: faGaugeHigh,
+  rocket: faRocket,
 
   // Brands
   github: faGithub,
@@ -167,6 +215,7 @@ const ICON_MAP: Record<string, IconDefinition> = {
   facebook: faFacebook,
   tiktok: faTiktok,
   instagram: faInstagram,
+  google: faGoogle,
 };
 
 export interface FaIconProps {

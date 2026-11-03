@@ -1,0 +1,61 @@
+{
+  "video_id": "paper-2026-11-02-apple-design-skill",
+  "total_frames": 1535,
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "scene_01_hook_ai_slop",
+      "title": "Nhận lại website AI-slop dù brief rất đẹp",
+      "from": 0,
+      "to": 165
+    },
+    {
+      "id": "scene_02_generic_template",
+      "title": "Bố cục rập khuôn: Tiêu đề to, gradient, bo góc",
+      "from": 165,
+      "to": 386
+    },
+    {
+      "id": "scene_03_vague_feedback_loop",
+      "title": "Bảo làm khác đi: Chỉ đổi màu & thêm hiệu ứng bừa",
+      "from": 386,
+      "to": 530
+    },
+    {
+      "id": "scene_04_abstract_terms",
+      "title": "Từ ngữ cảm tính mơ hồ: 'Đẹp hơn', 'Cao cấp hơn'",
+      "from": 530,
+      "to": 630
+    },
+    {
+      "id": "scene_05_skill_principles_intro",
+      "title": "Giải pháp: Dùng Skill đưa nguyên tắc thiết kế cụ thể",
+      "from": 630,
+      "to": 740
+    },
+    {
+      "id": "scene_06_apple_design_source",
+      "title": "Minh chứng thực tế: Apple Design của Emil Kowalski",
+      "from": 740,
+      "to": 930
+    },
+    {
+      "id": "scene_07_three_micro_interactions",
+      "title": "3 tương tác cốt lõi: Phản hồi nút, cuộn mượt, chuyển cảnh",
+      "from": 930,
+      "to": 1150
+    },
+    {
+      "id": "scene_08_human_brand_context",
+      "title": "Vai trò con người: Đối tượng, phong cách, thông điệp",
+      "from": 1150,
+      "to": 1315
+    },
+    {
+      "id": "scene_09_outro_precision_refinement",
+      "title": "Chỉnh chuẩn từng chỗ thay vì đổi màu vô nghĩa",
+      "from": 1315,
+      "to": 1535
+    }
+  ]
+}

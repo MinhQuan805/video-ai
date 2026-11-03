@@ -1,0 +1,67 @@
+{
+  "video_id": "paper-2026-11-03-one-customer-dossier",
+  "total_frames": 1322,
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "scene_01_phone_overload",
+      "title": "Nghỉ một ngày, điện thoại nổ chuông liên tục",
+      "from": 0,
+      "to": 95
+    },
+    {
+      "id": "scene_02_three_questions",
+      "title": "3 câu hỏi dồn dập: File đâu, khách chốt chưa, ai làm",
+      "from": 95,
+      "to": 195
+    },
+    {
+      "id": "scene_03_software_paradox",
+      "title": "Đủ phần mềm nhưng mọi việc vẫn dồn vào bạn",
+      "from": 195,
+      "to": 325
+    },
+    {
+      "id": "scene_04_fragmented_data",
+      "title": "Dữ liệu phân mảnh: Zalo, Email, tiến độ rời rạc",
+      "from": 325,
+      "to": 468
+    },
+    {
+      "id": "scene_05_single_brain_trap",
+      "title": "Bẫy nhớ một mình: Người khác mở ra không biết tìm đâu",
+      "from": 468,
+      "to": 590
+    },
+    {
+      "id": "scene_06_one_customer_dossier",
+      "title": "Giải pháp: Bắt đầu gom tất cả vào 1 hồ sơ khách hàng",
+      "from": 590,
+      "to": 710
+    },
+    {
+      "id": "scene_07_three_core_fields",
+      "title": "3 thông tin cốt lõi: Đã chốt gì, ai phụ trách, bước kế",
+      "from": 710,
+      "to": 810
+    },
+    {
+      "id": "scene_08_team_sync_updates",
+      "title": "Đội ngũ cập nhật chung: Người vào sau nắm bắt ngay",
+      "from": 810,
+      "to": 960
+    },
+    {
+      "id": "scene_09_self_service_clarity",
+      "title": "Tự mở xem tiến độ, không còn phải hỏi nhau",
+      "from": 960,
+      "to": 1060
+    },
+    {
+      "id": "scene_10_vacation_freedom_outro",
+      "title": "Thảnh thơi nghỉ ngơi: Công việc vẫn chạy mượt mà",
+      "from": 1060,
+      "to": 1322
+    }
+  ]
+}
